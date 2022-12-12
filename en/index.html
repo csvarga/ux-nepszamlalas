@@ -1,0 +1,5888 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+    <title>UX Budapest Census 2022</title>
+    <meta name="description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../style.css">
+        
+    <meta property="og:title" content="UX Népszámlálás 2022">
+		<meta property="og:description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
+		<meta property="og:site_name" content="UX Népszámlálás 2022">
+		<meta property="og:image" content="https://uxbudapest.com/nepszamlalas-2022/img/ux-share.png">
+		<meta property="og:url" content="https://uxbudapest.com/nepszamlalas-2022/">
+		<meta property="og:type" content="website">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@uxbudapest">
+		<meta name="twitter:title" content="UX Népszámlálás 2022">
+		<meta name="twitter:description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
+		<meta name="twitter:image" content="https://uxbudapest.com/nepszamlalas-2022/img/ux-share.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script type="text/javascript">
+      Chart.register(ChartjsPluginStacked100.default);
+      Chart.register(ChartDataLabels);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    
+    </head>
+    
+    <body>
+
+      <div class="head-bg">
+
+      	<div class="top-nav">
+      		<ul class="clearfix">
+  	    		<li>UX Népszámlálás</li>
+  	    		
+  	    		<li class="view-desktop"><a href="/nepszamlalas-2014">2014</a></li>
+                  <li class="view-desktop"><a href="/nepszamlalas-2017">2017</a></li>
+  	    		<li class="view-desktop selected"><a href="/nepszamlalas-2022">2022</a></li>
+  	    		
+  	    		<li class="language"><a href="../index.html">Magyar</a></li>
+
+  				<li class="view-mobile"><label for="show-menu" class="show-menu">2022 <span>↓</span></label><input type="checkbox" id="show-menu" role="button">
+  	    			<ul id="menu">
+  	    				<li><a href="/nepszamlalas-2014">2014</a></li>
+                          <li><a href="/nepszamlalas-2017">2017</a></li>
+  	    			</ul>
+  	    		</li>
+
+      		</ul>
+      	</div>
+
+      	<header><div class="wrapper">
+
+  			<h1>UX Népszámlálás
+          <span><span>2022</span></span></h1>
+
+      		<p>Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.</p>
+  	    
+  	    </div></header>
+
+      </div>
+
+	    <div class="content">
+
+	    	<nav>
+	    	<h2 class="first">Tartalom</h2>
+
+	    	<ol class="toc">
+				<li><a href="#bevezeto">Bevezető</a></li>
+                <li><a href="#demografia-vegzettseg">Demográfia, végzettség</a>
+					<ul>
+						<li><a href="#lakohely">Lakóhely</a></li>
+						<li><a href="#eletkor">Életkor</a></li>
+						<li><a href="#nemi-identitas">Nemi identitás</a></li>
+                        <li><a href="#vegzettseg">Végzettség</a></li>
+					</ul>
+				</li>
+				<li><a href="#szakmai-palya-karrier">Szakmai pálya, karrier</a>
+					<ul>
+						<li><a href="#tapasztalat-szenioritas">Tapasztalat és szenioritás</a></li>
+						<li><a href="#munkakor-titulus">Munkakör és titulus</a></li>
+						<li><a href="#nemi-identitas-karrier-kapcsolata">Nemi identitás és a karrier kapcsolata</a></li>
+					</ul>
+				</li>
+                <li><a href="#munka-tevekenysegek">Munka és tevékenységek</a>
+                    <ul>
+                        <li><a href="#feladattipusok">Feladattípusok</a></li>
+                        <li><a href="#tervezesi-feladatok">Tervezési feladatok</a></li>
+                        <li><a href="#tervezesi-eszkozok">Tervezési eszközök</a></li>
+                        <li><a href="#kutatasi-feladatok">Kutatási feladatok</a></li>
+                        <li><a href="#kutatasi-eszkozok">Kutatási eszközök</a></li>
+                    </ul>
+                </li>
+				<li><a href="#munkahely-munkakorulmenyek">Munkahely, munkakörülmények</a>
+					<ul>
+						<li><a href="#munkahely-tipusa">Munkahely típusa</a></li>
+						<li><a href="#termek-iparag">Termék és iparág</a></li>
+						<li><a href="#remote-vs-iroda">Remote vs. iroda</a></li>
+					</ul>
+				</li>
+				<li><a href="#fizetes-juttatasok">Fizetés és juttatások</a>
+					<ul>
+						<li><a href="#havi-netto-fizetes">Havi nettó fizetés</a></li>
+						<li><a href="#nemi-identitas-es-fizetes-kapcsolata">Nemi identitás és fizetés kapcsolata</a></li>
+						<li><a href="#beren-kivuli-juttatasok">Béren kívüli juttatások</a></li>
+					</ul>
+				</li>
+                <li><a href="#elegedettseg-motivacio">Elégedettség és motiváció</a></li>
+                <li><a href="#ux-kepzesek">UX képzések</a>
+                    <ul>
+                        <li><a href="#piaci-reszesedes">Piaci részesedés</a></li>
+                        <li><a href="#kepzesek-hatekonysag-szerint">Képzések hatékonyság szerint</a></li>
+                        <li><a href="#melyik-kepzes-mire-jo">Melyik képzés mire jó</a></li>
+                    </ul>
+                </li>
+                <li><a href="#pandemia-remote-munka">Pandémia és remote munka</a>
+                    <ul>
+                        <li><a href="#remote-mi-jo-mi-nem-jo">Remote: mi jó, mi nem jó</a></li>
+                        <li><a href="#verdikt-remote-vagy-nem-remote">Verdikt: remote vagy nem remote</a></li>
+                        <li><a href="#tortenetek">Történetek</a></li>
+                    </ul>
+                </li>
+			</ol>
+			</nav>
+
+<h2 id="bevezeto">Bevezető</h2>
+
+<p>A kutatáshoz az adatokat egy online űrlapon keresztül vettük fel, ami 2022. április 12. és május 11. között fogadta a kitöltéseket. Az űrlap magyar és angol nyelven volt elérhető, a két nyelven összesen <strong>360-an járultak hozzá az eredményekhez.</strong></p>
+
+<p>A kutatás célja a magyarországi UX és a hozzá szorosan kötődő szakmai területek, illetve azok szakembereinek a felmérése. Ennek megfelelően kizártuk az eredmények feldolgozásából azokat a válaszadókat, akik külföldön élnek és dolgoznak. Benne hagytuk viszont a Magyarországról külföldi munkáltatónak vagy ügyfeleknek dolgozókat, mivel ők a hazai szakmai életnek mindenképpen a résztvevői, illetve foglalkoztatási szempontból az őket alkalmazó cégek közvetlen munkáltatói versenytársai a magyar vállalatoknak.</p>
+
+<p>Így végül összesen 345 válaszadó eredményeit vettük figyelembe. A pontos válaszadói számot minden kérdésnél feltüntetjük, mert a kérdések nagy része nem volt kötelezően kitöltendő, így az összes kitöltő kérdésenként változó volt.</p>
+			    
+<h2 id="demografia-vegzettseg">Demográfia, végzettség</h2>
+
+<h3 id="lakohely">Lakóhely</h3>
+
+<p>A lakóhelyet ezúttal kétféle megközelítésből vizsgáltuk egyszerre: hol él valaki és “hova” dolgozik. A kérdés megfogalmazása miatt utóbbi (vagyis, hogy magyar vagy külföldi munkáltatója van-e) kapott elsődleges hangsúlyt, majd a hazai piacra dolgozók között látjuk a Budapest-vidék megoszlást lakhely szerint.</p>
+
+<p>Azt nem tudjuk, hogy a számok mennyire tükrözik a távmunka hétköznapibbá válását, de az mindenképp erősnek tűnik, hogy <strong>minden kilencedik magyar UX-es külföldről kapja a fizetését.</strong></p>
+
+<p>Érdekes lehet ennek a makrogazdasági vonatkozása: egyrészről a szakma 11%-a nem magyar munkáltatókat erősít a tehetségével, ugyanakkor vélhetőleg egy erősebb nemzetközi fizetést hoznak a magyar piacra és költenek el itthon. (A fizetési szintre még visszatérünk később.)</p>
+
+<div class="table-wrapper">
+<table>
+ <caption>Válaszadók száma: 345</caption>
+ <tr>
+ <th colspan="2">Hol és “hova” dolgozol?</th>
+ </tr>
+ <tr>
+ <td>Budapesten élek, Magyarországon dolgozom</td>
+ <td>73,91%</td>
+ </tr>
+ <tr>
+ <td>Vidéken élek, Magyarországon dolgozom</td>
+ <td>14,49%</td>
+ </tr>
+ <tr>
+ <td>Magyarországon élek, külföldi cégnek / ügyfeleknek dolgozom</td>
+ <td>11,59%</td>
+ </tr>
+</table>
+</div>
+
+<p>Ha kivesszük a képből a külföldre dolgozókat, akkor látjuk a hazai foglalkoztatottak lakhely szerinti megoszlását: a <strong>szakmabeliek még mindig sokkal többen élnek Budapesten, mint vidéken.</strong> A korábbi adatokkal összevetve elmondhatnánk, hogy a vidék aránya szépen erősödik (több mint duplázta jelentőségét a fővároshoz képest), de ennek lehet olyan oka is, hogy a budapesti szakemberek lépték meg többen a külföldi cégnek dolgozást, vagy hogy a távmunkának köszönhetően többen választják a vidéki életet.</p>
+
+<p>Összességében az viszont biztosan igaz, hogy amikor a magyar cégek magyar UX-es munkaerőt keresnek, akkor egyre kevésbé érdemes kizárólag a fővárosra koncentrálni, a vidéken élőknek pedig több esélye van a szakmában elhelyezkedni.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+ <caption>Válaszadók száma: 305 (2022), 144 (2017)</caption>
+ <tr>
+ <th>Hol élsz?</th>
+ <th>2022</th>
+ <th>2017</th>
+ </tr>
+ <tr>
+ <td>Budapesten</td>
+ <td>83,61%</td>
+ <td>93,06%</td>
+ </tr>
+ <tr>
+ <td>Vidéken</td>
+ <td>16,39%</td>
+ <td>6,94%</td>
+ </tr>
+</table>
+</div>
+
+<h3 id="eletkor">Életkor</h3>
+
+<p>A szakma jelentős többsége valahol <strong>25-40 éves kor között van</strong>, az archetipikus UX-es profilra ráírhatnánk egy 32 éves életkort. A korábbi adatokhoz viszonyítva viszont elmondható, hogy “öregszik” a szakma: míg a 35 évig tartó szegmens aránya csökkent, addig a 36 év vagy annál idősebb rész erősödött.</p>
+
+<p>Az abszolút számokat tekintve azért nem mondanánk, hogy bármi gond lenne, hiszen <strong>az eddig is népes fiatal mezőny majdnem megduplázódott</strong>, úgyhogy bőven van utánpótlás. Az azonban továbbra is látszik, hogy a UX nem egy tipikus korai pályakezdő szakma, vagyis 25 év alatt kevés képviselője van. Ez lehet például azért, mert a pályára lépéshez hosszabb út vezet, aminek a gyökere kereshető az oktatásban de akár a szakma általános népszerűségében (vagyis hogy éppen annak hiányában).</p>
+
+<p>Jó lenne a következő években egy erősödő trendet látni a 30 év alattiak és azon belül is a 25 év alattiak megérkezésében, ami azt jelenthetné, hogy már közvetlenül az egyetem után is többen akarják és tudják is ezt választani hivatásul.</p>
+
+<div class="table-wrapper">
+<table class="big black-4 black-5">
+ <caption>Válaszadók száma: 344 (2022), 150 (2017)</caption>
+ <tr>
+ <th>Hány éves vagy?</th>
+ <th colspan="2">2022</th>
+ <th colspan="2">2017</th>
+ <th>Változás</th>
+ </tr>
+ <tr>
+ <td>25 év alatt</td>
+ <td>17 fő</td>
+ <td>4,94%</td>
+ <td>11 fő</td>
+ <td>7,33%</td>
+ <td class="change less">↓ 2,39%</td>
+ </tr>
+ <tr>
+ <td>25-30 év között</td>
+ <td>111 fő</td>
+ <td>32,27%</td>
+ <td>55 fő</td>
+ <td>36,67%</td>
+ <td class="change less">↓ 4,40%</td>
+ </tr>
+ <tr>
+ <td>31-35 év között</td>
+ <td>98 fő</td>
+ <td>28,49%</td>
+ <td>52 fő</td>
+ <td>34,67%</td>
+ <td class="change less">↓ 6,18%</td>
+ </tr>
+ <tr>
+ <td>36-40 év között</td>
+ <td>73 fő</td>
+ <td>21,22%</td>
+ <td>19 fő</td>
+ <td>12,67%</td>
+ <td class="change more">↑ 8,55%</td>
+ </tr>
+ <tr>
+ <td>41-45 év között</td>
+ <td>29 fő</td>
+ <td>8,43%</td>
+ <td>11 fő</td>
+ <td>7,33%</td>
+ <td class="change more">↑ 1,10%</td>
+ </tr>
+ <tr>
+ <td>46-50 év között</td>
+ <td>13 fő</td>
+ <td>3,78%</td>
+ <td rowspan="2">2 fő</td>
+ <td rowspan="2">1,33%</td>
+ <td rowspan="2" class="change more">↑ 3,32%</td>
+ </tr>
+ <tr>
+ <td>50 év felett</td>
+ <td>3 fő</td>
+ <td>0,87%</td>
+ </tr>
+</table>
+</div>
+
+<h3 id="nemi-identitas">Nemi identitás</h3>
+
+<p>Ez alkalommal kérdeztük először a nemi identitást a felmérésben. Ennek fő oka az volt, hogy kíváncsiak voltunk a szakmában való reprezentációs arányokra, illetve az egyéb tényezőkkel való korrelációra, mint például a fizetés vagy az adott életkorban elért karrier szint.</p>
+
+<p>A szakmában <strong>szinte kiegyenlített a férfi-női arány</strong>, bár a férfiak kicsit többen vannak jelen. Egyébként a teljes magyarországi lakosságban több a nő mint a férfi (2011-ben 53% vs 47%, <a href="https://www.ksh.hu/nepszamlalas/tablak_demografia" target="_blank">KSH</a>), az itt erős 25-40 közötti életkorú sávban viszont a férfiak vannak egy kicsit többen (2011-ben 51% vs 49%, <a href="https://www.ksh.hu/nepszamlalas/tablak_demografia" target="_blank">KSH</a>). Összességében elmondhatjuk, hogy a nők egy kicsit alulreprezentáltak.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 337</caption>
+<thead>
+  <tr>
+    <th colspan="2">Mi a nemi identitásod?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Férfi</td>
+    <td>52,82%</td>
+  </tr>
+  <tr>
+    <td>Nő</td>
+    <td>46,59%</td>
+  </tr>
+  <tr>
+    <td>Nem bináris</td>
+    <td>0,59%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="vegzettseg">Végzettség</h3>
+
+<p>Továbbra is igaz, hogy a UX-es területen dolgozók jellemzően magasan iskolázott szakemberek: <strong>a UX-esek csaknem 85%-a rendelkezik diplomával vagy annál magasabb képzési fokozattal.</strong> Ez még erősebb részvételt mutat a felsőoktatásban részesültek irányába mint a 2017-es felmérésünk.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 343</caption>
+<thead>
+  <tr>
+    <th colspan="2">Mi a legmagasabb iskolai végzettséged?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Főiskola / egyetem</td>
+    <td>79,59%</td>
+  </tr>
+  <tr>
+    <td>Középiskola</td>
+    <td>15,74%</td>
+  </tr>
+  <tr>
+    <td>Posztgraduális képzés / PhD</td>
+    <td>4,66%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A UX-esek hátterében álló felsőoktatási szakmákat nézve nem meglepő módon <strong>a design terület vezet</strong>, a válaszadók több mint negyede vett részt ilyen képzésben. Ezt követik sorban a közgazdász, műszaki és pszichológia szakok.</p>
+
+<p>Nem tesszük a mostani arányok mellé az öt évvel ezelőttieket, mert folytonosságról az adatfelvétel és a kiértékelés módja miatt nem lenne értelme beszélni, de azt elmondhatjuk, hogy a korábban látott magas arányú közgazdász és informatikai háttér most nem tűnik ki. Itt gondolhatunk arra is, hogy míg öt évvel ezelőtt a UX-es szakképzés hiányos volt a magyar felsőoktatási palettán, addig ma már egyre több intézményben érhető el valamilyen formában Magyarországon.</p>
+
+<p>Ami még érdekesség, hogy <strong>a diplomások 5%-a jelezte, hogy több mint egy szakmában van felsőfokú végzettsége</strong>, ami csak tovább erősíti azt az elképzelést, hogy a UX-esek szeretnek tanulni és egy meglehetősen erősen képzett szakmai közegről van szó.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 297 (toplista, legalább 3 válaszadótól)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Felsőoktatás: milyen szakmát tanultál?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Design</td>
+    <td>27,95%</td>
+  </tr>
+  <tr>
+    <td>Közgazdaságtan / Marketing</td>
+    <td>19,19%</td>
+  </tr>
+  <tr>
+    <td>Műszaki / Mérnöki</td>
+    <td>15,15%</td>
+  </tr>
+  <tr>
+    <td>Pszichológia / Szociológia</td>
+    <td>14,14%</td>
+  </tr>
+  <tr>
+    <td>Informatika</td>
+    <td>10,77%</td>
+  </tr>
+  <tr>
+    <td>Kommunikáció / Média</td>
+    <td>10,10%</td>
+  </tr>
+  <tr>
+    <td>Bölcsész (antropológia, nyelvészet, oktatás)</td>
+    <td>6,06%</td>
+  </tr>
+  <tr>
+    <td>Természettudományok (biológia, kémia)</td>
+    <td>1,01%</td>
+  </tr>
+  <tr>
+    <td>Jog (jogász, közigazgatás)</td>
+    <td>0,67%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="szakmai-palya-karrier">Szakmai pálya, karrier</h2>
+
+<h3 id="tapasztalat-szenioritas">Tapasztalat és szenioritás</h3>
+
+<p>A kutatás során részletesen vizsgáltuk a válaszadók UX-es “profilját”: orientáció és szerep a UX-en belül, években kifejezett tapasztalat, titulus, tevékenységek, illetve ezek kapcsolata. Szenioritási szintek szempontjából klasszikus haranggörbét mutat a válaszadók megoszlása, a legtöbben a medior és senior kategóriába esnek.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th colspan="2">Melyik szint jellemzi legjobban a jelenlegi pozíciódat?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Gyakornok</td>
+    <td>1,16%</td>
+  </tr>
+  <tr>
+    <td>Junior</td>
+    <td>14,49%</td>
+  </tr>
+  <tr>
+    <td>Medior</td>
+    <td>30,72%</td>
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>29,57%</td>
+  </tr>
+  <tr>
+    <td>Manager / Lead</td>
+    <td>15,65%</td>
+  </tr>
+  <tr>
+    <td>Head / Director / VP</td>
+    <td>5,80%</td>
+  </tr>
+  <tr>
+    <td>C-level</td>
+    <td>0,87%</td>
+  </tr>
+  <tr>
+    <td>Egyik sem</td>
+    <td>1,74%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Bár a korábbi, 2017-es felmérésben kicsit más kategóriák szerepeltek, az adatokat összehasonlítva azért az látható, hogy mind a junior, mind a medior réteg aránya csökkent, a senior, illetve vezetői réteg pedig nőtt. Különösen érdekes a junior szint visszaesése a korábbi 23,18%-ról 14,49%-ra. Ez vélhetően azt jelenti, hogy bár sokan az utóbbi pár évben helyezkedtek el a szakmában, a junior előtagot ennél jóval kevesebben használják, illetve viszonylag gyorsan “kikerülnek” ebből a kategóriából.</p>
+
+<p>Ezt alátámasztani látszik az években kifejezett tapasztalat, amely szerint a válaszadók 40%-a kevesebb, mint 4 éve foglalkozik UX-szel; továbbra is sok tehát az új belépő. Ugyanakkor jól látszik a szakma szeniorodása is: a legalább 7 év tapasztalattal rendelkező válaszadók aránya megduplázódott a 2017-es felmérés óta, a válaszadók átlagtapasztalata pedig 4 évről 5,5 évre nőtt.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th colspan="2">Hány év UX-es szakmai tapasztalatod van?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Kevesebb, mint 2</td>
+    <td>16,23%</td>
+  </tr>
+  <tr>
+    <td>2 - 3</td>
+    <td>23,77%</td>
+  </tr>
+  <tr>
+    <td>4 - 6</td>
+    <td>29,57%</td>
+  </tr>
+  <tr>
+    <td>7 - 9</td>
+    <td>14,78%</td>
+  </tr>
+  <tr>
+    <td>10 vagy több</td>
+    <td>15,65%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Érdemes megvizsgálni, hogy az egyes szintekhez hány év tapasztalat tartozik:</p>
+<ul>
+    <li>Akik magukat a junior szinthez sorolták átlagosan 1,17 év tapasztalattal bírnak (a válaszok 0 és 4 év között oszlanak meg). Ez alapján feltételezhető, hogy a junior szint valóban csak az abszolút kezdőket írja le, és 1-2 évvel a szakmában való elhelyezkedés után sokan már inkább mediornak vallják magukat.</li>
+    <li>A medior szinthez átlagosan 3,42 év tapasztalat tartozik. Itt már nagyobb a szórás, több válaszadó már 1 év tapasztalattal ide sorolta magát, de voltak medior válaszadók 9 év tapasztalattal is.</li>
+    <li>A senior szinthez átlagosan 6,87 év tapasztalat tartozik, és itt már kifejezetten széles a spektrum, a válaszok 2 és 20 év között mozognak.</li>
+</ul>
+
+<div class="table-wrapper">
+<table class="big black-4">
+<caption>Válaszadók száma: 342 (2022), 151 (2017)</caption>
+<thead>
+  <tr>
+    <th>Szint és tapasztalat kapcsolata</th>
+    <th>Átlagos tapasztalat (2022)</th>
+    <th>Válaszok eloszlása<br>(2022)</th>
+    <th>Átlagos tapasztalat (2017)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Gyakornok</td>
+    <td>1,00 év</td>
+    <td>0-2 év között</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Junior</td>
+    <td>1,17 év</td>
+    <td>0-4 év között</td>
+    <td>2,2 év</td>
+  </tr>
+  <tr>
+    <td>Medior</td>
+    <td>3,42 év</td>
+    <td>1-9 év között</td>
+    <td>2,7 év</td>
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>6,87 év</td>
+    <td>2-20 év között</td>
+    <td>6,8 év</td>
+  </tr>
+  <tr>
+    <td>Manager/Lead</td>
+    <td>8,72 év</td>
+    <td>3-20 év között</td>
+    <td>5,5 év</td>
+  </tr>
+  <tr>
+    <td>Head/Director/VP</td>
+    <td>10,35 év</td>
+    <td>6-20 év között</td>
+    <td rowspan="2">5,8 év</td>
+  </tr>
+  <tr>
+    <td>C-level</td>
+    <td>10,67 év</td>
+    <td>6-20 év között</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="munkakor-titulus">Munkakör és titulus</h3>
+
+<p>A válaszadók többsége alkalmazotti státuszban, főállású UX-esként végzi a munkáját, ami egy komoly változás a 2017-es eredményekhez képest, amikor még majdnem ugyanannyian voltak azok, akik a UX mellett más feladatokat is elláttak. A szabadúszók aránya viszonylag kicsi a válaszadók között, ez egyébként megegyezik a legutóbbi kutatás eredményével.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 345 (2022), 147 (2017)</caption>
+<thead>
+  <tr>
+    <th>Milyen formában foglalkozol UX-szel?</th>
+    <th>2022</th>
+    <th>2017</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Alkalmazottként, főállású UX-esként</td>
+    <td>71,01%</td>
+    <td>46,26%</td>
+  </tr>
+  <tr>
+    <td>Alkalmazottként, de nem csak UX-szel foglalkozom    </td>
+    <td>17,97%</td>
+    <td>38,10%</td>
+  </tr>
+  <tr>
+    <td>Szabadúszó UX-es vagyok</td>
+    <td>6,67%</td>
+    <td>6,80%</td>
+  </tr>
+  <tr>
+    <td>Csak hobbiként vagy privát projektekben</td>
+    <td>1,45%</td>
+    <td>8,84%</td>
+  </tr>
+  <tr>
+    <td>Jelenleg tanulom a szakmát</td>
+    <td>2,90%</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Szerepük szerint a legtöbben Design területen (UX/UI/Product) dolgoznak, őket messze lemaradva követik a UX Researcher és UX Stratéga szerepűek.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th colspan="2">Mi írja le legjobban a szakmádat?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>UX / UI / Product Designer</td>
+    <td>70,14%</td>
+  </tr>
+  <tr>
+    <td>UX Researcher</td>
+    <td>11,01%</td>
+  </tr>
+  <tr>
+    <td>UX Strategist / Consultant</td>
+    <td>9,57%</td>
+  </tr>
+  <tr>
+    <td>Product Manager / Owner</td>
+    <td>4,35%</td>
+  </tr>
+  <tr>
+    <td>Egyik sem</td>
+    <td>2,61%</td>
+  </tr>
+  <tr>
+    <td>Service Designer</td>
+    <td>1,74%</td>
+  </tr>
+  <tr>
+    <td>UX Writer</td>
+    <td>0,58%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A konkrét titulusok már ennél jóval nagyobb változatosságot mutatnak. Még a különböző írásmódokat (pl. UX Designer és User Experience Designer) összevonva is több mint száz különböző pozíciót neveztek meg, igaz, ebből tíz legnépszerűbb titulus lefedi a válaszadók felét:</p>
+
+<ol>
+    <li>Product Designer</li>
+    <li>UX Designer</li>
+    <li>UX Researcher</li>
+    <li>UX/UI Designer</li>
+    <li>Senior UX Designer</li>
+    <li>Senior Product Designer</li>
+    <li>Design Lead</li>
+    <li>Product Strategist</li>
+    <li>Senior Experience Designer</li>
+    <li>Lead UX Designer</li>
+</ol>
+
+<p>Ha a titulusokból leszedjük a szakmai szintre (junior, senior) és szerepre (lead, manager) utaló tagokat, látszik, hogy a válaszadók több mint fele a következő négy terület valamelyikébe sorolta bele magát:</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th colspan="2">Mi a jelenlegi pozíciód neve? <br>(leggyakrabban előforduló kifejezések)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Product Designer</td>
+    <td>19,13%</td>
+  </tr>
+  <tr>
+    <td>UX Designer</td>
+    <td>18,55%</td>
+  </tr>
+  <tr>
+    <td>UX Researcher</td>
+    <td>7,25%</td>
+  </tr>
+  <tr>
+    <td>UX/UI Designer</td>
+    <td>6,96%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A főbb kulcsszavak előfordulását vizsgálva szintén a UX és Product Design kifejezések dominálnak. A Product Designer titulus 2017 óta sokkal elterjedett lett, a Product Designer és UX Designer munkakör különbségeire pedig a kutatás többi részénél még ki fogunk térni. Ami még ennél is látványosabb, az a kutatással foglalkozó válaszadók számának növekedése. Ez utóbbinál érdemes a százalékok mellett a konkrét számot is megemlíteni: míg a legutóbbi kutatásnál mindössze 5 kutatással foglalkozó válaszadónk volt, idén már 41.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 345 (2022), 142 (2017)</caption>
+<thead>
+  <tr>
+    <th>A titulusokban előforduló legfontosabb kulcsszavak gyakorisága</th>
+    <th>2022</th>
+    <th>2017</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Design</td>
+    <td>70,72%</td>
+    <td>64%</td>
+  </tr>
+  <tr>
+    <td>UX</td>
+    <td>51,88%</td>
+    <td>49%</td>
+  </tr>
+  <tr>
+    <td>Product</td>
+    <td>27,83%</td>
+    <td>12%</td>
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>14,49%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>UI</td>
+    <td>12,17%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Research</td>
+    <td>11,88%</td>
+    <td>3,5%</td>
+  </tr>
+  <tr>
+    <td>Lead</td>
+    <td>8,41%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Strategist</td>
+    <td>3,77%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Manager</td>
+    <td>3,77%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Experience</td>
+    <td>3,48%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Director</td>
+    <td>2,90%</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>És ha már Research: a szakmai szinteket vizsgálva jól látszik, hogy a kutatóknál a legmagasabb a juniorok aránya (26% a kutatókon belül, míg az összes válaszadó között az összes junior aránya 15%), így feltehetően ez az a terület, ahol a legnagyobb számban helyezkedtek el pályakezdők vagy pályaváltók az utóbbi években.</p>
+
+<h3 id="nemi-identitas-karrier-kapcsolata">Nemi identitás és karrier kapcsolata</h3>
+
+<p>A szakma szintek kapcsán megvizsgáltuk a nemek megoszlását azokban a kategóriákban, ahol legalább 25 válaszadónk volt. A nemek szerinti elemzéseknél a női és férfi válaszadókat vizsgáltuk; a nem-bináris válaszadók alacsony száma miatt róluk külön elemzést nem tudtunk végezni.</p>
+
+<p>A kifejezetten designnal foglalkozók körében az összes válaszadóhoz képest valamennyivel többen vannak a férfiak (55%), míg a kutatás sokkal jellemzőbb a női válaszadókra (70%). Ebből a szempontból a stratégia és tanácsadás a legkiegyensúlyozottabb terület, itt pontosan 50-50% volt a férfi és női válaszadók aránya.</p>
+
+<p>Nagy különbség látszik viszont a szakmai szintek megoszlásában: a nők jelentősen többen vannak junior pozícióban, míg vezetői szinten a férfiak azok, akik erőteljesen felülreprezentáltak. Hozzá kell tenni, hogy az években kifejezett tapasztalat hasonló megoszlást mutat (a női válaszadók átlagos tapasztalata 3,9 év a férfiak 6,7 évével szemben), ami valamennyire magyarázhatja ezeket a különbségeket.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th>Melyik szint jellemzi leginkább a jelenlegi pozíciódat?</th>
+    <th>Férfiak</th>
+    <th>Nők</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Gyakornok</td>
+    <td>0,56%</td>
+    <td>1,91%</td>
+  </tr>
+  <tr>
+    <td>Junior</td>
+    <td>7,87%</td>
+    <td>21,66%</td>
+  </tr>
+  <tr>
+    <td>Medior</td>
+    <td>24,16%</td>
+    <td>39,49%</td>
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>34,27%</td>
+    <td>24,84%</td>
+  </tr>
+  <tr>
+    <td>Manager / Lead</td>
+    <td>19,66%</td>
+    <td>9,55%</td>
+  </tr>
+  <tr>
+    <td>Head / Director / VP</td>
+    <td>10,11%</td>
+    <td>1,27%</td>
+  </tr>
+  <tr>
+    <td>C-level</td>
+    <td>1,69%</td>
+    <td>0%</td>
+  </tr>
+  <tr>
+    <td>Egyik sem</td>
+    <td>1,69%</td>
+    <td>1,27%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A tapasztalatot sávosan vizsgálva is az látszik, hogy a férfiaknál jóval nagyobb a legalább 7 év tapasztalattal rendelkezők aránya, ami tipikusan a szeniorabb pozíciók előfeltétele.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th>Hány év UX-es szakmai tapasztalatod van?</th>
+    <th>Férfiak</th>
+    <th>Nők</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Kevesebb, mint 2</td>
+    <td>10,11%</td>
+    <td>22,93%</td>
+  </tr>
+  <tr>
+    <td>2 - 3</td>
+    <td>15,73%</td>
+    <td>34,39%</td>
+  </tr>
+  <tr>
+    <td>4 - 6</td>
+    <td>30,34%</td>
+    <td>28,66%</td>
+  </tr>
+  <tr>
+    <td>7 - 9</td>
+    <td>19,10%</td>
+    <td>8,92%</td>
+  </tr>
+  <tr>
+    <td>10 vagy több</td>
+    <td>24,72%</td>
+    <td>5,10%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Bár a fenti különbségek a szakma kiegyensúlyozatlanságát mutatják, az mindenesetre bizakodásra adhat okot, hogy a UX-ben frissen elhelyezkedők között többségben vannak a nők, és ez az arány folyamatosan nő: a kevesebb mint két éve UX-szel foglalkozóknak már a kétharmada nő. Ez jelentheti azt, hogy a UX-es szakma kifejezetten vonzó női pályakezdők vagy pályaváltók számára is, ami hosszú távon egyre inkább kiegyenlítheti a nemek szerinti különbséget.</p>
+
+<h2 id="munka-tevekenysegek">Munka és tevékenységek</h2>
+
+<h3 id="feladattipusok">Feladattípusok</h3>
+
+<p>Ahogyan titulus szempontjából is túlsúlyban voltak a designerek a válaszadók között, a valójában végzett tevékenységeknél is a tervezési feladatok a legnépszerűbbek.</p>
+
+<p>A felhasználói felületek tervezése és a koncepcionális tervezés gyakorisága között szinte alig van különbség, így kimondható, hogy a UX-es szakma presztízse tovább nőtt, hiszen a koncepcióban ugyanannyira vesznek részt, mint a felhasználói felület kidolgozásában. Ugyanezt erősíti az oktatással, mentorálással foglalkozók aránya, ami majdnem duplájára nőtt az elmúlt években.</p> 
+
+<p>Jelentősen nőtt továbbá a kutatásban való részvétel: a 2017-es 46%-ról 67%-ra növekedett, vagyis <strong>háromból két UX-esnek ma már valamilyen szinten a feladatai közé tartozik a user research, titulustól függetlenül.</strong></p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 345</caption>
+<thead>
+  <tr>
+    <th colspan="2">Tipikusan milyen feladatokkal foglalkoztál az elmúlt 2 évben?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Felhasználói felület tervezése (információs architektúra, UI, szöveg stb.)</td>
+    <td>83,19%</td>
+  </tr>
+  <tr>
+    <td>Termék vagy szolgáltatás koncepcionális tervezése</td>
+    <td>79,13%</td>
+  </tr>
+  <tr>
+    <td>Kutatás (felhasználói, best practice, heurisztikus elemzés stb.)</td>
+    <td>66,96%</td>
+  </tr>
+  <tr>
+    <td>Oktatás, mentorálás (képzés keretében vagy cégen belül)</td>
+    <td>43,19%</td>
+  </tr>
+  <tr>
+    <td>Ügyfélkezelés, megbízóval/partnerrel kapcsolattartás</td>
+    <td>42,61%</td>
+  </tr>
+  <tr>
+    <td>Projekt- vagy termékmenedzsment</td>
+    <td>35,36%</td>
+  </tr>
+  <tr>
+    <td>Csapatmenedzsment vagy cégvezetői tevékenység</td>
+    <td>24,35%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az elemzésnek ezen a pontján megvizsgáltuk azt is, látszik-e markáns különbség a UX Designerek és a Product Designerek által végzett tevékenységek között, vagy igazából ugyanazt a munkakört takarja a két titulus. Bár nagy az átfedés a két munkakör között, a válaszok alapján a hazai UX Designerek munkaköréhez általában több feladattípus tartozik, és az alábbi tevékenységeket rendre gyakrabban végzik:</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 190 (akik a titulusnál a UX Designer vagy a Product Designer megnevezést adták meg)</caption>
+<thead>
+  <tr>
+    <th>Tipikusan milyen feladatokkal foglalkoztál az elmúlt 2 évben?</th>
+    <th>UX Designerek</th>
+    <th>Product Designerek</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Termék vagy szolgáltatás koncepcionális tervezése</td>
+    <td>89,17%</td>
+    <td>82,86%</td>
+  </tr>
+  <tr>
+    <td>Kutatás (felhasználói, best practice, heurisztikus elemzés stb.)</td>
+    <td>70,83%</td>
+    <td>62,86%</td>
+  </tr>
+  <tr>
+    <td>Oktatás, mentorálás (képzés keretében vagy cégen belül)</td>
+    <td>40,83%</td>
+    <td>34,29%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="tervezesi-feladatok">Tervezési feladatok</h3>
+
+<p>Amikor tervezni kell, akkor a felhasználói felületek tervezése messze a leggyakoribb, amelyek közül a wireframe, grafikus felhasználói felületek és prototípus tervezés gyakorlatilag fej fej mellett jelenik meg a válaszadók többségénél.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 328</caption>
+<thead>
+  <tr>
+    <th>Milyen gyakran végezted az alábbi tervezési feladatokat az elmúlt 2 évben?</th>
+    <th>Legalább havonta végzi</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Wireframe tervezés</td>
+    <td>74,39%</td>
+  </tr>
+  <tr>
+    <td>Grafikus felhasználói felület tervezése</td>
+    <td>71.17%</td>
+  </tr>
+  <tr>
+    <td>Prototípus készítése</td>
+    <td>71,87%</td>
+  </tr>
+  <tr>
+    <td>Információs architektúra tervezés</td>
+    <td>53,05%</td>
+  </tr>
+  <tr>
+    <td>Termékstratégia vagy koncepció tervezése</td>
+    <td>52,28%</td>
+  </tr>
+  <tr>
+    <td>Szövegírás</td>
+    <td>53,37%</td>
+  </tr>
+  <tr>
+    <td>Grafikai elemek, illusztrációk készítése</td>
+    <td>37,77%</td>
+  </tr>
+  <tr>
+    <td>Szolgáltatás tervezése (service design)</td>
+    <td>29,57%</td>
+  </tr>
+  <tr>
+    <td>DesignOps (tooling, folyamatok)</td>
+    <td>29,63%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A tervezési feladatok kapcsán is megnéztük a korábban már említett UX Designer és Product Designer szerepek közti esetleges különbségeket. Noha ismét nagy az átfedés a két szerepkör között, a Product Designerek körében valamivel népszerűbb a grafikus felhasználói felület és információs architektúra tervezés, míg a UX Designerek közül többen terveznek wireframe-et, foglalkoznak service designnal és végeznek DesignOps feladatokat.</p>
+
+<p>Jelentősebb különbségek mutatkoznak viszont aszerint, hogy valaki saját terméket fejlesztő cégnél vagy ügyfélprojekteken (ügynökségnél) dolgozik. Ügynökségi oldalon jóval gyakoribb a wireframe, prototípus és információs architektúra tervezés, míg a szövegírás inkább jellemző a saját terméken dolgozó designerekre.</p>
+
+<h2 id="tervezesi-eszkozok">Tervezési eszközök</h2>
+
+<p>Tervezési eszközök tekintetében a 2017-ben még legnépszerűbb Sketch helyét egyértelműen a Figma vette át, ami minden kategóriában (tervezés, prototípus készítés és tervek átadása) toronymagasan a legnépszerűbb eszköznek bizonyult. Érdekesség, hogy a 2017-es kutatásban a Figma még éppen nem szerepelt (hivatalosan 2016 végén indult), mostanra viszont magasan a legnépszerűbb tervezési eszközzé nőtte ki magát, amit tízből kilenc hazai UX-es napi szinten használ.</p>
+
+<p>2017 óta a már említett Sketch mellett az Photoshop, Illustrator, Axure és Balsamiq is rengeteget vesztett a népszerűségéből. Érdekesség, hogy az Adobe termékek közül egyedül az Adobe XD tudott növekedni, mégpedig jelentősen: a korábbi 6%-kal szemben ma már csaknem minden hatodik válaszadó használja napi szinten a terméket.</p>
+
+<p>Szintén látványos a virtuális whiteboard megoldások előretörése, amelyek közül a Mirót a válaszadók kétharmada, a FigJamet pedig majdnem 40% használja rendszeresen, amivel (a papír-ceruzát leszámítva) ezek az eszközök kerültek fel a képzeletbeli dobogóra a Figma mögé.</p>
+
+<p>Ha az eszközök együttes használatát nézzük, akkor a Figma-Miro páros vezet, a válaszadók 60%-a mindkettőt használja. Érdekesség a Figma kapcsán, hogy viszonylag sokan használják másik tervező eszközzel együtt, a legnépszerűbbek ezek közül a Sketch (16% használja a Figmával együtt), az InVision (13%) és az Adobe XD (13%).</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 331 (napi munka), 155 (alkalmanként)</caption>
+<thead>
+  <tr>
+    <th>Milyen tervezési eszközöket használsz…?</th>
+    <th>A napi munkához</th>
+    <th>Alkalmanként</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Figma</td>
+    <td>90,03%</td>
+    <td>19,35%</td>
+  </tr>
+  <tr>
+    <td>Miro</td>
+    <td>64,65%</td>
+    <td>17,42%</td>
+  </tr>
+  <tr>
+    <td>Papír-ceruza</td>
+    <td>63,44%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>FigJam</td>
+    <td>38,37%</td>
+    <td>9,68%</td>
+  </tr>
+  <tr>
+    <td>Sketch</td>
+    <td>17,52%</td>
+    <td>16,77%</td>
+  </tr>
+  <tr>
+    <td>Adobe XD</td>
+    <td>15,71%</td>
+    <td>11,61%</td>
+  </tr>
+  <tr>
+    <td>InVision Studio</td>
+    <td>8,76%</td>
+    <td>3,23%</td>
+  </tr>
+  <tr>
+    <td>Axure</td>
+    <td>8,16%</td>
+    <td>6,45%</td>
+  </tr>
+  <tr>
+    <td>Mural</td>
+    <td>1,81%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Photoshop / Illustrator</td>
+    <td>1,51%</td>
+    <td>18,71%</td>
+  </tr>
+  <tr>
+    <td>Framer</td>
+    <td>1,51%</td>
+    <td>2,58%</td>
+  </tr>
+  <tr>
+    <td>After Effects</td>
+    <td>-</td>
+    <td>7,10%</td>
+  </tr>
+  <tr>
+    <td>Whimsical</td>
+    <td>1,21%</td>
+    <td>3,23%</td>
+  </tr>
+  <tr>
+    <td>Balsamiq</td>
+    <td>0,91%</td>
+    <td>2,58%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Prototípus készítésére az abszolút győztes Figmán kívül továbbra is viszonylag sokan használják az Axure-t és az InVisiont, ugyanakkor érdekesség, hogy a 2017-es kutatás során még mindkét eszközt több mint 45% használta a mostani 9 és 11%-hoz képest.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 218</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen eszközöket, szoftvereket használsz prototípus készítésre? (legnépszerűbb válaszok)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Figma</td>
+    <td>86,70%</td>
+  </tr>
+  <tr>
+    <td>Axure</td>
+    <td>11,47%</td>
+  </tr>
+  <tr>
+    <td>InVision</td>
+    <td>9,17%</td>
+  </tr>
+  <tr>
+    <td>Sketch</td>
+    <td>6,88%</td>
+  </tr>
+  <tr>
+    <td>Adobe XD</td>
+    <td>4,13%</td>
+  </tr>
+  <tr>
+    <td>Protopie</td>
+    <td>2,29%</td>
+  </tr>
+  <tr>
+    <td>Miro</td>
+    <td>2,29%</td>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>2,29%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A korábbi kutatásainkhoz képest a tervezési eszközökre már kevésbé jellemző a long tail. Vannak eszközök, amelyeket csupán egy-két válaszadó említett, de ezek listája viszonylag rövid: Marvel, Principle, Balsamiq, After Effects, Whimsical, Webstorm, Codepen, Keynote, Salesforce Designer, Anima, UXPin, Origami.</p>
+
+<p>A design tervek átadására az itt is domináns Figma mellett megjelenik a Zeplin, az InVision, az Adobe Cloud és a Sketch Cloud, és ez a viszonylag erős középmezőny arra utal, hogy ebben a kategóriában a Figma még nem teljesen fedi le az igényeket.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 299</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen eszközöket, szoftvereket használsz a tervek átadására? (legnépszerűbb válaszok)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Figma</td>
+    <td>89,30%</td>
+  </tr>
+  <tr>
+    <td>Zeplin</td>
+    <td>13,71%</td>
+  </tr>
+  <tr>
+    <td>InVision</td>
+    <td>12,71%</td>
+  </tr>
+  <tr>
+    <td>Adobe Cloud</td>
+    <td>9,03%</td>
+  </tr>
+  <tr>
+    <td>Sketch Cloud</td>
+    <td>6,69%</td>
+  </tr>
+  <tr>
+    <td>Marvel</td>
+    <td>2,34%</td>
+  </tr>
+  <tr>
+    <td>Confluence</td>
+    <td>1,67%</td>
+  </tr>
+  <tr>
+    <td>Axure</td>
+    <td>1,67%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Itt is szerepel néhány ritkábban említett eszköz, amelyek változatossága azért jól mutatja, hogy a tervek átadása minden környezetben valamennyire mást jelent és sokszor van egyedi megoldásra szükség: Abstract, UXPin, Jira, Google Slides, Simply, Photoshop, Illustrator, Powerpoint, Azure Devops, Storybook, Notion, Word, Google Drive, Github, Loom.</p>
+
+<h3 id="kutatasi-feladatok">Kutatási feladatok</h3>
+
+<p>A válaszadók közel fele végez valamilyen kutatást legalább havonta, kutatást támogató tevékenységekkel azonban kevesebb mint harmaduk foglalkozik rendszeresen.</p>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Milyen gyakran végezted az alábbi kutatási feladatokat az elmúlt 2 évben?</div>
+
+  <canvas id="chartKutatasiFeladatok"></canvas>
+  <script>
+
+      // setup 
+      const dataKutatasiFeladatok = {
+        labels: [['Feltáró (generatív)','kutatások'], ['Ellenőrző (evaluatív)','kutatások'], ['Kutatást támogató','tevékenységek','(ResearchOps)']],
+        datasets: [{
+          label: 'Hetente',
+          data: [12, 9, 8.6],
+          backgroundColor: '#003b72',
+        },{
+          label: 'Havonta',
+          data: [35.4, 38.9, 21.7],
+          backgroundColor: '#b030eb'
+        },{
+          label: 'Ritkábban',
+          data: [45.1, 41.8, 38.5],
+          backgroundColor: '#72eb9b',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: 'Soha',
+          data: [7.5, 10.3, 31.3],
+          backgroundColor: '#edddd4',
+          datalabels: {
+            color: '#222'
+          }
+        }]
+      };
+
+      // config 
+      const configKutatasiFeladatok = {
+        type: 'bar',
+        data: dataKutatasiFeladatok,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 3
+            } else {
+              return 1.3
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          interaction: {
+            mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 125;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          },
+          indexAxis: 'y'
+        }
+      };
+
+      // render init block
+      const chartKutatasiFeladatok = new Chart(
+        document.getElementById('chartKutatasiFeladatok'),
+        configKutatasiFeladatok
+      );
+      </script>
+
+</div>
+
+<p>Az eredmények kutatók és designerek szerinti további bontása rá is világít ennek az okára: míg tényleges kutatással továbbra is nagy arányban foglalkoznak designerek, addig a ResearchOps (ha nem kerül kiszervezésre) jellemzően kutatói feladat. Sőt, a három terület közül ez az, ami a legtöbb kutatónak heti rendszerességű feladatot jelent.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 304</caption>
+<thead>
+  <tr>
+    <th>Feltáró (generatív) kutatások</th>
+    <th>UX Researcher</th>
+    <th>UX / UI / Product Designer</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Hetente</td>
+    <td>36,84%</td>
+    <td>7,51%</td>
+  </tr>
+  <tr>
+    <td>Havonta</td>
+    <td>47,37%</td>
+    <td>34,74%</td>
+  </tr>
+  <tr>
+    <td>Ritkábban</td>
+    <td>13,16%</td>
+    <td>48,36%</td>
+  </tr>
+  <tr>
+    <td>Soha</td>
+    <td>2,63%</td>
+    <td>9,39%</td>
+  </tr>
+  <tr>
+    <th>Ellenőrző (evaluatív) kutatások</th>
+    <th>UX Researcher</th>
+    <th>UX / UI / Product Designer</th>
+  </tr>
+  <tr>
+    <td>Hetente</td>
+    <td>36,84%</td>
+    <td>5,12%</td>
+  </tr>
+  <tr>
+    <td>Havonta</td>
+    <td>42,11%</td>
+    <td>37,21%</td>
+  </tr>
+  <tr>
+    <td>Ritkábban</td>
+    <td>15,79%</td>
+    <td>46,05%</td>
+  </tr>
+  <tr>
+    <td>Soha</td>
+    <td>5,26%</td>
+    <td>11,63%</td>
+  </tr>
+  <tr>
+    <th>Kutatást támogató tevékenységek</th>
+    <th>UX Researcher</th>
+    <th>UX / UI / Product Designer</th>
+  </tr>
+  <tr>
+    <td>Hetente</td>
+    <td>40,54%</td>
+    <td>2,87%</td>
+  </tr>
+  <tr>
+    <td>Havonta</td>
+    <td>35,14%</td>
+    <td>18,18%</td>
+  </tr>
+  <tr>
+    <td>Ritkábban</td>
+    <td>21,62%</td>
+    <td>39,71%</td>
+  </tr>
+  <tr>
+    <td>Soha</td>
+    <td>2,70%</td>
+    <td>39,23%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A kutatási módszereket legalább havi rendszerességű alkalmazás szerint sorba rendezve az látszik, hogy a top három módszer a versenytárselemzés vagy best practice kutatás, a stakeholder interjúk, valamint a felhasználói adatok elemzése. (Ez mondjuk a designer válaszadók túlsúlya miatt talán nem meglepő.)</p>
+
+<p>A felhasználókkal való interakciót megkövetelő módszerek közül a mélyinterjúhoz és a moderált teszteléshez fordulnak leggyakrabban a hazai UX-esek: közel felük gyűjt így visszajelzést felhasználóktól legalább havonta. Legritkábbnak a naplós kutatás számít (a kitöltők majdnem háromnegyede soha nem fordul ehhez a módszerhez), és azoknak az aránya is kiemelkedő, akik nem végeznek terepkutatást (amire két év pandémia adhat jó okot).</p>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Milyen gyakran alkalmaztad az alábbi kutatási módszereket az elmúlt 2 évben?</div>
+
+  <canvas id="chartKutatasiModszerek"></canvas>
+  <script>
+
+      // setup 
+      const dataKutatasiModszerek = {
+        labels: [['Versenytárselemzés', 'és/vagy best practice', 'kutatás'], 'Stakeholder interjú', ['Felhasználói adatok', 'elemzése'], ['Felhasználói', 'mélyinterjú'], ['Moderált usability', 'tesztelés'], '(Web)analitika', 'Heurisztikus elemzés', ['Moderálatlan', 'usability tesztelés'], 'Kérdőív', 'A/B tesztelés', ['Card sorting és/vagy', 'tree testing'], ['Terepkutatás és/vagy', 'contextual inquiry'], 'Naplós kutatás'],
+        datasets: [{
+          label: 'Hetente',
+          data: [21.5, 10.6, 18.1, 9.4, 9.1, 11.5, 5.5, 4.6, 2.6, 3.3, 0.3, 1.6, 1.3],
+          backgroundColor: '#003b72',
+        },{
+          label: 'Havonta',
+          data: [44.6, 45, 36.6, 39.3, 37.8, 29, 25.4, 15.5, 16.4, 10.6, 11.1, 9.5, 1],
+          backgroundColor: '#b030eb'
+        },{
+          label: 'Ritkábban',
+          data: [26.6, 31.5, 34.3, 41.9, 40.7, 38.5, 42.4, 38.8, 53.1, 45.5, 57.8, 40, 25.6],
+          backgroundColor: '#72eb9b',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: 'Soha',
+          data: [7.4, 12.9, 11, 9.4, 12.4, 21.1, 26.7, 41.1, 28, 40.6, 30.7, 48.9, 72.1],
+          backgroundColor: '#edddd4',
+          datalabels: {
+            color: '#222'
+          }
+        }]
+      };
+
+      // config 
+      const configKutatasiModszerek = {
+        type: 'bar',
+        data: dataKutatasiModszerek,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 1
+            } else {
+              return 0.5
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 12,
+                    family: 'Open Sans'
+                  };
+                }
+              }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 40;
+                } else {
+                  return (ctx.chart.height / range) * value > 80;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 130;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartKutatasiModszerek = new Chart(
+        document.getElementById('chartKutatasiModszerek'),
+        configKutatasiModszerek
+      );
+      </script>
+
+</div>
+
+<p>A legalább havi rendszerességű alkalmazásra szűkítve a fókuszt az látszik, hogy míg a designerek is viszonylag nagy hányadban moderálnak mélyinterjúkat és felhasználói teszteket, addig a kutatók jelentős többsége teszi ezt. Érdekesség, hogy moderálatlan felhasználói teszteket hasonló arányban végez a két csoport (kiegyensúlyozottan képviselve mindkét tábort a “saját designt lehet-e elfogulatlanul tesztelni” vitában), és a versenytárselemzés, illetve best practice kutatás az, ahol a leginkább a designerek oldalára billen a mérleg.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 303</caption>
+<thead>
+  <tr>
+    <th>Legalább havi rendszerességgel</th>
+    <th>UX Researcher</th>
+    <th>UX / UI / Product Designer</th>
+    <th>Különbség a kutatók javára</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Felhasználói mélyinterjú</td>
+    <td>86,84%</td>
+    <td>40,38%</td>
+    <td class="change more">+46,47%</td>
+  </tr>
+  <tr>
+    <td>Moderált usability tesztelés</td>
+    <td>73,68%</td>
+    <td>42,06%</td>
+    <td class="change more">+31,63%</td>
+  </tr>
+  <tr>
+    <td>Kérdőív</td>
+    <td>42,11%</td>
+    <td>15,81%</td>
+    <td class="change more">+26,29%</td>
+  </tr>
+  <tr>
+    <td>Felhasználói adatok elemzése</td>
+    <td>67,57%</td>
+    <td>51,16%</td>
+    <td class="change more">+16,40%</td>
+  </tr>
+  <tr>
+    <td>Stakeholder interjú</td>
+    <td>67,57%</td>
+    <td>54,63%</td>
+    <td class="change more">+12,94%</td>
+  </tr>
+  <tr>
+    <td>Naplós kutatás</td>
+    <td>5,26%</td>
+    <td>1,89%</td>
+    <td class="change more">+3,38%</td>
+  </tr>
+  <tr>
+    <td>Moderálatlan usability tesztelés</td>
+    <td>21,05%</td>
+    <td>18,96%</td>
+    <td class="change more">+2,10%</td>
+  </tr>
+  <tr>
+    <td>Terepkutatás és/vagy contextual inquiry</td>
+    <td>10,53%</td>
+    <td>8,96%</td>
+    <td class="change more">+1,56%</td>
+  </tr>
+  <tr>
+    <td>(Web)analitika</td>
+    <td>35,14%</td>
+    <td>38,57%</td>
+    <td class="change less">-3,44%</td>
+  </tr>
+  <tr>
+    <td>A/B tesztelés</td>
+    <td>10,53%</td>
+    <td>15,17%</td>
+    <td class="change less">-4,64%</td>
+  </tr>
+  <tr>
+    <td>Card sorting és/vagy tree testing</td>
+    <td>5,26%</td>
+    <td>11,27%</td>
+    <td class="change less">-6,00%</td>
+  </tr>
+  <tr>
+    <td>Heurisztikus elemzés</td>
+    <td>25,00%</td>
+    <td>34,26%</td>
+    <td class="change less">-9,26%</td>
+  </tr>
+  <tr>
+    <td>Versenytárselemzés és/vagy best practice kutatás</td>
+    <td>54,05%</td>
+    <td>66,82%</td>
+    <td class="change less">-12,77%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="kutatasi-eszkozok">Kutatási eszközök</h3>
+
+<p>Az eszközpaletta a 2017-es felmérés óta átrendeződött, és ha lehet, még színesebbé vált. Ismét a Google Analytics a legnépszerűbb kutatási eszköz, de a felhasználói bázisa a résztvevők között 47%-ról 28%-ra csökkent. A 2022-es toplistáról leszorult az InVision (2017-ben 14%-kal a harmadik volt), megjelent viszont a Figma és a FigJam, és a remote munka elterjedésével három videókonferenciás eszköz is (Zoom, Google Meet és Microsoft Teams).</p>
+
+<p>A hazai UX-esek átlagosan három eszközt használnak adatfelvételre (medián: 2, maximum: 12), és 81%-uk említett olyan eszközt, ami nem került fel a toplistára, vagyis tíznél kevesebb kitöltő használja.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 222 (toplista, legalább 10 említés)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatásra, adatfelvételre?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Google Analytics</td>
+    <td>28,38%</td>
+  </tr>
+  <tr>
+    <td>Google Forms</td>
+    <td>21,62%</td>
+  </tr>
+  <tr>
+    <td>Hotjar</td>
+    <td>18,47%</td>
+  </tr>
+  <tr>
+    <td>Zoom</td>
+    <td>17,12%</td>
+  </tr>
+  <tr>
+    <td>Figma / FigJam</td>
+    <td>15,32%</td>
+  </tr>
+  <tr>
+    <td>Google Workspace (egyéb)</td>
+    <td>13,96%</td>
+  </tr>
+  <tr>
+    <td>Google Meet</td>
+    <td>12,61%</td>
+  </tr>
+  <tr>
+    <td>Miro</td>
+    <td>12,61%</td>
+  </tr>
+  <tr>
+    <td>Optimal Workshop</td>
+    <td>10,36%</td>
+  </tr>
+  <tr>
+    <td>UserTesting</td>
+    <td>9,91%</td>
+  </tr>
+  <tr>
+    <td>Microsoft Teams</td>
+    <td>7,21%</td>
+  </tr>
+  <tr>
+    <td>Typeform</td>
+    <td>7,21%</td>
+  </tr>
+  <tr>
+    <td>Microsoft Office / 365</td>
+    <td>6,76%</td>
+  </tr>
+  <tr>
+    <td>PingPong</td>
+    <td>6,31%</td>
+  </tr>
+  <tr>
+    <td>Maze</td>
+    <td>5,86%</td>
+  </tr>
+  <tr>
+    <td>UsabilityHub</td>
+    <td>5,41%</td>
+  </tr>
+  <tr>
+    <td>SurveyMonkey</td>
+    <td>4,50%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Idén kíváncsiak voltunk arra is, milyen eszközök támogatják a tudásmenedzsmentet. Itt is színes a kép: átlagosan 2,45 eszköz került említésre (medián: 2, maximum: 8), és 41,78% használ olyan eszközt, ami nem került fel a toplistára.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 213 (toplista, legalább 10 említés)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen eszközöket, szoftvereket használsz feldolgozásra, tudásmenedzsmentre?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Miro</td>
+    <td>45,07%</td>
+  </tr>
+  <tr>
+    <td>Google Workspace (egyéb)</td>
+    <td>39,44%</td>
+  </tr>
+  <tr>
+    <td>Figma / FigJam</td>
+    <td>25,82%</td>
+  </tr>
+  <tr>
+    <td>Confluence</td>
+    <td>21,13%</td>
+  </tr>
+  <tr>
+    <td>Microsoft Office / 365</td>
+    <td>20,66%</td>
+  </tr>
+  <tr>
+    <td>Dovetail</td>
+    <td>9,39%</td>
+  </tr>
+  <tr>
+    <td>Airtable</td>
+    <td>8,92%</td>
+  </tr>
+  <tr>
+    <td>Notion</td>
+    <td>8,45%</td>
+  </tr>
+  <tr>
+    <td>Jira</td>
+    <td>6,57%</td>
+  </tr>
+  <tr>
+    <td>Apple Notes</td>
+    <td>5,16%</td>
+  </tr>
+  <tr>
+    <td>Sharepoint</td>
+    <td>4,69%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Kutatástámogató eszközt jóval kevesebb UX-es használ, de a paletta itt is széles: 84% említett olyan eszközt, amihez tíznél kevesebb kitöltő fordul.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 121 (toplista, legalább 10 említés)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatástámogatásra (ResearchOps)?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Google Workspace (egyéb)</td>
+    <td>26,45%</td>
+  </tr>
+  <tr>
+    <td>Calendly</td>
+    <td>13,22%</td>
+  </tr>
+  <tr>
+    <td>PingPong</td>
+    <td>13,22%</td>
+  </tr>
+  <tr>
+    <td>Microsoft Office / 365</td>
+    <td>9,92%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az összes említésre került kutatási eszközt (insiprációként) már 2017-ben sem volt egyszerű felsorolni, de álljon most itt a 2022-es riport leghosszabb bekezdése:</p>
+
+<p>AB Testy, Adobe Analytics, Adobe XD, Airite, Airtable, Alchemer, Amazon Cognito, Amplitude, Anaconda, Apple Notes, AppTweak, Asana, AskNicely, Atlassian, Awesome Screenshot, Axure, Axure DevOps, Azure, Azure DevOps, Bear Notes, Box Notes, Calendly, Camtasia, Chartio, Citrix Sharefile, Clarabridge, ClickUp, Concept Board, Condens, Confluence, Contentsquare, Craft, Datadog, DaVinci Resolve, Decibel, Dendron, Descript, Discord, Doodle, Dovetail, Dropbox / Paper, Dynamics 365 Customer Voice, EnjoyHQ, Evernote, Exponea, Facebook / Ads, Feedbackly, Figma / FigJam, Firebase, Flourish, FRequest, FullStory, Gean.ly, Gemius, GetFeedback, Gitbook, Github, Gong, Google Analytics, Google Data Studio, Google Forms, Google Meet, Google Optimize, Google Recorder, Google Scholar, Google Search Console, Google Workspace, Heap, HelloSign, Hotjar, Hubspot, Illustrator, InDesign, Indicative, Infinity, Intercom, InVision, Involve.me, Jira, Keynote, Kibana, LinkedIn, LiveSession, Localytics, LogRocket, Lookback, Looker, Loom, Loop11, Lucky Orange, Marvel, Matomo, Maze, Meta, Business, Metabase, Microsoft Forms, Microsoft Office / 365, Microsoft Teams, Miro, Mixpanel, Monday.org, Mural, Nimbus, Notepad, Notion, OBS, Optimal Workshop, Optimonk, Otter.ai, Paste, Pendo, PingPong, PlaybookUX, Pollfish, Power BI, Prezi Video, ProductBoard, Proven By Users, Qualtrics, Quicktime, Ramp, RawGraph, Reddit, Redmine, Respondent.io, Salesforce, Segmanta, Sharepoint, Shortcut, Sketch, Skype, Slack, Slite, Spendesk, SPSS, SurveyMonkey, SurveySparrow, Tableau, Taskade, Testbirds, Things, Trello, Tremendous, Typeform, UsabilityHub, Useberry, User Interviews, User Testing, Userlytics, UserZoom, UX Metrics, UXtweak, Validately, Vimeo, WebEx, Whimsical, XMind, Yammer, YouTube, Zapier, Zenhub, Zeroheight, Zoom, Zurvey.io</p>
+
+<h2 id="munkahely-munkakorulmenyek">Munkahely, munkakörülmények</h2>
+
+<h3 id="munkahely-tipusa">Munkahely típusa</h3>
+
+<p>A UX-esek továbbra is többen dolgoznak saját terméket fejlesztő cégeknél, mint ügynökségeknél. Itt nincs érdemi változás, szinte ugyanazt az arányt látjuk mint 2017-ben.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók: 328</caption>
+<thead>
+  <tr>
+    <th colspan="2">Az alábbiak közül melyik jellemzi legjobban a munkahelyedet?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Saját terméke(ke)t fejlesztő vállalat vagy startup</td>
+    <td>60,37% </td>
+  </tr>
+  <tr>
+    <td>Ügyfélprojekteken dolgozó cég (digitális ügynökség, fejlesztőcég stb.)</td>
+    <td>38,72% </td>
+  </tr>
+  <tr>
+    <td>Állami vállalat</td>
+    <td>0,91%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A cégméretek terén már átrendeződések figyelhetők meg: míg 2017-ben az emberek több, mint 70%-a dolgozott 1-200 főt foglalkoztató, kis-közepes vállalkozásnál, addig ez a szám <strong>2022-re 55% alá esett.</strong></p>
+
+<div class="table-wrapper">
+<table class="big black-3 fix-1">
+<caption>Válaszadók: 331 (2022), 131 (2017)</caption>
+<thead>
+  <tr>
+    <th>Hány főt foglalkoztat a munkahelyed?</th>
+    <th>2022</th>
+    <th>2017</th>
+    <th>Különbség</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1-10 főt</td>
+    <td>9,06%</td>
+    <td>12,98%</td>
+    <td class="change less">-3,92%</td>
+  </tr>
+  <tr>
+    <td>11-50 főt</td>
+    <td>23,26%</td>
+    <td>28,24%</td>
+    <td class="change less">-4,98%</td>
+  </tr>
+  <tr>
+    <td>51-200 főt</td>
+    <td>22,66%</td>
+    <td>30,53%</td>
+    <td class="change less">-7,87%</td>
+  </tr>
+  <tr>
+    <td>201-500 főt</td>
+    <td>15,41%</td>
+    <td>7,63%</td>
+    <td class="change more">+8,87%</td>
+  </tr>
+  <tr>
+    <td>Több mint 500 főt</td>
+    <td>29,61%</td>
+    <td>20,61%</td>
+    <td class="change more">+9,00%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A UX-es csapatok létszáma is jelentős változást mutat: az öt évvel ezelőtthöz képest a tíz főnél nagyobb UX-csapatok aránya csaknem megháromszorozódott. Az is szinte biztos, hogy egyre kevésbé létezik az egyfős UX csapat jelenség.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók: 313 (2022), 127 (2017)</caption>
+<thead>
+  <tr>
+    <th>Hány fő foglalkozik UX-szel a munkahelyeden?</th>
+    <th>2022</th>
+    <th>2017</th>
+    <th>Különbség</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1 fő</td>
+    <td>9,27%</td>
+    <td rowspan="3">85,1%</td>
+    <td rowspan="3" class="change less">-27,9%</td>
+  </tr>
+  <tr>
+    <td>2-5 fő</td>
+    <td>32,91%</td>
+  </tr>
+  <tr>
+    <td>6-10 fő</td>
+    <td>15,02%</td>
+  </tr>
+  <tr>
+    <td>11-20 fő</td>
+    <td>24,60%</td>
+    <td rowspan="3">14,9%</td>
+    <td rowspan="3" class="change more">+27,9%</td>
+  </tr>
+  <tr>
+    <td>21-50 fő</td>
+    <td>15,02%</td>
+  </tr>
+  <tr>
+    <td>51+ fő</td>
+    <td>3,19%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Ha a UX-esek számát aszerint bontjuk, hogy hányan dolgoznak termékes vagy ügynökségi oldalon, olyan különbség látszik, hogy a 11-20 fős csapatok vannak láthatóan többen termék oldalon, míg a 21-50 fős méretben erősebb az ügynökségi oldal. Azt mondjuk ettől még nem állíthatjuk, hogy aki családias légkörre vágyik az ezt csak termék cégnél kaphatja meg, az viszont valószínűnek tűnik, hogy aki kifejezetten nagy UX csapatot keres, az érdekes módon ezt inkább ügynökségnél találhatja meg.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók: 298</caption>
+<thead>
+  <tr>
+    <th>Hány fő foglalkozik UX-szel a munkahelyeden?</th>
+    <th>Saját termék</th>
+    <th>Ügyfélprojekt</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1 fő</td>
+    <td>11,05%</td>
+    <td>5,13%</td>
+  </tr>
+  <tr>
+    <td>2-5 fő</td>
+    <td>29,83%</td>
+    <td>35,04%</td>
+  </tr>
+  <tr>
+    <td>6-10 fő</td>
+    <td>12,71%</td>
+    <td>18,80%</td>
+  </tr>
+  <tr>
+    <td>11-20 fő</td>
+    <td>31,49%</td>
+    <td>17,09%</td>
+  </tr>
+  <tr>
+    <td>21-50 fő</td>
+    <td>10,50%</td>
+    <td>23,08%</td>
+  </tr>
+  <tr>
+    <td>51+ fő</td>
+    <td>4,42%</td>
+    <td>0,85%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="termek-iparag">Termék és iparág</h3>
+
+<p>A B2B-B2C megoszlást nézve az egyik érdekesség, hogy a kitöltők több mint fele dolgozik olyan cégnél, ahol mindkét csoportnak szóló terméket fejlesztenek. Ami ennél is jobb tanulság, hogy mennyire kevés az a cég, aki egyéni végfelhasználóknak szóló terméket készít. Vagyis aki UX-esként helyezkedik el, az esetek túlnyomó többségében készülhet arra, hogy valamilyen vállalati megoldást fog tervezni.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 195</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen terméke(ke)t fejleszt a céged?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>B2B</td>
+    <td>35,38%</td>
+  </tr>
+  <tr>
+    <td>B2C</td>
+    <td>12,82%</td>
+  </tr>
+  <tr>
+    <td>Mindkettő</td>
+    <td>51,79%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az iparágakat illetően egyértelmű első helyen a technológiai (pl. SaaS) cégek végeztek. Az első három helyre jutott még ezen kívül a pénzügyi és telco szektor, amik együtt több mint 70%-át viszik el a UX-eseknek.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 191</caption>
+<thead>
+  <tr>
+    <th colspan="2">Milyen iparágban működik a céged?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Technológia (pl. SaaS)</td>
+    <td>42,93%</td>
+  </tr>
+  <tr>
+    <td>Banki és pénzügyi szolgáltatások</td>
+    <td>16,75%</td>
+  </tr>
+  <tr>
+    <td>Telekommunikáció</td>
+    <td>10,99%</td>
+  </tr>
+  <tr>
+    <td>Egészségügy és gyógyszeripar</td>
+    <td>6,28%</td>
+  </tr>
+  <tr>
+    <td>E-kereskedelem</td>
+    <td>4,19%</td>
+  </tr>
+  <tr>
+    <td>Média és szórakoztatóipar</td>
+    <td>4,19%</td>
+  </tr>
+  <tr>
+    <td>Turizmus és vendéglátás</td>
+    <td>3,14%</td>
+  </tr>
+  <tr>
+    <td>Légiközlekedés</td>
+    <td>1,57%</td>
+  </tr>
+  <tr>
+    <td>Marketing</td>
+    <td>1,57%</td>
+  </tr>
+  <tr>
+    <td>Oktatás</td>
+    <td>1,57%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az első tíz iparágon kívül az érdekességek kategóriában jelentjük, hogy dolgoznak UX-esek olyan területeken is, mint a gyártás és ipari automatizálás, a kémiai informatika, az államigazgatás, az autóipar, a gaming és fogadás, a kiberbiztonság, az adó- és könyvelés, és a fordítás és lokalizáció.</p>
+
+<h3 id="remote-vs-iroda">Remote vs. iroda</h3>
+
+<p>2017-ben erről ugyan nem gyűjtöttünk adatot remote munkavégzés kapcsán, de feltételezhetően akkor nem ez volt a helyzet. Mára elterjedt az otthonról dolgozás, és szinte lenullázódott azon UX-esek száma, akik minden munkanapot az irodában kezdenek. Arról, hogy ehhez hogyan viszonyulnak a UX-esek, és hogy milyen hatással van az elégedettségükre, még később lesz szó.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 341</caption>
+<thead>
+  <tr>
+    <th colspan="2">Mi írja le legjobban a jelenlegi helyzeted?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Teljesen remote dolgozom</td>
+    <td>26,98%</td>
+  </tr>
+  <tr>
+    <td>Többnyire remote dolgozom</td>
+    <td>30,50%</td>
+  </tr>
+  <tr>
+    <td>Részben remote, részben irodából dolgozom</td>
+    <td>30,79%</td>
+  </tr>
+  <tr>
+    <td>Többnyire irodából dolgozom</td>
+    <td>10,26%</td>
+  </tr>
+  <tr>
+    <td>Teljesen irodából dolgozom</td>
+    <td>1,47%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="fizetes-juttatasok">Fizetés és juttatások</h2>
+
+<h3 id="havi-netto-fizetes">Havi nettó fizetés</h3>
+
+<p>Míg 2017-ben (és az azt megelőző 2014-es felmérésben is) a válaszadók több mint fele nettó 241-480 ezer forintot vitt haza havonta, 2022-ben a <strong>legnagyobb hányaduk (32%) már 481-720 ezer forint között keres.</strong> A havi átlagfizetés nettó 678 ezer forint körülire becsülhető (és ez a tág sávok miatt tényleg csak egy illusztratív becslés), ami a 2017-es eredményhez (398 ezer Ft) képest 70%-os növekedést jelent. Ezt az elmúlt évek gazdasági folyamatai mellett magyarázhatja a senior és vezetői réteg megnövekedett aránya is a válaszadók között.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 340 (2022), 153 (2017)</caption>
+<thead>
+  <tr>
+    <th>Mennyi a havi nettó fizetésed?</th>
+    <th>2022</th>
+    <th>2017</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>240 000 Ft alatt</td>
+    <td>3,24%</td>
+    <td>12,42%</td>
+  </tr>
+  <tr>
+    <td>241 - 480 000 Ft</td>
+    <td>27,94%</td>
+    <td>54,90%</td>
+  </tr>
+  <tr>
+    <td>481 - 720 000 Ft</td>
+    <td>32,06%</td>
+    <td>13,73%</td>
+  </tr>
+  <tr>
+    <td>721 - 960 000 Ft</td>
+    <td>16,76%</td>
+    <td rowspan="4">9,80%</td>
+  </tr>
+  <tr>
+    <td>961 - 1 200 000 Ft</td>
+    <td>9,71%</td>
+  </tr>
+  <tr>
+    <td>1 201 - 1 440 000 Ft</td>
+    <td>4,71%</td>
+  </tr>
+  <tr>
+    <td>1 440 000 Ft felett</td>
+    <td>3,53%</td>
+  </tr>
+  <tr class="top-border">
+    <td>Nem szeretném megmondani</td>
+    <td>2,06%</td>
+    <td>9,15%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A válaszadók többsége (245 fő) főállásban, alkalmazottként foglalkozik UX-szel, ők átlagosan havi nettó 686 ezer forintot visznek haza, míg a nem csak UX-szel foglalkozó alkalmazottak (62 fő) átlagfizetése 590 ezer forint. Szabadúszó UX-esek közül ez alkalommal 23-an válaszolták meg a fizetésre vonatkozó kérdést, ők az alkalmazottaknál jobban, átlagosan havi nettó 819 ezer forintot keresnek; igaz, nem meglepő módon, köztük nincsenek juniorok, illetve valamivel magasabb a seniorok aránya is.</p>
+
+<p>A fizetés pedig a tapasztalattal, valamint a szenioritással párhuzamosan nő. Ahogy korábban láttuk, medior szinttől felfelé meglehetősen nagy az évek számában mért tapasztalat szórása, ami magyarázhatja a 8+ éve a szakmában dolgozó UX-esek fizetésének változatosságát.</p>
+
+<p>A 2017-es felméréshez képest legkisebb arányban a juniorok, legnagyobb arányban a céges szintű vezetők becsült átlagfizetése növekedett.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 328 (2022), 151 (2017)</caption>
+<thead>
+  <tr>
+    <th>Átlagos fizetés pozíciónként</th>
+    <th>2022</th>
+    <th>2017</th>
+    <th>Változás</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Junior</td>
+    <td>355 ezer Ft</td>
+    <td>292 ezer Ft</td>
+    <td class="change more">+21,58%</td>
+  </tr>
+  <tr>
+    <td>Medior</td>
+    <td>538 ezer Ft</td>
+    <td>360 ezer Ft</td>
+    <td class="change more">+49,44%</td>
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>758 ezer Ft</td>
+    <td>455 ezer Ft</td>
+    <td class="change more">+66,59%</td>
+  </tr>
+  <tr>
+    <td>Manager / Lead</td>
+    <td>902 ezer Ft</td>
+    <td>577 ezer Ft</td>
+    <td class="change more">+56,33%</td>
+  </tr>
+  <tr>
+    <td>Head / Director / VP / C-level</td>
+    <td>1 millió<br> 104 ezer Ft</td>
+    <td>504 ezer Ft</td>
+    <td class="change more">+119.05%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az alábbi táblázat a becsült havi átlagfizetéseket mutatja szakmánként és szintenként. Ahol egy kategóriába 7 válaszadónál kevesebben estek, nem tüntettünk fel átlagot, így az alacsony részvétel miatt maradtak ki a Product Managerek/Ownerek, Service Designerek és UX Writerek is.</p>
+
+<div class="table-wrapper">
+<table class="big black-3 black-5 black-7 black-9 black-11">
+<thead>
+  <tr>
+    <th></th>
+    <th colspan="2">Junior</th>
+    <th colspan="2">Medior</th>
+    <th colspan="2">Senior</th>
+    <th colspan="2">Manager / Lead</th>
+    <th colspan="2">Head / Director / VP / C-level</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>UX / UI / Product Designer</td>
+    <td>346 ezer Ft</td>
+    <td>35 fő</td>
+    <td>531 ezer Ft</td>
+    <td>73 fő</td>
+    <td>782 ezer Ft</td>
+    <td>78 fő</td>
+    <td>1 millió<br> 22 ezer Ft</td>
+    <td>35 fő</td>
+    <td>1 millió<br> 10 ezer Ft</td>
+    <td>12 fő</td>
+  </tr>
+  <tr>
+    <td>UX Researcher</td>
+    <td>387 ezer Ft</td>
+    <td>9 fő</td>
+    <td>585 ezer Ft</td>
+    <td>16 fő</td>
+    <td>750 ezer Ft</td>
+    <td>8 fő</td>
+    <td colspan="2"></td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>UX Strategist / Consultant</td>
+    <td colspan="2"></td>
+    <td colspan="2"></td>
+    <td>737 ezer Ft</td>
+    <td>7 fő</td>
+    <td>867 ezer Ft</td>
+    <td>9 fő</td>
+    <td>1 millió<br> 260 ezer Ft</td>
+    <td>8 fő</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Bár a kutatással foglalkozó válaszadók viszonylag alacsony elemszáma megnehezíti a pontosabb összehasonlítást, a fizetések megoszlását szakma és szint szerint tovább vizsgálva úgy tűnik, a hazai piacon összességében nincs igazán jelentős különbség a desiger és kutatói fizetések között. A designerek fizetése ugyanakkor szélesebb skálán mozog: kutató társaikkal ellentétben akadtak köztük, akik 240 ezer Ft-nál kevesebbet kerestek, senior szinten pedig 9%-uk fizetése meghaladta a (kutatók által ezen a szinten nem elért) 1 millió 200 ezer Ft-ot.</p>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések szintenként - UX / UI / Porduct Designer</div>
+
+  <canvas id="chartFizetesekSzintenkentDesigner"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekSzintenkentDesigner = {
+        labels: ['Junior', 'Medior', 'Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [17.14, 1.37, 0, 0, 0],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [71.43, 42.47, 11.54, 0, 0],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [11.43, 43.84, 39.74, 20, 33.33],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [0, 9.59, 23.08, 37.14, 8.33],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [0, 1.37, 16.67, 17.14, 33.33],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [0, 1.37, 5.13, 11.43, 16.67],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [0, 0, 3.85, 5.71, 0],
+          backgroundColor: '#5836AF'
+        },{
+          label: '1 680 e Ft felett',
+          data: [0, 0, 0, 8.57, 8.33],
+          backgroundColor: '#003B72'
+        }]
+      };
+
+      // config 
+      const configFizetesekSzintenkentDesigner = {
+        type: 'bar',
+        data: dataFizetesekSzintenkentDesigner,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 2.6
+            } else {
+              return 1.3
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 20;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 100;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekSzintenkentDesigner = new Chart(
+        document.getElementById('chartFizetesekSzintenkentDesigner'),
+          configFizetesekSzintenkentDesigner
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések szintenként - UX Researcher</div>
+
+  <canvas id="chartFizetesekSzintenkentResearcher"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekSzintenkentResearcher = {
+        labels: ['Junior', 'Medior', 'Senior'],
+        datasets: [{
+          label: '241-480 e Ft',
+          data: [88.89, 31.25, 12.5],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [11.11, 43.75, 37.5],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [0, 25, 25],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [0, 0, 25],
+          backgroundColor: '#918EC3'
+        }]
+      };
+
+      // config 
+      const configFizetesekSzintenkentResearcher = {
+        type: 'bar',
+        data: dataFizetesekSzintenkentResearcher,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 4.2
+            } else {
+              return 2
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 100;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekSzintenkentResearcher = new Chart(
+        document.getElementById('chartFizetesekSzintenkentResearcher'),
+          configFizetesekSzintenkentResearcher
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések szintenként - UX Strategist/Consultant</div>
+
+  <canvas id="chartFizetesekSzintenkentStrategist"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekSzintenkentStrategist = {
+        labels: ['Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
+        datasets: [{
+          label: '241-480 e Ft',
+          data: [14.29, 11.11, 0],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [28.57, 22.22, 0],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [42.86, 33.33, 12.5],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [14.29, 11.11, 37.5],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [0, 22.22, 12.5],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [0, 0, 37.5],
+          backgroundColor: '#5836AF'
+        }]
+      };
+
+      // config 
+      const configFizetesekSzintenkentStrategist = {
+        type: 'bar',
+        data: dataFizetesekSzintenkentStrategist,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 4.2
+            } else {
+              return 2
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 100;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekSzintenkentStrategist = new Chart(
+        document.getElementById('chartFizetesekSzintenkentStrategist'),
+          configFizetesekSzintenkentStrategist
+      );
+      </script>
+
+</div>
+
+<p>Általánosságban elmondható, hogy a nagyobb cégeknél nagyobb a becsült átlagos fizetés is, de a 2017-es eredményekhez hasonlóan az 1-10 főt foglalkoztató cégek most is megtörik a mintát (ismét a cégvezető beosztásban lévő válaszadók nagyobb aránya torzíthat felfelé), a több mint 500 főt foglalkoztató cégeknél pedig az átlagfizetés növekedése elmaradt az átlagtól.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 328 (2022), 131 (2017)</caption>
+<thead>
+  <tr>
+    <th>Átlagos fizetés cégméret szerint</th>
+    <th>2022</th>
+    <th>2017</th>
+    <th>Változás</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1-10 főt foglakoztató cég</td>
+    <td>568 ezer Ft</td>
+    <td>396 ezer Ft</td>
+    <td class="change more">+43,43%</td>
+  </tr>
+  <tr>
+    <td>11-50 főt foglakoztató cég</td>
+    <td>530 ezer Ft</td>
+    <td>349 ezer Ft</td>
+    <td class="change more">+51,86%</td>
+  </tr>
+  <tr>
+    <td>51-200 főt foglakoztató cég</td>
+    <td>725 ezer Ft</td>
+    <td>384 ezer Ft</td>
+    <td class="change more">+88,80%</td>
+  </tr>
+  <tr>
+    <td>201-500 főt foglakoztató cég</td>
+    <td>754 ezer Ft</td>
+    <td>386 ezer Ft</td>
+    <td class="change more">+95,34%</td>
+  </tr>
+  <tr>
+    <td>Több mint 500 főt foglalkoztató cég</td>
+    <td>685 ezer Ft</td>
+    <td>491 ezer Ft</td>
+    <td class="change more">+39,51%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Sokat hallunk arról, hogy a saját terméket fejlesztő cégek előnyben vannak, ha a fizetésekről van szó. Ezt az adatok is alátámasztani látszanak: az ilyen cégeknél dolgozó válaszadók csupán 58%-a keres 720 ezer Ft-nál kevesebbet, míg az ügyfélprojekten dolgozó cégek munkavállalóinak 74%-a tartozik ebbe a kategóriába. (Az látható, hogy a saját terméket fejlesztő vállalatoknál valamivel nagyobb a senior, illetve a csapatvezető kitöltők aránya, míg juniorok és mediorok kevesebben vannak, de a különbség nem elég jelentős ahhoz, hogy a fizetésbeli eltéréseket kizárólagosan magyarázza).</p>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása - Cégtípus</div>
+
+  <canvas id="chartFizetesekMegoszlasaCegtipus"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaCegtipus = {
+        labels: [['Saját terméke(ke)t','fejlesztő vállalat','vagy startup'], ['Ügyfélprojekteken','dolgozó cég']],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [2.63, 4.88],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [21.05, 38.21],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [34.21, 30.89],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [17.37, 15.45],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [11.05, 5.69],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [6.84, 0.81],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [2.63, 1.63],
+          backgroundColor: '#5836AF'
+        },{
+          label: '1 680 e Ft felett',
+          data: [2.11, 0],
+          backgroundColor: '#003B72'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaCegtipus = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaCegtipus,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 3
+            } else {
+              return 1.3
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 115;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaCegtipus = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaCegtipus'),
+        configFizetesekMegoszlasaCegtipus
+      );
+      </script>
+
+</div>
+
+<p>A főváros és a vidék közötti fizetési különbségek mérséklődtek a 2017-es felméréshez képest; ennek egy lehetséges oka az időközben elterjedt remote munka (a vidéken élő válaszadók 66%-a dolgozik többnyire vagy teljesen remote a Budapesten élők 52%-ához képest), ami lehetővé tette a Budapesten élő UX-esek vidékre költözését és a vidéki szakemberek fővárosi munkavállalását. Nem jelent meglepetést, hogy a külföldi cégeknek vagy ügyfeleknek dolgozó, de Magyarországon élő UX-esek fizetése jóval meghaladja a hazai átlagot.</p>
+
+<div class="table-wrapper">
+<table class="big black-3 black-5">
+<caption>Válaszadók száma: 340 (2022), 131 (2017)</caption>
+<thead>
+  <tr>
+    <th>Átlagos fizetés régió szerint</th>
+    <th colspan="2">2022</th>
+    <th colspan="2">2017</th>
+    <th>Változás</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Budapesten élők</td>
+    <td>632 ezer Ft</td>
+    <td>252 fő</td>
+    <td>397 ezer Ft</td>
+    <td>115 fő</td>
+    <td class="change more">+59.19%</td>
+  </tr>
+  <tr>
+    <td>Vidéken élők</td>
+    <td>522 ezer Ft</td>
+    <td>49 fő</td>
+    <td>255 ezer Ft</td>
+    <td>8 fő</td>
+    <td class="change more">+104.71%</td>
+  </tr>
+  <tr>
+    <td>Külföldre dolgozók</td>
+    <td>1 millió<br> 46 ezer Ft</td>
+    <td>39 fő</td>
+    <td colspan="3">-</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="nemi-identitas-es-fizetes-kapcsolata">Nemi identitás és fizetés kapcsolata</h3>
+
+<p>A fizetéseket nemi identitás szerint vizsgálva az látszik, hogy amíg junior szinten viszonylag kiegyenlített a megoszlás, medior szinttől a nők fizetése nem növekszik olyan ütemben, mint a férfi válaszadóké; ez a különbség senior, illetve csapatvezetői szinten még markánsabb.</p>
+
+<p>A senior szinten látható nagy eltérés egyik oka az lehet, hogy amíg az ezen a szinten lévő férfiak 74%-a 6+ év tapasztalattal rendelkezik, addig ez a női válaszadók csupán 46%-ára igaz – vagyis előbbieknek több ideje volt “felfelé lépegetni” a fizetési létrán. Csapatvezetői szinten jóval mérsékeltebben, de hasonló tendencia mutatkozik, medior szinten azonban nem látható olyan különbség az évek számában mért tapasztalatban, ami indokolná a fizetések eltérését.</p>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Junior szint</div>
+
+  <canvas id="chartFizetesekMegoszlasaJunior"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaJunior = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [14.29, 9.09],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [71.43, 81.82],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [14.29, 9.09],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaJunior = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaJunior,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 5
+            } else {
+              return 2.6
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaJunior = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaJunior'),
+        configFizetesekMegoszlasaJunior
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Medior szint</div>
+
+  <canvas id="chartFizetesekMegoszlasaMedior"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaMedior = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [2.33, 0],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [34.88, 42.62],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [46.51, 45.9],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [13.95, 9.84],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [0, 1.64],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [2.33, 0],
+          backgroundColor: '#B030EB'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaMedior = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaMedior,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 5
+            } else {
+              return 2.1
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaMedior = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaMedior'),
+        configFizetesekMegoszlasaMedior
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Senior szint</div>
+
+  <canvas id="chartFizetesekMegoszlasaSenior"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaSenior = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '241-480 e Ft',
+          data: [10, 16.67],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [26.67, 50],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [30, 19.44],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [20, 13.89],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [8.33, 0],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [5, 0],
+          backgroundColor: '#5836AF'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaSenior = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaSenior,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 5
+            } else {
+              return 2.1
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaSenior = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaSenior'),
+        configFizetesekMegoszlasaSenior
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Manager / Lead szint</div>
+
+  <canvas id="chartFizetesekMegoszlasaManager"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaManager = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [0, 6.67],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [2.94, 6.67],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [17.65, 46.67],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [35.29, 26.67],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [20.59, 0],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [14.71, 6.67],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [5.88, 0],
+          backgroundColor: '#5836AF'
+        },{
+          label: '1 680 e Ft felett',
+          data: [2.94, 6.67],
+          backgroundColor: '#003B72'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaManager = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaManager,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 4
+            } else {
+              return 1.8
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 20;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaManager = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaManager'),
+        configFizetesekMegoszlasaManager
+      );
+      </script>
+
+</div>
+
+<p>Ha tapasztalat szerint vizsgáljuk a fizetések megoszlását, szintén azt látjuk, hogy az azonos tapasztalattal rendelkező férfiak valamivel jobban keresnek, és ez a különbség az évek számának emelkedésével nő.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 325</caption>
+<thead>
+  <tr>
+    <th>Havi nettó átlagfizetés tapasztalat szerint</th>
+    <th>Férfiak</th>
+    <th>Nők</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>0-3 év</td>
+    <td>499 ezer Ft</td>
+    <td>443 ezer Ft</td>
+  </tr>
+  <tr>
+    <td>4-7 év</td>
+    <td>746 ezer Ft</td>
+    <td>648 ezer Ft</td>
+  </tr>
+  <tr>
+    <td>8+ év</td>
+    <td>1 millió<br> 032 ezer Ft</td>
+    <td>776 ezer Ft</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Kevesebb mint 3 év tapasztalat</div>
+
+  <canvas id="chartFizetesekMegoszlasaTapasztalat03"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaTapasztalat03 = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [4.44, 8.33],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [51.11, 54.76],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [31.11, 30.95],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [11.11, 5.95],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [2.22, 0],
+          backgroundColor: '#B030EB'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaTapasztalat03 = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaTapasztalat03,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 5
+            } else {
+              return 2.1
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaTapasztalat03 = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaTapasztalat03'),
+        configFizetesekMegoszlasaTapasztalat03
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - 4-7 év tapasztalat</div>
+
+  <canvas id="chartFizetesekMegoszlasaTapasztalat47"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaTapasztalat47 = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '241-480 e Ft',
+          data: [14.06, 25],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [40.63, 46.15],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [25, 19.23],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [14.06, 7.69],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [3.13, 0],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [3.13, 0],
+          backgroundColor: '#5836AF'
+        },{
+          label: '1 680 e Ft felett',
+          data: [0, 1.92],
+          backgroundColor: '#003B72'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaTapasztalat47 = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaTapasztalat47,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 4
+            } else {
+              return 1.8
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaTapasztalat47 = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaTapasztalat47'),
+        configFizetesekMegoszlasaTapasztalat47
+      );
+      </script>
+
+</div>
+
+<div class="chart-wrapper">
+
+  <div class="chart-title">Fizetések megoszlása nem szerint - Több mint 8 év tapasztalat</div>
+
+  <canvas id="chartFizetesekMegoszlasaTapasztalat8plusz"></canvas>
+  <script>
+
+      // setup 
+      const dataFizetesekMegoszlasaTapasztalat8plusz = {
+        labels: ['Férfi', 'Nő'],
+        datasets: [{
+          label: '240 e Ft alatt',
+          data: [1.54, 0],
+          backgroundColor: '#B7C1E1',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '241-480 e Ft',
+          data: [1.54, 13.33],
+          backgroundColor: '#80A4ED',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '481-720 e Ft',
+          data: [15.38, 40],
+          backgroundColor: '#79C8C4',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '721-960 e Ft',
+          data: [24.62, 20],
+          backgroundColor: '#72EB9B',
+          datalabels: {
+            color: '#222'
+          }
+        },{
+          label: '961-1 200 e Ft',
+          data: [27.69, 13.33],
+          backgroundColor: '#918EC3'
+        },{
+          label: '1 201-1 440 e Ft',
+          data: [16.92, 13.33],
+          backgroundColor: '#B030EB'
+        },{
+          label: '1 441-1 680 e Ft',
+          data: [9.23, 0],
+          backgroundColor: '#5836AF'
+        },{
+          label: '1 680 e Ft felett',
+          data: [3.08, 0],
+          backgroundColor: '#003B72'
+        }]
+      };
+
+      // config 
+      const configFizetesekMegoszlasaTapasztalat8plusz = {
+        type: 'bar',
+        data: dataFizetesekMegoszlasaTapasztalat8plusz,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 4
+            } else {
+              return 1.8
+            }
+          },
+          categoryPercentage: 0.9,
+          events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            tooltip: {
+              enabled: true,
+              callbacks: {
+                title: function(context) {
+                  let title = context[0].label;
+                  title = title.replace(/,/g, ' ');
+                  return title;
+                },
+                label: function(context) {
+                    return context.dataset.label + ': ' + context.formattedValue + '%';
+                }
+              }
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 10,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 10,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {
+                return value + '%';
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label to 40
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 10;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 60;
+                } else {
+                  return scale.width = 40;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: false
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartFizetesekMegoszlasaTapasztalat8plusz = new Chart(
+        document.getElementById('chartFizetesekMegoszlasaTapasztalat8plusz'),
+        configFizetesekMegoszlasaTapasztalat8plusz
+      );
+      </script>
+
+</div>
+
+<p>Úgy tűnik tehát, hogy a nemek közti bérszakadék a hazai UX közösséget is érinti. Ez annak fényében nem meglepő, hogy az <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en" target="_blank">Eurostat</a> 2020-as adatai szerint ez a szakadék Magyarországon az EU-s átlagnál (13%) szélesebb, 17%-os. Az okokra ez a felmérés nem világított rá, de (mivel a különbség a karrierben való előrehaladással nőni látszik), felvet kérdéseket a női UX-esek eltérő karrierútjairól (például gyermekvállalás miatt), vagy a gyakran idézett jelenségről, miszerint a férfiak hajlamosabbak magasabb fizetési igényt megfogalmazni.</p>
+
+<h3 id="beren-kivuli-juttatasok">Béren kívüli juttatások</h3>
+
+<p>A kutatásban kitértünk arra is, hogy milyen fizetésen kívüli juttatásokat kapnak a UX-esek. Pozitívum, hogy a korábbi évekhez képest a válaszadók nagyobb része kap egy vagy több béren kívüli juttatást. A cafeteria mint kategória megszűnt, de megjelentek a részvényopciók és az otthoni munka támogatása, illetve minden korábban is vizsgált juttatásban a UX-esek nagyobb hányada részesül.</p>
+
+<p>Érdekesség, hogy bár a válaszadók 88%-a legalább a munkaideje felében remote dolgozik, csupán 48% kap az otthoni munkához valamilyen támogatást a munkáltatójától.</p>
+
+<div class="table-wrapper">
+<table class="big black-3">
+<caption>Válaszadók száma: 296 (2022), 103 (2017)</caption>
+<thead>
+  <tr>
+    <th>Béren kívüli juttatások</th>
+    <th>2022</th>
+    <th>2017</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Képzés támogatás (nyelvtanulás, tanfolyam, könyvtámogatás stb.)</td>
+    <td>61%</td>
+    <td>18%</td>
+  </tr>
+  <tr>
+    <td>Egészségügyi szolgáltatás (biztosítás, masszázs stb.)</td>
+    <td>54%</td>
+    <td>19%</td>
+  </tr>
+  <tr>
+    <td>SZÉP kártya</td>
+    <td>48%</td>
+    <td>17%</td>
+  </tr>
+  <tr>
+    <td>Otthoni munka támogatása (eszközkeret, internettámogatás stb.)</td>
+    <td>48%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Bónusz</td>
+    <td>47%</td>
+    <td>21%</td>
+  </tr>
+  <tr>
+    <td>Konferenciakeret</td>
+    <td>38%</td>
+    <td>16%</td>
+  </tr>
+  <tr>
+    <td>Utazási költségtérítés (repülőjegy-kedvezmény, bérlet, gépkocsihasználat stb.)</td>
+    <td>21%</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Részvényopciók</td>
+    <td>20%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Cafeteria</td>
+    <td>-</td>
+    <td>31%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="elegedettseg-motivacio">Elégedettség és motiváció</h2>
+
+<p>Mivel a COVID-19 és a home office sokaknál alapjaiban változtatta meg a munkavégzés módját a legutóbbi kutatás óta, az elégedettség vizsgálatakor különválasztottuk a munkahelyet és a munkakörnyezetet, illetve külön kitértünk a munka és magánélet egyensúlyára is.</p>
+
+<p>Az elégedetlenség továbbra sem jellemző a válaszadóinkra, minden kategóriában legalább a válaszadók kétharmada inkább elégedett, mint nem. A munkahely és munkakörnyezet kapcsán nyilatkoztak a legpozitívabban, vagyis a hazai UX-esek kifejezetten elégedettek azzal, akikkel és ahol dolgoznak, de a nagy többség a projektjei kapcsán sem lát okot panaszra, noha itt a nagyon elégedettek aránya jóval alacsonyabb mint a fenti két kategóriában.</p>
+
+<p><strong>Legkevésbé a fizetéssel és fejlődési lehetőségekkel elégedettek a válaszadók</strong>, ugyanakkor ismét ki kell emelni, hogy még ezeknél a kategóriáknál is 70% körül alakul az inkább elégedettek aránya. Új kategóriaként került be munka és magánélet kapcsolata, ami bár nem került fel a képzeletbeli dobogóra, de a válaszadóink háromnegyede alapvetően elégedett ezzel a területtel.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 337</caption>
+<thead>
+  <tr>
+    <th>Mennyire vagy elégedett…?</th>
+    <th>Nagyon elégedett</th>
+    <th>Inkább elégedett</th>
+    <th>Inkább elégedetlen</th>
+    <th>Nagyon elégedetlen</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Munkahelyeddel (kultúra, csapat, stb.)</td>
+    <td>48,36%</td>
+    <td>38,51%</td>
+    <td>8,96%</td>
+    <td>4,18%</td>
+  </tr>
+  <tr>
+    <td>Munkakörnyezeteddel</td>
+    <td>47,48%</td>
+    <td>40,36%</td>
+    <td>8,61%</td>
+    <td>3,56%</td>
+  </tr>
+  <tr>
+    <td>A projektekkel, amin dolgozol</td>
+    <td>24,04%</td>
+    <td>54,60%</td>
+    <td>17,51%</td>
+    <td>3,86%</td>
+  </tr>
+  <tr>
+    <td>Munkád megvalósult eredményével</td>
+    <td>16,17%</td>
+    <td>60,18%</td>
+    <td>19,46%</td>
+    <td>4,19%</td>
+  </tr>
+  <tr>
+    <td>Fizetéseddel</td>
+    <td>17,26%</td>
+    <td>52,38%</td>
+    <td>21,43%</td>
+    <td>8,93%</td>
+  </tr>
+  <tr>
+    <td>Fejlődési lehetőségekkel</td>
+    <td>28,36%</td>
+    <td>42,39%</td>
+    <td>21,79%</td>
+    <td>7,46%</td>
+  </tr>
+  <tr>
+    <td>Munka-magánélet egyensúlyoddal</td>
+    <td>36,42%</td>
+    <td>39,70%</td>
+    <td>16,72%</td>
+    <td>7,16%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az összehasonlítható dimenziókban a korábbi évek óta egyedül a fejlődési lehetőségek kapcsán látszik számottevő javulás, a többi kategóriában meglehetősen következetes a közösség véleménye.</p>
+
+<div class="table-wrapper">
+<table class="big black-3 black-4">
+<caption>Válaszadók száma: 337 (2022), 154 (2017), 102 (2014)</caption>
+<thead>
+  <tr>
+    <th>Mennyire vagy elégedett…? - Nagyon vagy inkább elégedettek aránya</th>
+    <th>2022</th>
+    <th>2017</th>
+    <th>2014</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>A projektekkel, amin dolgozol</td>
+    <td>79%</td>
+    <td>78%</td>
+    <td>78%</td>
+  </tr>
+  <tr>
+    <td>Munkád megvalósult eredményével</td>
+    <td>76%</td>
+    <td>71%</td>
+    <td>70%</td>
+  </tr>
+  <tr>
+    <td>Fizetéseddel</td>
+    <td>70%</td>
+    <td>73%</td>
+    <td>63%</td>
+  </tr>
+  <tr>
+    <td>Fejlődési lehetőségekkel</td>
+    <td>71%</td>
+    <td>59%</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az elégedettség kapcsán megvizsgáltuk, látszik-e érdemi különbség cégtípus és a munkavégzés jellege (remote vagy iroda) alapján.</p>
+
+<p>A saját terméket fejlesztő cégnél dolgozók elégedettebbek a projektjeikkel, a fizetésükkel és a munka-magánélet egyensúllyal, mint az ügynökségi oldalon dolgozók, akik viszont a munkájuk megvalósult eredményét értékelik jobbra, mint a saját terméken dolgozók.</p>
+
+<p>Ennél jóval összetettebb képet mutat az elégedettség vizsgálata annak tükrében, hogy valaki otthonról vagy irodából dolgozik. Ehhez három kategóriába soroltuk a válaszadóinkat:</p>
+<ol>
+    <li>Aki többnyire remote dolgozik</li>
+    <li>Aki fele-fele arányban dolgozik remote és irodából (hibrid)</li>
+    <li>Aki többnyire irodából dolgozik</li>
+</ol>
+
+<p>A többnyire remote dolgozók (akik egyébként többségben vannak a válaszadóink között) elégedettebbek a munkakörnyezetükkel és a munka és magánélet egyensúlyával is. Kevésbé elégedettek viszont a projektjeikkel és azok megvalósult eredményével, ami jelezheti azt, hogy ők kevésbé szorosan dolgoznak a csapattársaikkal és kevesebb beleszólásuk van bizonyos dolgokba.</p>
+
+<p>Ennél jóval látványosabb az, hogy a remote dolgozók mennyivel elégedetlenebbek a fizetésükkel, aminek lehet az az oka, hogy számukra elérhető közelségbe került a külföldre való munkavégzés lehetősége, magasabb fizetésért.</p>
+
+<p>Érdekesség, hogy a többnyire irodából dolgozók mennyire pozitívan nyilatkoztak a munkahelyükről: 93% nyilatkozott pozitívan a céges kultúráról és a csapatról, akikkel dolgozik.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 337</caption>
+<thead>
+  <tr>
+    <th>Mennyire vagy elégedett…? - Nagyon vagy inkább elégedettek aránya</th>
+    <th>Többnyire remote</th>
+    <th>Hibrid</th>
+    <th>Többnyire irodából</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Munkahelyeddel (kultúra, csapat, stb.)</td>
+    <td>84%</td>
+    <td>86%</td>
+    <td>93%</td>
+  </tr>
+  <tr>
+    <td>Munkakörnyezeteddel</td>
+    <td>88%</td>
+    <td>87%</td>
+    <td>83%</td>
+  </tr>
+  <tr>
+    <td>A projektekkel, amin dolgozol</td>
+    <td>74%</td>
+    <td>84%</td>
+    <td>80%</td>
+  </tr>
+  <tr>
+    <td>Munkád megvalósult eredményével</td>
+    <td>70%</td>
+    <td>80%</td>
+    <td>85%</td>
+  </tr>
+  <tr>
+    <td>Fizetéseddel</td>
+    <td>62%</td>
+    <td>77%</td>
+    <td>78%</td>
+  </tr>
+  <tr>
+    <td>Fejlődési lehetőségekkel</td>
+    <td>68%</td>
+    <td>72%</td>
+    <td>70%</td>
+  </tr>
+  <tr>
+    <td>Munka-magánélet egyensúlyoddal</td>
+    <td>77%</td>
+    <td>72%</td>
+    <td>70%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Kíváncsiak voltunk arra is, mennyiben befolyásolja a válaszadók elégedettségét a fizetésük. Az nem volt meglepetés, hogy a fizetéssel való elégedettséget jelentősen meghatározza a konkrét fizetés: a 240 ezer Ft-nál kevesebbet keresők mindegyike elégedetlen a fizetésével (és 73%-uk nagyon). Nettó 480 ezer Ft felett már a válaszadók nagyobb része inkább elégedett a fizetésével mint nem, de a nagyon elégedettek csak a legfelső kategóriában kerülnek többségbe (az 1 millió 680 ezer Ft-nál többet keresők 75%-a érez így a fizetésével kapcsolatban).</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 335</caption>
+<thead>
+  <tr>
+    <th>Mennyire vagy elégedett a fizetéseddel?</th>
+    <th>Inkább elégedett</th>
+    <th>Inkább elégedetlen</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>240 000 Ft alatt</td>
+    <td>-</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>241 - 480 000 Ft</td>
+    <td>50%</td>
+    <td>50%</td>
+  </tr>
+  <tr>
+    <td>481 - 720 000 Ft</td>
+    <td>70%</td>
+    <td>30%</td>
+  </tr>
+  <tr>
+    <td>721 - 960 000 Ft</td>
+    <td>82%</td>
+    <td>18%</td>
+  </tr>
+  <tr>
+    <td>961 - 1 200 000 Ft</td>
+    <td>91%</td>
+    <td>9%</td>
+  </tr>
+  <tr>
+    <td>1 201 - 1 440 000 Ft</td>
+    <td>100%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>1 441 - 1 680 000 Ft</td>
+    <td>100%</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>1 680 000 Ft felett</td>
+    <td>100%</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az alacsony fizetés a többi kategóriára is rányomja a bélyegét: a 240 ezer Ft-nál kevesebbet kereső válaszadók szinte minden mással is inkább elégedetlenek voltak, az elégedettség pedig minden kategóriában növekszik a fizetés emelkedésével. Ez alól egy érdekes kivétel, hogy a 721 ezer és 1 millió 200 ezer Ft között keresők csaknem 20%-a inkább elégedetlen a projektekkel, amin dolgozik, megtörve ezzel az elégedetlenek csökkenő arányát. Esetleg a vezetői feladatok sűrűsödése indokolhatja esetükben az elégedettség csökkenését.</p>
+
+<p>A korábbi kutatáshoz hasonlóan most is megkérdeztük a válaszadóinkat, hogy ha munkahelyet váltanának, azt mi motiválná, és az eredmények szerint fontos változás történt ezen a területen. A 2017-es kutatásban a válaszadók legfontosabb oknak a fejlődési és tanulási lehetőségeket nevezték meg (74%), és csak második helyen szerepelt a több fizetés (55%). Mára ez a két kategória gyakorlatilag megfordult, és most már toronymagasan a fizetést tartják a legfontosabb ösztönzőnek munkahely váltásakor. Fontos kiemelni azonban, hogy a fejlődési és tanulási lehetőségek visszaszorulása ezen a listán vélhetően azt is jelzi, hogy már egyre több cég teljesít jól ezen a területen, és egyre többek számára érhetők el ezek a lehetőségek házon belül.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 329</caption>
+<thead>
+  <tr>
+    <th colspan="2">Ha a jelenlegi helyedről váltanál, miért tennéd?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Több fizetés</td>
+    <td>78,12%</td>
+  </tr>
+  <tr>
+    <td>Karrierben továbblépési lehetőség</td>
+    <td>48,63%</td>
+  </tr>
+  <tr>
+    <td>Rugalmasabb vagy kevesebb (pl. heti 4 napos) munkaidő</td>
+    <td>47,11%</td>
+  </tr>
+  <tr>
+    <td>Fejlődési, tanulási lehetőség</td>
+    <td>46,81%</td>
+  </tr>
+  <tr>
+    <td>Külföldi lehetőség relokációval</td>
+    <td>44,98%</td>
+  </tr>
+  <tr>
+    <td>Szakmaiság (ahol úgy érzed, hogy a szakmát hitelesebben képviselik)</td>
+    <td>44,68%</td>
+  </tr>
+  <tr>
+    <td>Külföldi lehetőség, relokáció nélkül</td>
+    <td>37,99%</td>
+  </tr>
+  <tr>
+    <td>Más termékre vagy iparágba váltás</td>
+    <td>34,65%</td>
+  </tr>
+  <tr>
+    <td>Más jellegű feladatok lehetősége</td>
+    <td>26,75%</td>
+  </tr>
+  <tr>
+    <td>Remote munkavégzés lehetősége</td>
+    <td>14,59%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Ha az eredményeket ismét fizetési szintek szerint bontjuk le, az látszik, hogy többnyire mindenki megfontolná a váltást több fizetésért, de ez a hajlandóság a fizetés emelkedésével általában csökken. Érdekesség ugyanakkor, hogy ez a minta a 961 ezer - 1 millió 200 ezer Ft-os sávnál megtörik, és ezután ismét egyre inkább motiváló a magasabb fizetés.</p>
+
+<div class="table-wrapper">
+<table class="big">
+<caption>Válaszadók száma: 333</caption>
+<thead>
+  <tr>
+    <th>Váltana-e több fizetésért</th>
+    <th>Nem</th>
+    <th>Igen</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>240 000 Ft alatt</td>
+    <td>9%</td>
+    <td>91%</td>
+  </tr>
+  <tr>
+    <td>241 - 480 000 Ft</td>
+    <td>18%</td>
+    <td>82%</td>
+  </tr>
+  <tr>
+    <td>481 - 720 000 Ft</td>
+    <td>24%</td>
+    <td>76%</td>
+  </tr>
+  <tr>
+    <td>721 - 960 000 Ft</td>
+    <td>26%</td>
+    <td>74%</td>
+  </tr>
+  <tr>
+    <td>961 - 1 200 000 Ft</td>
+    <td>45%</td>
+    <td>55%</td>
+  </tr>
+  <tr>
+    <td>1 201 - 1 440 000 Ft</td>
+    <td>38%</td>
+    <td>62%</td>
+  </tr>
+  <tr>
+    <td>1 441 - 1 680 000 Ft</td>
+    <td>38%</td>
+    <td>62%</td>
+  </tr>
+  <tr>
+    <td>1 680 000 Ft felett</td>
+    <td>25%</td>
+    <td>75%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>A mindenkinél legnépszerűbb magasabb fizetés mellett érdekes megnézni, hogy a különböző fizetési szinteken mi más motiválja még váltásra a UX-eseket:</p>
+
+<ul>
+    <li>A 240 ezer Ft alatt keresők több mint fele váltana fejlődési lehetőség, karrierben továbblépés, külföldi lehetőség vagy jobb szakmaiság miatt.</li>
+    <li> A 241 ezer - 480 ezer Ft között keresőknek szintén a fejlődési lehetőség a második legnagyobb motivátor – feltételezhetjük, hogy köztük is sok a pályája elején lévő UX-es.</li>
+    <li>A 961 ezer - 1 millió 200 ezer Ft között keresőknél kiemelkedő a rugalmasabb vagy kevesebb munkaidő fontossága, illetve megugrik náluk azoknak az aránya, akik váltanának más jellegű feladatok miatt (eszünkbe juthat, hogy náluk hasonló tendencia mutatkozott a projektekkel való elégedettségben is).</li>
+</ul>
+
+<h2 id="ux-kepzesek">UX képzések</h2>
+
+<p>Ez alkalommal új témánk volt a Magyarországon elérhető és népszerű UX képzések helyzete. Az utóbbi évtizedben ezek a képzések sokat fejlődtek, ráadásul egyszerre haladt az online szakképzés globális evolúciója és a hazai, magyar nyelven elérhető oktatás szárba szökkenése. Utóbbi téren fontos eredmény, hogy az első UX tematikájú felnőttképzéstől tíz év alatt sikerül eljutni oda, hogy ma már a felsőoktatásban mesterképzési szinten is elérhető a UX.</p>
+
+<p>Az itt közölt eredményeknél fontos figyelembe venni, hogy a listázott oktatási szolgáltatók értékelése között sok minőségbeli eltérés lehet. Változó például, hogy melyik végez csak felnőtt-, nappali vagy mindkét típusú képzést, különböző árszinten elérhetőek az egyes oktatási programok, és a válaszadók között is vegyes, hogy ki mikor végzett el egy adott képzést (életkorban vagy akár karrierben mérve). Illetve ma már több szolgáltató is oktat a UX-en belül többféle tematikát (például UX, UI, vagy kutatói kurzust), úgyhogy ilyen szempontból valójában itt az oktatási platformokat mértük össze, nem a konkrét kurzusokat.</p>
+
+<h3 id="piaci-reszesedes">Piaci részesedés</h3>
+
+<p>Ha csak az oktatott válaszadók számát nézzük, a MOME 84, míg az xLabs 73 elvégzett képzésért felel, amit az IxDF követ 32 válaszadóval, majd ezután már csak 20 alatti számok sorakoznak. Ebből egyértelműen látszik, hogy <strong>a MOME és az xLabs magasan a legnépszerűbb képzések</strong>, amelyek a legtöbb szakemberért felelnek.</p>
+
+<p>Ami még fontos ezen a ponton, hogy a válaszadók csaknem 20%-a jelölte meg az Egyéb képzéseket, ráadásul ez a kategória egy relative magas pozitív értékelést kapott. Sajnos azt nem kérdeztük, hogy milyen egyéb képzéseket végeztek a kitöltők, úgyhogy erről érdemes a <a href="https://www.facebook.com/groups/594600877237593/" target="_blank">szakmai közösségben</a> beszélgetni, mert kell, hogy legyen egy-két eddig ismeretlen tuti tipp.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadások száma: 334 (egy válaszadó több képzést is elvégezhetett)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Elvégzett UX képzések aránya</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>MOME képzés(ek)</td>
+    <td>25,15%</td>
+  </tr>
+  <tr>
+    <td>xLabs képzés(ek)</td>
+    <td>21,86%</td>
+  </tr>
+  <tr>
+    <td>Egyéb képzés(ek)</td>
+    <td>19,76%</td>
+  </tr>
+  <tr>
+    <td>IxDF kurzus(ok)</td>
+    <td>9,58%</td>
+  </tr>
+  <tr>
+    <td>Google UX Certification</td>
+    <td>5,09%</td>
+  </tr>
+  <tr>
+    <td>UI Academy</td>
+    <td>5,09%</td>
+  </tr>
+  <tr>
+    <td>NN/g UX Certification Program</td>
+    <td>3,89%</td>
+  </tr>
+  <tr>
+    <td>UX Studio képzés(ek)</td>
+    <td>3,59%</td>
+  </tr>
+  <tr>
+    <td>KREA képzés(ek)</td>
+    <td>2,69%</td>
+  </tr>
+  <tr>
+    <td>Németh Ádám képzés(ek)</td>
+    <td>2,10%</td>
+  </tr>
+  <tr>
+    <td>Házi Csaba képzés(ek)</td>
+    <td>0,90%</td>
+  </tr>
+  <tr>
+    <td>Brandguide Academy</td>
+    <td>0,30%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Az elemzés további részében az Egyéb opciót és az öt válaszadás alatti képzéseket nem rangsoroltuk. Utóbbi csoportba estek Házi Csaba képzései és a Brandguide Academy, amelyeket amúgy minden azt elvégző pozitívan értékelt, viszont ezek összesen csak 3 illetve 1 válaszadást jelentettek.</p>
+
+<h3 id="kepzesek-hatekonysag-szerint">Képzések hatékonyság szerint</h3>
+
+<p>Először azt néztük meg, hogy mely képzések voltak pozitív hatással az azt elvégzők szakmai életére. A pozitív hatás mellett azért tartjuk fontosnak megmutatni, hogy mely képzéseknek nem volt szakmai hozadéka, mert minden oktatás minimum figyelmet és energiát igényel, sok esetben pedig jelentős pénzügyi befektetést is jelent, így egyáltalán nem elhanyagolható, hogyha valami a ráfordítások ellenére sem hoz semmilyen hasznot.</p>
+
+<p>A pozitív eredmény szempontjából a legjobb három oktató sorában az xLabs és MOME mellett megjelenik a KREA is, mindhárom 80% feletti pozitív aránnyal. Itt is látható az az általános trend, hogy minél több az értékelések száma, annál nehezebb fenntartani egy pozitív eredményt. Ez alapján azt mondanánk, hogy a ismét a MOME és az xLabs végez nagy mennyiségben is kiváló munkát, a KREA pedig erősnek tűnik, de több náluk képzett kellene, hogy megérkezzen a szakmába ahhoz, hogy a UX területen meghatározó tényező legyen.</p>
+
+<p>Ami a lista alsó végét illeti, ott leginkább a Google kurzusait kell kiemelnünk, amivel magasan a legkevésbé elégedettek az ott végzettek, illetve az IxDF esetében pont fele-fele a helyzet.</p>
+
+<div class="chart-wrapper x-scale" style="padding-right: 10px;">
+
+  <div class="chart-title">Képzésen részt vettek száma hatás szerint</div>
+
+  <canvas id="chartKepzesekHatekonysag"></canvas>
+  <script>
+
+      // setup 
+      const dataKepzesekHatekonysag = {
+        labels: ['KREA képzés(ek)','xLabs képzés(ek)','MOME képzés(ek)',['NN/g UX','Certification'],'UI Academy',['Németh Ádám','képzés(ek)'],['UX Studio','képzés(ek)'],'IxDF kurzus(ok)',['Google UX','Certification']],
+        datasets: [{
+          label: 'Pozitív hatása volt',
+          data: [8, 64, 71, 10, 13, 5, 8, 16, 5],
+          backgroundColor: '#003b72',
+          datalabels: {
+            anchor: 'start',
+            align: 'end'
+          }
+        },{
+          label: 'Nem volt hatása',
+          data: [1, 9, 13, 3, 4, 2, 4, 16, 12],
+          backgroundColor: '#b030eb',
+          datalabels: {
+            anchor: 'end',
+            align: 'start'
+          }
+        }]
+      };
+
+      // config 
+      const configKepzesekHatekonysag = {
+        type: 'bar',
+        data: dataKepzesekHatekonysag,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 1.6
+            } else {
+              return 0.8
+            }
+          },
+          categoryPercentage: 0.9,
+          events: [],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 12,
+                    family: 'Open Sans'
+                  };
+                }
+              }
+              }
+            },
+            datalabels: {
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 12,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {                
+                const { datasetIndex, dataIndex } = context;
+                return context.chart.data.originalData[datasetIndex][dataIndex];
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 125;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: true,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: true,
+                maxTicksLimit: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 6
+                  } else {
+                    return 3
+                  }
+                },
+                callback: function(value, index, ticks) {
+                    return value + '%';
+                }
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartKepzesekHatekonysag = new Chart(
+        document.getElementById('chartKepzesekHatekonysag'),
+        configKepzesekHatekonysag
+      );
+
+      </script>
+</div>
+
+<h3 id="melyik-kepzes-mire-jo">Melyik képzés mire jó</h3>
+
+<p>Fontos ismeretlen a nem pozitív kimenetelű képzések esetében, hogy az mennyiben tulajdonítható az oktató hibájának és mennyire a fals elvárások következménye. Például ha valaki szeretné megalapozni új UX-es karrierjét, de olyan kurzusra iratkozik be, ami leginkább meglévő szakemberek továbbképzésére szolgál, akkor nem lesz sikerélménye, de erről nem feltétlen a képzés lehet. Ezért szerettük volna azt megvizsgálni, hogy akik sikeresnek ítéltek egy kurzust, azok miben látták elsősorban a sikerességét, hátha ez segít a lehetőségeket mérlegelőknek.</p>
+
+<p>A pozitív értékeléseknél azt kérdeztük, hogy melyik képzés segített UX-esként elhelyezkedni és melyik a szakmai előrelépésben. Az alábbi eredmények azt mutatják, hogy az adott kategóriában pozitívan értékelők közül milyen arányban említették egyik vagy másik képzést. Vagyis melyik tűnik a legjobb belépő szintű képzésnek, és melyik a legjobb akkor, ha továbbfejlesztenéd a meglévő tudásodat.</p>
+
+<p>Ha a legnagyobb szereplőket nézzük és nagyon egyszerűen akarunk tanácsot adni, akkor <strong>teljes pályakezdő (vagy pályaváltó) szinten az xLabs</strong> tűnik jobb választásnak, míg ha már valahol a holdudvarban dolgozol és szeretnél <strong>UX területre áttérni vagy specializálódni, akkor a MOME</strong> a biztosabb befutó.</p>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 97 (top 5 lista)</caption>
+<thead>
+  <tr>
+    <th colspan="2">UX-esként elhelyezkedésben segítő képzések</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>xLabs képzés(ek)</td>
+    <td>34,02%</td>
+  </tr>
+  <tr>
+    <td>MOME képzés(ek)</td>
+    <td>28,87%</td>
+  </tr>
+  <tr>
+    <td>KREA képzés(ek)</td>
+    <td>6,19%</td>
+  </tr>
+  <tr>
+    <td>UI Academy</td>
+    <td>5,15%</td>
+  </tr>
+  <tr>
+    <td>UX Studio képzés(ek)</td>
+    <td>4,12%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<div class="table-wrapper">
+<table>
+<caption>Válaszadók száma: 163 (top 5 lista)</caption>
+<thead>
+  <tr>
+    <th colspan="2">Szakmai előrelépésben segítő képzések</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>MOME képzés(ek)</td>
+    <td>26,38%</td>
+  </tr>
+  <tr>
+    <td>xLabs képzés(ek)</td>
+    <td>19,02%</td>
+  </tr>
+  <tr>
+    <td>IxDF kurzus(ok)</td>
+    <td>7,98%</td>
+  </tr>
+  <tr>
+    <td>NN/g UX Certification Program</td>
+    <td>6,13%</td>
+  </tr>
+  <tr>
+    <td>UI Academy</td>
+    <td>4,91%</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p>Ami a top 5-ös listákon nem látszik, hogy egyébként egy adott kurzust elvégzettek körében hogyan alakul az, hogy ki mire találta hasznosnak. Így ezt a teljes listát is közöljük, ami talán további segítséget nyújthat a képzések közötti orientációban.</p>
+
+<p>Érdemes például összenézni, hogy míg az IxDF kurzusait elvégzők fele-fele arányban találták azt hasznosnak, addig a pozitívan értékelők túlnyomó többsége mondta, hogy segítette a szakmai fejlődésben. Ez alapján akár arról is lehet szó, hogy egyesek a UX szakmába való belépésként próbáltak vele szerencsét, pedig ez a platform hasznosabb akkor, ha valaki az alapokat már elsajátította. Ezzel szemben az NN/g-t pozitívan értékelő tíz válaszadó mind a szakmai fejlődésben találta ezt hasznosnak, úgyhogy ez ilyen szempontból egy önazonosabb vagy jobban targetált képzésnek tűnik, és így az összesített sikeressége is magasabb.</p>
+
+<div class="chart-wrapper x-scale">
+
+  <div class="chart-title">Képzésen részt vettek száma pozitív hatás jellege szerint</div>
+
+  <canvas id="chartKepzesekPozitivhatas"></canvas>
+  <script>
+
+      // setup 
+      const dataKepzesekPozitivhatas = {
+        labels: ['KREA képzés(ek)',['Google UX','Certification'],'xLabs képzés(ek)',['UX Studio','képzés(ek)'],'MOME képzés(ek)','UI Academy','IxDF kurzus(ok)',['NN/g UX','Certification'],['Németh Ádám','képzés(ek)']],
+        datasets: [{
+          label: 'Segített UX-esként elhelyezkedni',
+          data: [6, 3, 33, 4, 28, 5, 3, 0, 0],
+          backgroundColor: '#003b72',
+          datalabels: {
+            anchor: 'start',
+            align: 'end'
+          }
+        },{
+          label: 'Segített a szakmai előrelépésben',
+          data: [2, 2, 31, 4, 43, 8, 13, 10, 5],
+          backgroundColor: '#b030eb',
+          datalabels: {
+            anchor: 'end',
+            align: 'start'
+          }
+        }]
+      };
+
+      // config 
+      const configKepzesekPozitivhatas = {
+        type: 'bar',
+        data: dataKepzesekPozitivhatas,
+        options: {
+          maintainAspectRatio: true,
+          aspectRatio: function(context) {
+            var width = context.chart.width;
+            if (width > 600) {
+              return 1.6
+            } else {
+              return 0.8
+            }
+          },
+          categoryPercentage: 0.9,
+          events: [],
+          indexAxis: 'y',
+          interaction: {
+              mode: 'y'
+          },
+          plugins: {
+            stacked100: {
+              enable: true,
+              replaceTooltipLabel: false,
+              precision: 1
+            },
+            legend: {
+              labels: {
+                boxWidth: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                boxHeight: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 16
+                  } else {
+                    return 14
+                  }
+                },
+                font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 12,
+                    family: 'Open Sans'
+                  };
+                }
+              }
+              }
+            },
+            datalabels: {
+              display: function(context) {
+                return context.dataset.data[context.dataIndex] !== 0
+              },
+              color: '#fff',
+              font: function(context) {
+                var width = context.chart.width;
+                if (width > 600) {
+                  return {
+                    size: 14,
+                    family: 'Open Sans'
+                  };
+                } else {
+                  return {
+                    size: 12,
+                    family: 'Open Sans'
+                  };
+                }
+              },
+              formatter: function(value, context) {                
+                const { datasetIndex, dataIndex } = context;
+                return context.chart.data.originalData[datasetIndex][dataIndex];
+              },
+              display: function(ctx) { // sets min chart segment size that displays a data label
+                var scale = ctx.chart.scales.x;
+                var value = ctx.dataset.data[ctx.dataIndex];
+                var range = Math.max(scale.max - scale.min, 1);
+                var width = ctx.chart.width;
+                if (width > 600) {
+                  return (ctx.chart.height / range) * value > 10;
+                } else {
+                  return (ctx.chart.height / range) * value > 30;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                display: false,
+                borderColor: "#fff"
+              },
+              ticks: {
+                font: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return {
+                      size: 14,
+                      family: 'Open Sans'
+                    };
+                  } else {
+                    return {
+                      size: 12,
+                      family: 'Open Sans'
+                    };
+                  }
+                }
+              },
+              afterFit: function(scale) {
+                var chartWidth = scale.chart.width;
+                if (chartWidth > 600) {
+                  return scale.width = 150;
+                } else {
+                  return scale.width = 125;
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: true,
+                borderColor: "#fff"
+              },
+              ticks: {
+                display: true,
+                maxTicksLimit: function(context) {
+                  var width = context.chart.width;
+                  if (width > 600) {
+                    return 6
+                  } else {
+                    return 3
+                  }
+                },
+                callback: function(value, index, ticks) {
+                    return value + '%';
+                }
+              }
+            }
+          }
+        }
+      };
+
+      // render init block
+      const chartKepzesekPozitivhatas = new Chart(
+        document.getElementById('chartKepzesekPozitivhatas'),
+        configKepzesekPozitivhatas
+      );
+      </script>
+
+</div>
+
+<h2 id="pandemia-remote-munka">Pandémia és remote munka</h2>
+
+<p>A UX képzések mellett egy másik egyedi téma volt az idei kutatásban a COVID-19 világjárvány hatása. Ehhez egyetlen kérdést tettünk fel: <strong>Mi változott a munkádban a pandémia óta, és ez hogyan hatott rád?</strong></p>
+
+<p>Az első dolog, amit gyorsan ide tűzhetünk, hogy egyáltalán hogyan értelmezhető ez a kérdés a kutatás időbelisége szempontjából. Amikor egy éve elkezdtük a kutatást tervezni, még úgy gondoltuk, hogy ez a kérdés arra reflektál, hogy kire hogyan hatott a vírus becsapódása, vagyis hogy a vírus előtti élethez képest milyen a vírus alatti élet. Ehhez képest a 2022 tavaszán adott válaszok már egy ennél nagyobb ciklusról mesélnek: hogyan érkezett meg az életetekbe a pandémia, hogyan alkalmazkodtatok a szigorú lezárások időszakához, és mióta újraindult az élet a lakáson kívül is, milyen új normába tértetek vissza.</p>
+
+<p>Összesen 233 történetet osztottatok meg, változó terjedelemben. Köszönjük az őszinteséget és a sztorikat, egy egész filmet néztünk végig a szemeiteken keresztül.</p>
+
+<h3 id="remote-mi-jo-mi-nem-jo">Remote: mi jó, mi nem jó</h3>
+
+<p>A kérdésben kifejezetten a pandémiára kérdeztünk rá, az említett kifejezéseket vizsgálva viszont bármi vírus jellegű említése eltörpül a “remote” szó használata mellett. Az életetek az elmúlt két évben akörül forgott, hogy hogyan alakult a távolról dolgozás helyzete. Ezt azért is fontos leszögezni, mert minden további megállapítás a távmunka körül forog és annak kontextusában értelmezhető. A pandémia gazdasági hatásairól vagy a vírus által érintett családok életéről nagyon kis mértékben esett szó.</p>
+
+<p>
+  <img src="../img/remote-munka-wordcloud.png">
+</p>
+
+<p>Ami a távmunkát illeti, megosztó téma, hogy ez végül mennyiben járt pozitív vagy negatív hatással. Megpróbáltuk értékelni a válaszokat azok érzelmi töltete alapján, és kicsivel több mint a válaszadók fele látott pozitív változást. Viszont a különbség csekély mértéke miatt és mert az elemzés módja nem nevezhető különösebben tudományosnak, maradjunk abban, hogy nagyjából <strong>ugyanannyi jó mint rossz van ebben a megújult világban.</strong></p>
+
+<p>Sok az is-is típusú válasz, de azért bőven vannak olyanok is, akik egyértelmű sokkal jobban vagy épp egészen pocsékul érzik magukat a munkahelyük átalakulása után. Ha viszont csak a <strong>hatásokat listázzuk előjel nélkül</strong>, akkor biztos, hogy <strong>mindegyikre lesz pozitív vagy negatív oldalra eső válaszadó.</strong> Néhány példa:</p>
+
+<ul>
+    <li>A rugalmas időbeosztást valaki imádja, mert jól tudja kezelni, valaki pedig csak azt érzi, hogy belefolynak a munkaórák az esti magánéletbe.</li>
+    <li>A családdal töltött több időnek mindenki örül, de valaki ebben csak az értékes pillanatokat éli meg, míg mások nehezen birkóznak azzal, amikor a gyerkőc háztartási vészhelyzetét egyszer csak egy prioritási listában kell elhelyezni a munkahelyi teendőkkel.</li>
+    <li>Az otthoni zavartalan fókusz időt egyesek élvezik és hatékonyabbnak érzik magukat, míg másnál ez túlhajszoltságot okoz, mert minden percet optimalizálni akarnak, ami hosszú távon borzasztó fárasztó.</li>
+    <li>A meetingek átkerültek videóhívásokba, ami valakinek azt jelenti, hogy megússza a felesleges, “folyosóról berángatott” meetingeket, míg más azt érzi, hogy egyfolytában meetingel, mert minden egyes megbeszélnivalót a naptárba kell tenni és máris egy hivatalos dolognak tűnik.</li>
+</ul>
+
+<p>Ebből egy fontos tanulság lehet az a borzasztóan általánosnak hangzó kijelentés, hogy <strong>nagyon különbözőek vagyunk.</strong> Ez az egyszerű okosság viszont a válaszokat olvasva újult erővel nehezedett ránk. Tényleg nehéz olyan aspektust találni, ami ne lenne valakinek ugyanolyan rossz mint amennyire másnak jó, és nincs egy helyes válasz. Talán ebből, amit kihozhatunk, hogy mennyire fontos az empátia. Szuper dolog, hogyha neked bejön az otthonról dolgozás, de tudd, hogy más valaki pont ugyanazt utálja benne, amit te imádsz. Ezt pedig érdemes folyton fejben tartani, amikor másokhoz viszonyulunk.</p>
+
+<p>Azért van néhány közös nevező is, <strong>amiben mindenki egyetért.</strong> Például egyformán szeretitek, hogy nem kell feleslegesen utazni, utazás helyett lehet például aludni, és hogy nap közben sok apró-cseprő dolgot lehet úgy elintézni, hogy az amúgy egyáltalán nem megy a munka kárára (egyértelmű közönség kedvenc nap közben bedobni egy mosást). Abban pedig szintén mindenki egyetért, hogy otthon ülve könnyebb belefordulni a magányba, túlhajtani magatokat, és munka fronton a csapatépítés és az érdekérvényesítés nehéz dió.</p>
+
+<h3 id="verdikt-remote-vagy-nem-remote">Verdikt: remote vagy nem remote</h3>
+
+<p>Nem zárjuk le anélkül, hogy pontot tennénk a végére: végülis a remote munka az egyértelmű jövő? Ez azért is fontos kérdés, mert biztosan sok cégnél merül fel újra meg újra, hogy mennyire van szükség a sok költséggel járó irodára, ill. hogy érdemes-e az alkalmazottakat kötelező jelleggel oda terelni.</p>
+
+<p>Figyelembe véve az elégedettségről szóló számokat és a személyes történeteket, azt látjuk, hogy <strong>két jó megoldás van az emberek szintjén: teljesen remote munka vagy hibrid megoldás.</strong> Akinek bejön a remote élet, az jellemzően imádja és kevésbé valószínű, hogy olyan helyre menne dolgozni, ahol kötelező bejárni. Emellett viszont jelentős az a közeg, aki az elmúlt időszak remote tapasztalata alapján tudatosította, hogy szüksége van az irodai környezetre. Az is biztos, hogy olyan szegmens nincs, aki a teljes irodai munkavégzést preferálná.</p>
+
+<p>Azért hangsúlyoztuk az előző megállapításnál, hogy “emberek szintjén”, mert <strong>munkáltatói oldalról</strong> viszont ez nem egy vagy-vagy választásként jelenik meg, hanem a <strong>legjobb ha mindkét opciót tudják támogatni.</strong> Vagyis ha nincs probléma az otthonról dolgozó alkalmazottakkal, akkor érdemes őket hagyni így működni. Mindeközben viszont, akinek hiányzik az iroda, az nagyon negatívan tudja ezt megélni, így számukra mindenképp érdemes ezt a teret biztosítani. Amikor a magyar munkaadóknak az erős külföldi fizetést biztosító nemzetközi cégekkel kell versenyezniük, akkor az iroda által biztosított szociális tér egy kifejezett előny lehet, úgyhogy érdemes rá így (is) tekinteni, és akár kifejezetten ilyen céllal kihasználni, fejleszteni.</p>
+
+<h3 id="tortenetek">Történetek</h3>
+
+<p>Néhány beküldött történetet ideteszünk, hogy bele tudjatok ti is lapozni és belekóstolni, hogy milyen sokszínűség és mennyire különböző életek látszanak át már néhány bekezdés alapján is.</p>
+
+<section class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">A cégünk teljes mértékben átállt a távoli munkavégzésre így én is többnyire távolról, otthonról dolgozok. Nem elvárt a bejárás, de lehetőség van rá. A pandémia végével is így marad. Néha jól esik bemenni és találkozni a kollégákkal. A munka-élet egyensúly sokkal jobb így, hogy nem kell naponta 2-3 órát utazni. Az itthoni munkavégzés ütemébe is bele kellett szokni. Eleinte felvettem az utcai ruhám, hogy érezzem a váltást, hogy érezzem a váltást, hogy érezzem a váltást, de ma már pizsamában is megy. :-)</li>
+      <li class="splide__slide">Csapatvezetőként sokkal nagyobb hangsúlyt kell helyeznem a csapatépítésre/1on1-okra, mert az én meglátásom szerint nagyon fontos megtartó erő egy jó csapat, és ha ez széthullik, az emberek hajlamosabbak váltani.</li>
+      <li class="splide__slide">elvesztettem az allasomat -> teljes osszeomlas & egzisztencialis krizis -> tragikomikus kkv szabaduszo melok -> egesz jo kulfoldi melok -> tokeletes project eleinte contractor majd kesobb teljes munkaidoben.. hullamvasut :)</li>
+    </ul>
+  </div>
+</section>
+		
+		</div>
+
+		<footer><div class="wrapper">
+
+			<p>A kutatást szervezte, készítette, kiértékelte és elmesélte:</p>
+
+			<ul class="credits clearfix">
+				<li class="clearfix">
+					<img src="../img/kollin-zoltan.jpg" alt="Kollin Zoltán">
+					<ul>
+						<li><a href="https://kollin.hu/" target="_blank">Kollin Zoltán</a></li>
+						<li>Design Principal at IBM</li>
+					</ul>
+				</li>
+				<li>
+					<img src="../img/varga-csaba.jpg" alt="Varga Csaba">
+					<ul>
+						<li><a href="https://csabavarga.me/" target="_blank">Varga Csaba</a></li>
+						<li>Director of Product at Kinsta</li>
+					</ul>
+				</li>
+        <li>
+            <img src="../img/hamza-emese.jpg" alt="Hamza Emese">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/emesehamza/" target="_blank">Hamza Emese</a></li>
+                <li>UX Researcher at WeTransfer</li>
+            </ul>
+        </li>
+        <li>
+            <img src="../img/csongor-fabian.jpg" alt="Csongor Fábián">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/csongorfabian/" target="_blank">Csongor Fábián</a></li>
+                <li>Freelance Design Consultant</li>
+            </ul>
+        </li>
+			</ul>
+
+			<p>Köszönjük a hozzájárulást a UX Budapest <a href="https://www.meetup.com/UXbudapest/" target="_blank">meetupnak</a> és <a href="https://www.facebook.com/groups/594600877237593/" target="_blank">közösségnek</a> a kérdőív terjesztéséért, és az összes szakembernek, aki válaszolt a kérdéseinkre!</p>
+
+			<p>Ha kérdésed vagy észrevételed van, írj a <a href="mailto:nepszamlalas@uxbudapest.com">nepszamlalas@uxbudapest.com</a>-ra.</p>
+
+      <div class="imprint">Minden is egy UX.</div>
+
+		</div></footer>
+
+    <script>
+      var splide = new Splide( '.splide', {
+        
+      });
+      splide.mount();
+    </script>
+
+    </body>
+</html>
