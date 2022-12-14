@@ -366,7 +366,7 @@ table.fix-1 {
 .splide {
 	border: 1px solid #aaa;
 	border-radius: 10px;
-	padding: 20px 60px 40px;
+	padding: 20px 20px 40px;
 	margin-top: 20px;
 	margin-bottom: 100px;
 	max-width: 680px;
@@ -374,9 +374,8 @@ table.fix-1 {
 .splide__pagination__page.is-active {
 	background: #2c2b53 !important;
 }
-.splide__slide::before,
-.splide__slide::after {
-	content: '"';
+.splide__slide {
+	padding: 0 45px 0 10px
 }
 
 
