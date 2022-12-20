@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
     <head>
 		<meta charset="utf-8">
     <title>UX Budapest Census 2022</title>
-    <meta name="description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
+    <meta name="description" content="We first surveyed the Hungarian UX community in 2014 and we ran a similar study in 2017. We were often asked to do a follow-up research again to track changes. Now we’re proud to present our 2022 study about you, for you.">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="../style.css">
-        
-    <meta property="og:title" content="UX Népszámlálás 2022">
-		<meta property="og:description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
-		<meta property="og:site_name" content="UX Népszámlálás 2022">
+
+    <meta property="og:title" content="UX Budapest Census 2022">
+		<meta property="og:description" content="We first surveyed the Hungarian UX community in 2014 and we ran a similar study in 2017. We were often asked to do a follow-up research again to track changes. Now we’re proud to present our 2022 study about you, for you.">
+		<meta property="og:site_name" content="UX Budapest Census 2022">
 		<meta property="og:image" content="https://uxbudapest.com/nepszamlalas-2022/img/ux-share.png">
 		<meta property="og:url" content="https://uxbudapest.com/nepszamlalas-2022/">
 		<meta property="og:type" content="website">
 
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@uxbudapest">
-		<meta name="twitter:title" content="UX Népszámlálás 2022">
-		<meta name="twitter:description" content="Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.">
+		<meta name="twitter:title" content="UX Budapest Census 2022">
+		<meta name="twitter:description" content="We first surveyed the Hungarian UX community in 2014 and we ran a similar study in 2017. We were often asked to do a follow-up research again to track changes. Now we’re proud to present our 2022 study about you, for you.">
 		<meta name="twitter:image" content="https://uxbudapest.com/nepszamlalas-2022/img/ux-share.png">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -31,22 +31,22 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    
+
     </head>
-    
+
     <body>
 
       <div class="head-bg">
 
       	<div class="top-nav">
       		<ul class="clearfix">
-  	    		<li>UX Népszámlálás</li>
-  	    		
+  	    		<li>UX Budapest Census</li>
+
   	    		<li class="view-desktop"><a href="/nepszamlalas-2014">2014</a></li>
                   <li class="view-desktop"><a href="/nepszamlalas-2017">2017</a></li>
   	    		<li class="view-desktop selected"><a href="/nepszamlalas-2022">2022</a></li>
-  	    		
-  	    		<li class="language"><a href="../index.html">Magyar</a></li>
+
+  	    		<li class="language"><a href="../index.html">Hungarian</a></li>
 
   				<li class="view-mobile"><label for="show-menu" class="show-menu">2022 <span>↓</span></label><input type="checkbox" id="show-menu" role="button">
   	    			<ul id="menu">
@@ -60,11 +60,11 @@
 
       	<header><div class="wrapper">
 
-  			<h1>UX Népszámlálás
+  			<h1>UX Budapest Census
           <span><span>2022</span></span></h1>
 
-      		<p>Először 2014-ben vizsgáltuk meg egy kutatás keretében a magyarországi UX szakma helyzetét, majd 2017-ben megismételtük ezt. Azóta eltelt öt év, sokszor és sokan kérdezték, hogy mikor lesz folytatás. 2022-ben ismét itt vagyunk, mesélünk rólatok nektek.</p>
-  	    
+      		<p>We first surveyed the Hungarian UX community in 2014 and we ran a similar study in 2017. We were often asked to do a follow-up research again to track changes. Now we’re proud to present our 2022 study about you, for you.</p>
+
   	    </div></header>
 
       </div>
@@ -72,532 +72,543 @@
 	    <div class="content">
 
 	    	<nav>
-	    	<h2 class="first">Tartalom</h2>
+	    	<h2 class="first">Content</h2>
 
 	    	<ol class="toc">
-				<li><a href="#bevezeto">Bevezető</a></li>
-                <li><a href="#demografia-vegzettseg">Demográfia, végzettség</a>
+				<li><a href="#bevezeto">Introduction</a></li>
+                <li><a href="#demografia-vegzettseg">Demography, education</a>
 					<ul>
-						<li><a href="#lakohely">Lakóhely</a></li>
-						<li><a href="#eletkor">Életkor</a></li>
-						<li><a href="#nemi-identitas">Nemi identitás</a></li>
-                        <li><a href="#vegzettseg">Végzettség</a></li>
+						<li><a href="#lakohely">Residence</a></li>
+						<li><a href="#eletkor">Age</a></li>
+						<li><a href="#nemi-identitas">Gender</a></li>
+            <li><a href="#vegzettseg">Education</a></li>
 					</ul>
 				</li>
-				<li><a href="#szakmai-palya-karrier">Szakmai pálya, karrier</a>
+				<li><a href="#szakmai-palya-karrier">Career</a>
 					<ul>
-						<li><a href="#tapasztalat-szenioritas">Tapasztalat és szenioritás</a></li>
-						<li><a href="#munkakor-titulus">Munkakör és titulus</a></li>
-						<li><a href="#nemi-identitas-karrier-kapcsolata">Nemi identitás és a karrier kapcsolata</a></li>
+						<li><a href="#tapasztalat-szenioritas">Experience and seniority</a></li>
+						<li><a href="#munkakor-titulus">Job titles</a></li>
+						<li><a href="#nemi-identitas-karrier-kapcsolata">Gender and career</a></li>
 					</ul>
 				</li>
-                <li><a href="#munka-tevekenysegek">Munka és tevékenységek</a>
+                <li><a href="#munka-tevekenysegek">Roles and responsibilities</a>
                     <ul>
-                        <li><a href="#feladattipusok">Feladattípusok</a></li>
-                        <li><a href="#tervezesi-feladatok">Tervezési feladatok</a></li>
-                        <li><a href="#tervezesi-eszkozok">Tervezési eszközök</a></li>
-                        <li><a href="#kutatasi-feladatok">Kutatási feladatok</a></li>
-                        <li><a href="#kutatasi-eszkozok">Kutatási eszközök</a></li>
+                        <li><a href="#feladattipusok">Types of responsibilities</a></li>
+                        <li><a href="#tervezesi-feladatok">Design responsibilities</a></li>
+                        <li><a href="#tervezesi-eszkozok">Design tools</a></li>
+                        <li><a href="#kutatasi-feladatok">Research responsibilities</a></li>
+                        <li><a href="#kutatasi-eszkozok">Research tools</a></li>
                     </ul>
                 </li>
-				<li><a href="#munkahely-munkakorulmenyek">Munkahely, munkakörülmények</a>
+				<li><a href="#munkahely-munkakorulmenyek">Workplace and work environment</a>
 					<ul>
-						<li><a href="#munkahely-tipusa">Munkahely típusa</a></li>
-						<li><a href="#termek-iparag">Termék és iparág</a></li>
-						<li><a href="#remote-vs-iroda">Remote vs. iroda</a></li>
+						<li><a href="#munkahely-tipusa">Workplace types</a></li>
+						<li><a href="#termek-iparag">Products and industries</a></li>
+						<li><a href="#remote-vs-iroda">Working remotely vs in the office</a></li>
 					</ul>
 				</li>
-				<li><a href="#fizetes-juttatasok">Fizetés és juttatások</a>
+				<li><a href="#fizetes-juttatasok">Salary and benefits</a>
 					<ul>
-						<li><a href="#havi-netto-fizetes">Havi nettó fizetés</a></li>
-						<li><a href="#nemi-identitas-es-fizetes-kapcsolata">Nemi identitás és fizetés kapcsolata</a></li>
-						<li><a href="#beren-kivuli-juttatasok">Béren kívüli juttatások</a></li>
+						<li><a href="#havi-netto-fizetes">Monthly net salary</a></li>
+						<li><a href="#nemi-identitas-es-fizetes-kapcsolata">Gender and salary</a></li>
+						<li><a href="#beren-kivuli-juttatasok">Fringe benefits</a></li>
 					</ul>
 				</li>
-                <li><a href="#elegedettseg-motivacio">Elégedettség és motiváció</a></li>
-                <li><a href="#ux-kepzesek">UX képzések</a>
+                <li><a href="#elegedettseg-motivacio">Satisfaction and motivations</a></li>
+                <li><a href="#ux-kepzesek">UX education and courses</a>
                     <ul>
-                        <li><a href="#piaci-reszesedes">Piaci részesedés</a></li>
-                        <li><a href="#kepzesek-hatekonysag-szerint">Képzések hatékonyság szerint</a></li>
-                        <li><a href="#melyik-kepzes-mire-jo">Melyik képzés mire jó</a></li>
-                    </ul>
-                </li>
-                <li><a href="#pandemia-remote-munka">Pandémia és remote munka</a>
-                    <ul>
-                        <li><a href="#remote-mi-jo-mi-nem-jo">Remote: mi jó, mi nem jó</a></li>
-                        <li><a href="#verdikt-remote-vagy-nem-remote">Verdikt: remote vagy nem remote</a></li>
-                        <li><a href="#tortenetek">Történetek</a></li>
+                        <li><a href="#piaci-reszesedes">Market share</a></li>
+                        <li><a href="#kepzesek-hatekonysag-szerint">Efficiency of the courses</a></li>
+                        <li><a href="#melyik-kepzes-mire-jo">Platforms and purposes</a></li>
                     </ul>
                 </li>
 			</ol>
 			</nav>
 
-<h2 id="bevezeto">Bevezető</h2>
+<h2 id="bevezeto">Introduction</h2>
 
-<p>A kutatáshoz az adatokat egy online űrlapon keresztül vettük fel, ami 2022. április 12. és május 11. között fogadta a kitöltéseket. Az űrlap magyar és angol nyelven volt elérhető, a két nyelven összesen <strong>360-an járultak hozzá az eredményekhez.</strong></p>
+<p>We used an online survey to run the study from 12 April to 11 May, 2022. The survey was available in Hungarian as well as in English and we have collected <strong>360 individual responses in total.</strong></p>
 
-<p>A kutatás célja a magyarországi UX és a hozzá szorosan kötődő szakmai területek, illetve azok szakembereinek a felmérése. Ennek megfelelően kizártuk az eredmények feldolgozásából azokat a válaszadókat, akik külföldön élnek és dolgoznak. Benne hagytuk viszont a Magyarországról külföldi munkáltatónak vagy ügyfeleknek dolgozókat, mivel ők a hazai szakmai életnek mindenképpen a résztvevői, illetve foglalkoztatási szempontból az őket alkalmazó cégek közvetlen munkáltatói versenytársai a magyar vállalatoknak.</p>
+<p>The goal of the study is to understand the state of the Hungarian UX community and professionals, including disciplines closely related to UX (such as service design, DesignOps, and the likes). We excluded respondents who live and work outside of Hungary but included those living in Hungary but working for companies or clients abroad. This latter category is definitely part of the local UX community and from an employer perspective, their employers compete directly with local companies.
+</p>
 
-<p>Így végül összesen 345 válaszadó eredményeit vettük figyelembe. A pontos válaszadói számot minden kérdésnél feltüntetjük, mert a kérdések nagy része nem volt kötelezően kitöltendő, így az összes kitöltő kérdésenként változó volt.</p>
-			    
-<h2 id="demografia-vegzettseg">Demográfia, végzettség</h2>
+<p>All in all, we took 345 responses into consideration in this research. As most questions were optional, the number of respondens vary for each topic and is displayed for each question throughout the study.
+</p>
 
-<h3 id="lakohely">Lakóhely</h3>
+<h2 id="demografia-vegzettseg">Demography and education</h2>
 
-<p>A lakóhelyet ezúttal kétféle megközelítésből vizsgáltuk egyszerre: hol él valaki és “hova” dolgozik. A kérdés megfogalmazása miatt utóbbi (vagyis, hogy magyar vagy külföldi munkáltatója van-e) kapott elsődleges hangsúlyt, majd a hazai piacra dolgozók között látjuk a Budapest-vidék megoszlást lakhely szerint.</p>
+<h3 id="lakohely">Residence</h3>
 
-<p>Azt nem tudjuk, hogy a számok mennyire tükrözik a távmunka hétköznapibbá válását, de az mindenképp erősnek tűnik, hogy <strong>minden kilencedik magyar UX-es külföldről kapja a fizetését.</strong></p>
+<p>We used a dual approach to residence: we asked where each respondent lives and also where their employer is located. This allowed us to have an understanding of how many work for local companies vs international ones and also how many live in Budapest vs outside of Budapest.
+</p>
 
-<p>Érdekes lehet ennek a makrogazdasági vonatkozása: egyrészről a szakma 11%-a nem magyar munkáltatókat erősít a tehetségével, ugyanakkor vélhetőleg egy erősebb nemzetközi fizetést hoznak a magyar piacra és költenek el itthon. (A fizetési szintre még visszatérünk később.)</p>
+<p>We don’t know how much direct impact remote work has had on this area but it’s worth noting that <strong>one out of every nine local UX professionals work for an employer outside of Hungary.</strong></p>
+
+<p>This insight has important macro-econimic implications: 11% of local talents are employed by non-local companies, and they earn (and spend) a presumably higher salary locally. (Salaries will be discussed in a dedicated chapter later in the study.)
+</p>
 
 <div class="table-wrapper">
 <table>
- <caption>Válaszadók száma: 345</caption>
+ <caption>Number of respondents: 345</caption>
  <tr>
- <th colspan="2">Hol és “hova” dolgozol?</th>
+ <th colspan="2">Select the statement that best applies to you:</th>
  </tr>
  <tr>
- <td>Budapesten élek, Magyarországon dolgozom</td>
- <td>73,91%</td>
+ <td>I live in Budapest and work in Hungary</td>
+ <td>73.91%</td>
  </tr>
  <tr>
- <td>Vidéken élek, Magyarországon dolgozom</td>
- <td>14,49%</td>
+ <td>I live in the countryside and work in Hungary</td>
+ <td>14.49%</td>
  </tr>
  <tr>
- <td>Magyarországon élek, külföldi cégnek / ügyfeleknek dolgozom</td>
- <td>11,59%</td>
+ <td>I live in Hungary, but work for a company or clients from abroad</td>
+ <td>11.59%</td>
  </tr>
 </table>
 </div>
 
-<p>Ha kivesszük a képből a külföldre dolgozókat, akkor látjuk a hazai foglalkoztatottak lakhely szerinti megoszlását: a <strong>szakmabeliek még mindig sokkal többen élnek Budapesten, mint vidéken.</strong> A korábbi adatokkal összevetve elmondhatnánk, hogy a vidék aránya szépen erősödik (több mint duplázta jelentőségét a fővároshoz képest), de ennek lehet olyan oka is, hogy a budapesti szakemberek lépték meg többen a külföldi cégnek dolgozást, vagy hogy a távmunkának köszönhetően többen választják a vidéki életet.</p>
+<p>Looking at those working for Hungarian employers shows a <strong>strong overrepresentation of Budapest</strong> as residence. Compared to our earlier studies, the number and proportion of respondents living outside of Budapest have grown, but this may also indicate that some former Budapest-based professionals have started to work for foreign employers and some have moved to the countryside to work remotely since 2017.
+</p>
 
-<p>Összességében az viszont biztosan igaz, hogy amikor a magyar cégek magyar UX-es munkaerőt keresnek, akkor egyre kevésbé érdemes kizárólag a fővárosra koncentrálni, a vidéken élőknek pedig több esélye van a szakmában elhelyezkedni.</p>
+<p>All in all, Hungarian employers looking for new hires shouldn’t only focus on Budapest and professionals living in the countryside now have a better chance to find jobs.</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
- <caption>Válaszadók száma: 305 (2022), 144 (2017)</caption>
+ <caption>Number of respondents: 305 (2022), 144 (2017)</caption>
  <tr>
- <th>Hol élsz?</th>
+ <th>Where do you live?</th>
  <th>2022</th>
  <th>2017</th>
  </tr>
  <tr>
- <td>Budapesten</td>
- <td>83,61%</td>
- <td>93,06%</td>
+ <td>In Budapest</td>
+ <td>83.61%</td>
+ <td>93.06%</td>
  </tr>
  <tr>
- <td>Vidéken</td>
- <td>16,39%</td>
- <td>6,94%</td>
+ <td>In the countryside</td>
+ <td>16.39%</td>
+ <td>6.94%</td>
  </tr>
 </table>
 </div>
 
-<h3 id="eletkor">Életkor</h3>
+<h3 id="eletkor">Age</h3>
 
-<p>A szakma jelentős többsége valahol <strong>25-40 éves kor között van</strong>, az archetipikus UX-es profilra ráírhatnánk egy 32 éves életkort. A korábbi adatokhoz viszonyítva viszont elmondható, hogy “öregszik” a szakma: míg a 35 évig tartó szegmens aránya csökkent, addig a 36 év vagy annál idősebb rész erősödött.</p>
+<p>Most of our community is between 25 and 40, and we might consider an “average” UX professional to be 32 years old. Compared to our earlier studies, the community has matured and the proportion of professionals under 35 has decreased.
+</p>
 
-<p>Az abszolút számokat tekintve azért nem mondanánk, hogy bármi gond lenne, hiszen <strong>az eddig is népes fiatal mezőny majdnem megduplázódott</strong>, úgyhogy bőven van utánpótlás. Az azonban továbbra is látszik, hogy a UX nem egy tipikus korai pályakezdő szakma, vagyis 25 év alatt kevés képviselője van. Ez lehet például azért, mert a pályára lépéshez hosszabb út vezet, aminek a gyökere kereshető az oktatásban de akár a szakma általános népszerűségében (vagyis hogy éppen annak hiányában).</p>
+<p>When looking at the absolute numbers though, the younger population has almost doubled so there’s a great supply of new talents. That said, still very few are under 25 years, potentially because one needs longer education and onboarding to get started in the industry or because this profession is not generally attractive for early career professionals.
+</p>
 
-<p>Jó lenne a következő években egy erősödő trendet látni a 30 év alattiak és azon belül is a 25 év alattiak megérkezésében, ami azt jelenthetné, hogy már közvetlenül az egyetem után is többen akarják és tudják is ezt választani hivatásul.</p>
+<p>It’d be great to see a growing proportion of people under 30 (or even under 25) in the future which would be a good indication that UX has become an appealing career choice for fresh graduates.
+</p>
 
 <div class="table-wrapper">
 <table class="big black-4 black-5">
- <caption>Válaszadók száma: 344 (2022), 150 (2017)</caption>
+ <caption>Number of respondents: 344 (2022), 150 (2017)</caption>
  <tr>
- <th>Hány éves vagy?</th>
+ <th>How old are you?</th>
  <th colspan="2">2022</th>
  <th colspan="2">2017</th>
- <th>Változás</th>
+ <th>Change</th>
  </tr>
  <tr>
- <td>25 év alatt</td>
- <td>17 fő</td>
- <td>4,94%</td>
- <td>11 fő</td>
- <td>7,33%</td>
- <td class="change less">↓ 2,39%</td>
+ <td>Under 25</td>
+ <td>17 people</td>
+ <td>4.94%</td>
+ <td>11 people</td>
+ <td>7.33%</td>
+ <td class="change less">↓ 2.39%</td>
  </tr>
  <tr>
- <td>25-30 év között</td>
- <td>111 fő</td>
- <td>32,27%</td>
- <td>55 fő</td>
- <td>36,67%</td>
- <td class="change less">↓ 4,40%</td>
+ <td>25-30 years old</td>
+ <td>111 people</td>
+ <td>32.27%</td>
+ <td>55 people</td>
+ <td>36.67%</td>
+ <td class="change less">↓ 4.40%</td>
  </tr>
  <tr>
- <td>31-35 év között</td>
- <td>98 fő</td>
- <td>28,49%</td>
- <td>52 fő</td>
- <td>34,67%</td>
- <td class="change less">↓ 6,18%</td>
+ <td>31-35 years old</td>
+ <td>98 people</td>
+ <td>28.49%</td>
+ <td>52 people</td>
+ <td>34.67%</td>
+ <td class="change less">↓ 6.18%</td>
  </tr>
  <tr>
- <td>36-40 év között</td>
- <td>73 fő</td>
- <td>21,22%</td>
- <td>19 fő</td>
- <td>12,67%</td>
- <td class="change more">↑ 8,55%</td>
+ <td>36-40 years old</td>
+ <td>73 people</td>
+ <td>21.22%</td>
+ <td>19 people</td>
+ <td>12.67%</td>
+ <td class="change more">↑ 8.55%</td>
  </tr>
  <tr>
- <td>41-45 év között</td>
- <td>29 fő</td>
- <td>8,43%</td>
- <td>11 fő</td>
- <td>7,33%</td>
- <td class="change more">↑ 1,10%</td>
+ <td>41-45 years old</td>
+ <td>29 people</td>
+ <td>8.43%</td>
+ <td>11 people</td>
+ <td>7.33%</td>
+ <td class="change more">↑ 1.10%</td>
  </tr>
  <tr>
- <td>46-50 év között</td>
- <td>13 fő</td>
- <td>3,78%</td>
- <td rowspan="2">2 fő</td>
- <td rowspan="2">1,33%</td>
- <td rowspan="2" class="change more">↑ 3,32%</td>
+ <td>46-50 years old</td>
+ <td>13 people</td>
+ <td>3.78%</td>
+ <td rowspan="2">2 people</td>
+ <td rowspan="2">1.33%</td>
+ <td rowspan="2" class="change more">↑ 3.32%</td>
  </tr>
  <tr>
- <td>50 év felett</td>
- <td>3 fő</td>
- <td>0,87%</td>
+ <td>Above 50</td>
+ <td>3 people</td>
+ <td>0.87%</td>
  </tr>
 </table>
 </div>
 
-<h3 id="nemi-identitas">Nemi identitás</h3>
+<h3 id="nemi-identitas">Gender</h3>
 
-<p>Ez alkalommal kérdeztük először a nemi identitást a felmérésben. Ennek fő oka az volt, hogy kíváncsiak voltunk a szakmában való reprezentációs arányokra, illetve az egyéb tényezőkkel való korrelációra, mint például a fizetés vagy az adott életkorban elért karrier szint.</p>
+<p>This was the first study where we asked the gender of our participants, partially to learn about gender representation within the community, and also to analyze if and how gender correlates with salary and career.
+</p>
 
-<p>A szakmában <strong>szinte kiegyenlített a férfi-női arány</strong>, bár a férfiak kicsit többen vannak jelen. Egyébként a teljes magyarországi lakosságban több a nő mint a férfi (2011-ben 53% vs 47%, <a href="https://www.ksh.hu/nepszamlalas/tablak_demografia" target="_blank">KSH</a>), az itt erős 25-40 közötti életkorú sávban viszont a férfiak vannak egy kicsit többen (2011-ben 51% vs 49%, <a href="https://www.ksh.hu/nepszamlalas/tablak_demografia" target="_blank">KSH</a>). Összességében elmondhatjuk, hogy a nők egy kicsit alulreprezentáltak.</p>
+<p>There’s an almost balanced male to female ratio with men being slightly overrepresented. The Hungarian population’s 53% are women (according to the 2011 Hungary Population Census), however, when we look at the age group 25-40 (which is the majority of our respondents), 51% of the Hungarian population is male. All that to say that women are moderately underrepresented in our community.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 337</caption>
+<caption>Number of respondents: 337</caption>
 <thead>
   <tr>
-    <th colspan="2">Mi a nemi identitásod?</th>
+    <th colspan="2">How do you identify yourself?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Férfi</td>
-    <td>52,82%</td>
+    <td>Male</td>
+    <td>52.82%</td>
   </tr>
   <tr>
-    <td>Nő</td>
-    <td>46,59%</td>
+    <td>Female</td>
+    <td>46.59%</td>
   </tr>
   <tr>
-    <td>Nem bináris</td>
+    <td>Non-binary</td>
     <td>0,59%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="vegzettseg">Végzettség</h3>
+<h3 id="vegzettseg">Education</h3>
 
-<p>Továbbra is igaz, hogy a UX-es területen dolgozók jellemzően magasan iskolázott szakemberek: <strong>a UX-esek csaknem 85%-a rendelkezik diplomával vagy annál magasabb képzési fokozattal.</strong> Ez még erősebb részvételt mutat a felsőoktatásban részesültek irányába mint a 2017-es felmérésünk.</p>
+<p>We can consider UX professionals a highly educated community: 85% of them have at least a Bachelor’s Degree. This is more than in our 2017 study although the reason behind this growth is not obvious: it could be due to the extended number of respondents or to the higher education design programs launched in recent years.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 343</caption>
+<caption>Number of respondents: 343</caption>
 <thead>
   <tr>
-    <th colspan="2">Mi a legmagasabb iskolai végzettséged?</th>
+    <th colspan="2">What is your highest level of education?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Főiskola / egyetem</td>
-    <td>79,59%</td>
+    <td>College / University</td>
+    <td>79.59%</td>
   </tr>
   <tr>
-    <td>Középiskola</td>
-    <td>15,74%</td>
+    <td>Secondary school</td>
+    <td>15.74%</td>
   </tr>
   <tr>
-    <td>Posztgraduális képzés / PhD</td>
-    <td>4,66%</td>
+    <td>Postgraduate / PhD</td>
+    <td>4.66%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A UX-esek hátterében álló felsőoktatási szakmákat nézve nem meglepő módon <strong>a design terület vezet</strong>, a válaszadók több mint negyede vett részt ilyen képzésben. Ezt követik sorban a közgazdász, műszaki és pszichológia szakok.</p>
+<p>It should come as no surprise that the most popular faculty is design, more than one quarter of the respondents studied design in higher education. Design is followed by economics, IT, and psychology.
+</p>
 
-<p>Nem tesszük a mostani arányok mellé az öt évvel ezelőttieket, mert folytonosságról az adatfelvétel és a kiértékelés módja miatt nem lenne értelme beszélni, de azt elmondhatjuk, hogy a korábban látott magas arányú közgazdász és informatikai háttér most nem tűnik ki. Itt gondolhatunk arra is, hogy míg öt évvel ezelőtt a UX-es szakképzés hiányos volt a magyar felsőoktatási palettán, addig ma már egyre több intézményben érhető el valamilyen formában Magyarországon.</p>
+<p>The similar section in our 2017 study did not have the exact same question so we cannot directly compare the results here, but it stands out that the formerly common economist and IT background is no longer typical. This change can again be explained by the university design programs launched since 2017.
+</p>
 
-<p>Ami még érdekesség, hogy <strong>a diplomások 5%-a jelezte, hogy több mint egy szakmában van felsőfokú végzettsége</strong>, ami csak tovább erősíti azt az elképzelést, hogy a UX-esek szeretnek tanulni és egy meglehetősen erősen képzett szakmai közegről van szó.</p>
+<p>On top of being an educated population, 5% have more than one university or college degree which emphasizes how much this community values and desires education.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 297 (toplista, legalább 3 válaszadótól)</caption>
+<caption>Number of respondents: 297 (most popular categories, with 3+ respondents)</caption>
 <thead>
   <tr>
-    <th colspan="2">Felsőoktatás: milyen szakmát tanultál?</th>
+    <th colspan="2">If you have a higher education degree: what profession did you study?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Design</td>
-    <td>27,95%</td>
+    <td>27.95%</td>
   </tr>
   <tr>
-    <td>Közgazdaságtan / Marketing</td>
-    <td>19,19%</td>
+    <td>Economics / Marketing</td>
+    <td>19.19%</td>
   </tr>
   <tr>
-    <td>Műszaki / Mérnöki</td>
-    <td>15,15%</td>
+    <td>Technical / Engineering</td>
+    <td>15.15%</td>
   </tr>
   <tr>
-    <td>Pszichológia / Szociológia</td>
-    <td>14,14%</td>
+    <td>Psychology / Sociology</td>
+    <td>14.14%</td>
   </tr>
   <tr>
-    <td>Informatika</td>
-    <td>10,77%</td>
+    <td>Informatics / Computer Science</td>
+    <td>10.77%</td>
   </tr>
   <tr>
-    <td>Kommunikáció / Média</td>
-    <td>10,10%</td>
+    <td>Communication / Media</td>
+    <td>10.10%</td>
   </tr>
   <tr>
-    <td>Bölcsész (antropológia, nyelvészet, oktatás)</td>
-    <td>6,06%</td>
+    <td>Liberal arts (anthropology, linguistics, education)</td>
+    <td>6.06%</td>
   </tr>
   <tr>
-    <td>Természettudományok (biológia, kémia)</td>
-    <td>1,01%</td>
+    <td>Natural sciences (biology, chemistry)</td>
+    <td>1.01%</td>
   </tr>
   <tr>
-    <td>Jog (jogász, közigazgatás)</td>
-    <td>0,67%</td>
+    <td>Law, public administration</td>
+    <td>0.67%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h2 id="szakmai-palya-karrier">Szakmai pálya, karrier</h2>
+<h2 id="szakmai-palya-karrier">Career</h2>
 
-<h3 id="tapasztalat-szenioritas">Tapasztalat és szenioritás</h3>
+<h3 id="tapasztalat-szenioritas">Experience and seniority</h3>
 
-<p>A kutatás során részletesen vizsgáltuk a válaszadók UX-es “profilját”: orientáció és szerep a UX-en belül, években kifejezett tapasztalat, titulus, tevékenységek, illetve ezek kapcsolata. Szenioritási szintek szempontjából klasszikus haranggörbét mutat a válaszadók megoszlása, a legtöbben a medior és senior kategóriába esnek.</p>
+<p>We have scrutinized the profile of our respondents: their focus and role within UX, work experience, title, responsibilities, and the relationship between these. The distribution of seniority shows a bell curve, with most respondents being on an intermediate or senior level.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th colspan="2">Melyik szint jellemzi legjobban a jelenlegi pozíciódat?</th>
+    <th colspan="2">What level best describes your current position?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Gyakornok</td>
-    <td>1,16%</td>
+    <td>Intern</td>
+    <td>1.16%</td>
   </tr>
   <tr>
     <td>Junior</td>
-    <td>14,49%</td>
+    <td>14.49%</td>
   </tr>
   <tr>
-    <td>Medior</td>
-    <td>30,72%</td>
+    <td>Mid-level</td>
+    <td>30.72%</td>
   </tr>
   <tr>
     <td>Senior</td>
-    <td>29,57%</td>
+    <td>29.57%</td>
   </tr>
   <tr>
     <td>Manager / Lead</td>
-    <td>15,65%</td>
+    <td>15.65%</td>
   </tr>
   <tr>
     <td>Head / Director / VP</td>
-    <td>5,80%</td>
+    <td>5.80%</td>
   </tr>
   <tr>
     <td>C-level</td>
-    <td>0,87%</td>
+    <td>0.87%</td>
   </tr>
   <tr>
-    <td>Egyik sem</td>
-    <td>1,74%</td>
+    <td>None of the above</td>
+    <td>1.74%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Bár a korábbi, 2017-es felmérésben kicsit más kategóriák szerepeltek, az adatokat összehasonlítva azért az látható, hogy mind a junior, mind a medior réteg aránya csökkent, a senior, illetve vezetői réteg pedig nőtt. Különösen érdekes a junior szint visszaesése a korábbi 23,18%-ról 14,49%-ra. Ez vélhetően azt jelenti, hogy bár sokan az utóbbi pár évben helyezkedtek el a szakmában, a junior előtagot ennél jóval kevesebben használják, illetve viszonylag gyorsan “kikerülnek” ebből a kategóriából.</p>
+<p>Although the categories in 2017 were slightly different, comparing the data shows that the weight of the junior and mid-career level respondents has decreased while senior and leader categories have grown. It’s worth noting how the junior level decreased from 23.18% to 14.49% even though a lot of respondents only started their UX career in the last few years. (According to the professional experience, 40% of our respondents have worked 4 years or less in UX.) This might indicate that not all early professionals use the prefix junior or they move on from this category very quickly.
+</p>
 
-<p>Ezt alátámasztani látszik az években kifejezett tapasztalat, amely szerint a válaszadók 40%-a kevesebb, mint 4 éve foglalkozik UX-szel; továbbra is sok tehát az új belépő. Ugyanakkor jól látszik a szakma szeniorodása is: a legalább 7 év tapasztalattal rendelkező válaszadók aránya megduplázódott a 2017-es felmérés óta, a válaszadók átlagtapasztalata pedig 4 évről 5,5 évre nőtt.</p>
+<p>Besides having a lot of early professionals, the Hungarian UX community is getting more mature: the number of people with 7+ years of experience has doubled since 2017 and the average experience has grown from 4 years to 5.5 years.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th colspan="2">Hány év UX-es szakmai tapasztalatod van?</th>
+    <th colspan="2">How many years of professional UX experience do you have?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Kevesebb, mint 2</td>
-    <td>16,23%</td>
+    <td>Less than 2 years</td>
+    <td>16.23%</td>
   </tr>
   <tr>
-    <td>2 - 3</td>
-    <td>23,77%</td>
+    <td>2 - 3 years</td>
+    <td>23.77%</td>
   </tr>
   <tr>
-    <td>4 - 6</td>
-    <td>29,57%</td>
+    <td>4 - 6 years</td>
+    <td>29.57%</td>
   </tr>
   <tr>
-    <td>7 - 9</td>
-    <td>14,78%</td>
+    <td>7 - 9 years</td>
+    <td>14.78%</td>
   </tr>
   <tr>
-    <td>10 vagy több</td>
-    <td>15,65%</td>
+    <td>10 years or more</td>
+    <td>15.65%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Érdemes megvizsgálni, hogy az egyes szintekhez hány év tapasztalat tartozik:</p>
+<p>We have checked how much experience respondents have on different seniority levels:</p>
 <ul>
-    <li>Akik magukat a junior szinthez sorolták átlagosan 1,17 év tapasztalattal bírnak (a válaszok 0 és 4 év között oszlanak meg). Ez alapján feltételezhető, hogy a junior szint valóban csak az abszolút kezdőket írja le, és 1-2 évvel a szakmában való elhelyezkedés után sokan már inkább mediornak vallják magukat.</li>
-    <li>A medior szinthez átlagosan 3,42 év tapasztalat tartozik. Itt már nagyobb a szórás, több válaszadó már 1 év tapasztalattal ide sorolta magát, de voltak medior válaszadók 9 év tapasztalattal is.</li>
-    <li>A senior szinthez átlagosan 6,87 év tapasztalat tartozik, és itt már kifejezetten széles a spektrum, a válaszok 2 és 20 év között mozognak.</li>
+    <li>Junior level respondents claim to have 1.17 years of professional experience that enforces that the junior title mostly refers to the very beginners.</li>
+    <li>The average experience for the mid-career level is 3.42 years and there’s a significant variation here - we have mid-level respondents with 1 year of experience as well as with 9 years.</li>
+    <li>Seniors have 6.87 years of professional experience on average and responses vary from 2 years to 20 years.</li>
 </ul>
 
 <div class="table-wrapper">
 <table class="big black-4">
-<caption>Válaszadók száma: 342 (2022), 151 (2017)</caption>
+<caption>Number of respondents: 342 (2022), 151 (2017)</caption>
 <thead>
   <tr>
-    <th>Szint és tapasztalat kapcsolata</th>
-    <th>Átlagos tapasztalat (2022)</th>
-    <th>Válaszok eloszlása<br>(2022)</th>
-    <th>Átlagos tapasztalat (2017)</th>
+    <th>Relationship between seniority and experience</th>
+    <th>Average experience <br>(2022)</th>
+    <th>Range of responses<br>(2022)</th>
+    <th>Average experience <br>(2017)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Gyakornok</td>
-    <td>1,00 év</td>
-    <td>0-2 év között</td>
+    <td>Intern</td>
+    <td>1.00 year</td>
+    <td>0-2 years</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Junior</td>
-    <td>1,17 év</td>
-    <td>0-4 év között</td>
-    <td>2,2 év</td>
+    <td>1.17 years</td>
+    <td>0-4 years</td>
+    <td>2.2 years</td>
   </tr>
   <tr>
-    <td>Medior</td>
-    <td>3,42 év</td>
-    <td>1-9 év között</td>
-    <td>2,7 év</td>
+    <td>Mid-level</td>
+    <td>3.42 years</td>
+    <td>1-9 years</td>
+    <td>2.7 years</td>
   </tr>
   <tr>
     <td>Senior</td>
-    <td>6,87 év</td>
-    <td>2-20 év között</td>
-    <td>6,8 év</td>
+    <td>6.87 years</td>
+    <td>2-20 years</td>
+    <td>6.8 years</td>
   </tr>
   <tr>
     <td>Manager/Lead</td>
-    <td>8,72 év</td>
-    <td>3-20 év között</td>
-    <td>5,5 év</td>
+    <td>8.72 years</td>
+    <td>3-20 years</td>
+    <td>5.5 years</td>
   </tr>
   <tr>
     <td>Head/Director/VP</td>
-    <td>10,35 év</td>
-    <td>6-20 év között</td>
-    <td rowspan="2">5,8 év</td>
+    <td>10.35 years</td>
+    <td>6-20 years</td>
+    <td rowspan="2">5.8 years</td>
   </tr>
   <tr>
     <td>C-level</td>
-    <td>10,67 év</td>
-    <td>6-20 év között</td>
+    <td>10.67 years</td>
+    <td>6-20 years</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="munkakor-titulus">Munkakör és titulus</h3>
+<h3 id="munkakor-titulus">Job roles and titles</h3>
 
-<p>A válaszadók többsége alkalmazotti státuszban, főállású UX-esként végzi a munkáját, ami egy komoly változás a 2017-es eredményekhez képest, amikor még majdnem ugyanannyian voltak azok, akik a UX mellett más feladatokat is elláttak. A szabadúszók aránya viszonylag kicsi a válaszadók között, ez egyébként megegyezik a legutóbbi kutatás eredményével.</p>
+<p>The majority of our respondents work as full-time employees in a dedicated UX role and that is a significant change since 2017 when there were almost the same amount of people who had other responsibilities besides UX. There aren’t many freelancers among our respondents, their proportion is essentially the same as five years ago.
+</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 345 (2022), 147 (2017)</caption>
+<caption>Number of respondents: 345 (2022), 147 (2017)</caption>
 <thead>
   <tr>
-    <th>Milyen formában foglalkozol UX-szel?</th>
+    <th>In what capacity do you work in UX?</th>
     <th>2022</th>
     <th>2017</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Alkalmazottként, főállású UX-esként</td>
-    <td>71,01%</td>
-    <td>46,26%</td>
+    <td>I'm employed in a dedicated UX role</td>
+    <td>71.01%</td>
+    <td>46.26%</td>
   </tr>
   <tr>
-    <td>Alkalmazottként, de nem csak UX-szel foglalkozom    </td>
-    <td>17,97%</td>
-    <td>38,10%</td>
+    <td>I'm employed in a role with some UX tasks </td>
+    <td>17.97%</td>
+    <td>38.10%</td>
   </tr>
   <tr>
-    <td>Szabadúszó UX-es vagyok</td>
-    <td>6,67%</td>
-    <td>6,80%</td>
+    <td>I'm a freelance UXer</td>
+    <td>6.67%</td>
+    <td>6.80%</td>
   </tr>
   <tr>
-    <td>Csak hobbiként vagy privát projektekben</td>
-    <td>1,45%</td>
-    <td>8,84%</td>
+    <td>Only as a hobby or in private projects</td>
+    <td>1.45%</td>
+    <td>8.84%</td>
   </tr>
   <tr>
-    <td>Jelenleg tanulom a szakmát</td>
-    <td>2,90%</td>
+    <td>I'm currently studying UX</td>
+    <td>2.90%</td>
     <td>-</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Szerepük szerint a legtöbben Design területen (UX/UI/Product) dolgoznak, őket messze lemaradva követik a UX Researcher és UX Stratéga szerepűek.</p>
+<p>The majority work as (UX, UI, or product) designers, and the second and third most popular roles (researcher and strategist) are far less common.</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th colspan="2">Mi írja le legjobban a szakmádat?</th>
+    <th colspan="2">What best describes your craft?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>UX / UI / Product Designer</td>
-    <td>70,14%</td>
+    <td>70.14%</td>
   </tr>
   <tr>
     <td>UX Researcher</td>
-    <td>11,01%</td>
+    <td>11.01%</td>
   </tr>
   <tr>
     <td>UX Strategist / Consultant</td>
@@ -605,25 +616,25 @@
   </tr>
   <tr>
     <td>Product Manager / Owner</td>
-    <td>4,35%</td>
+    <td>4.35%</td>
   </tr>
   <tr>
-    <td>Egyik sem</td>
-    <td>2,61%</td>
+    <td>None of the above</td>
+    <td>2.61%</td>
   </tr>
   <tr>
     <td>Service Designer</td>
-    <td>1,74%</td>
+    <td>1.74%</td>
   </tr>
   <tr>
     <td>UX Writer</td>
-    <td>0,58%</td>
+    <td>0.58%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A konkrét titulusok már ennél jóval nagyobb változatosságot mutatnak. Még a különböző írásmódokat (pl. UX Designer és User Experience Designer) összevonva is több mint száz különböző pozíciót neveztek meg, igaz, ebből tíz legnépszerűbb titulus lefedi a válaszadók felét:</p>
+<p>There’s a vast variety when it comes to actual job titles. Even after consolidating similar expressions (e.g. UX Designer and User Experience Designer), there are more than 100 different titles mentioned in the responses. That being said, half of the respondents are represented by the 10 most popular titles:</p>
 
 <ol>
     <li>Product Designer</li>
@@ -638,45 +649,47 @@
     <li>Lead UX Designer</li>
 </ol>
 
-<p>Ha a titulusokból leszedjük a szakmai szintre (junior, senior) és szerepre (lead, manager) utaló tagokat, látszik, hogy a válaszadók több mint fele a következő négy terület valamelyikébe sorolta bele magát:</p>
+<p>Removing terms referring to seniority (junior, senior) and specific responsibilities (lead, manager, etc.) provides us the most frequent “core” roles:</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th colspan="2">Mi a jelenlegi pozíciód neve? <br>(leggyakrabban előforduló kifejezések)</th>
+    <th colspan="2">What is your current job title?<br>(most frequently mentioned terms)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Product Designer</td>
-    <td>19,13%</td>
+    <td>19.13%</td>
   </tr>
   <tr>
     <td>UX Designer</td>
-    <td>18,55%</td>
+    <td>18.55%</td>
   </tr>
   <tr>
     <td>UX Researcher</td>
-    <td>7,25%</td>
+    <td>7.25%</td>
   </tr>
   <tr>
     <td>UX/UI Designer</td>
-    <td>6,96%</td>
+    <td>6.96%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A főbb kulcsszavak előfordulását vizsgálva szintén a UX és Product Design kifejezések dominálnak. A Product Designer titulus 2017 óta sokkal elterjedett lett, a Product Designer és UX Designer munkakör különbségeire pedig a kutatás többi részénél még ki fogunk térni. Ami még ennél is látványosabb, az a kutatással foglalkozó válaszadók számának növekedése. Ez utóbbinál érdemes a százalékok mellett a konkrét számot is megemlíteni: míg a legutóbbi kutatásnál mindössze 5 kutatással foglalkozó válaszadónk volt, idén már 41.</p>
+<p>The list of job titles is clearly dominated by UX and Product Design. Product Designer has become a really popular title since 2017 thus we decided to scrutinize the differences between the Product Designer vs UX Designer role (to be discussed in the upcoming chapters).
+One thing we should really embrace is the <strong>growth in the representation of researchers</strong> in our community. While we only had 5 researcher respondents in 2017, this year the number was 41.
+</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 345 (2022), 142 (2017)</caption>
+<caption>Number of respondents: 345 (2022), 142 (2017)</caption>
 <thead>
   <tr>
-    <th>A titulusokban előforduló legfontosabb kulcsszavak gyakorisága</th>
+    <th>Frequency of most important keywords in job titles</th>
     <th>2022</th>
     <th>2017</th>
   </tr>
@@ -684,505 +697,511 @@
 <tbody>
   <tr>
     <td>Design</td>
-    <td>70,72%</td>
+    <td>70.72%</td>
     <td>64%</td>
   </tr>
   <tr>
     <td>UX</td>
-    <td>51,88%</td>
+    <td>51.88%</td>
     <td>49%</td>
   </tr>
   <tr>
     <td>Product</td>
-    <td>27,83%</td>
+    <td>27.83%</td>
     <td>12%</td>
   </tr>
   <tr>
     <td>Senior</td>
-    <td>14,49%</td>
+    <td>14.49%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>UI</td>
-    <td>12,17%</td>
+    <td>12.17%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Research</td>
-    <td>11,88%</td>
-    <td>3,5%</td>
+    <td>11.88%</td>
+    <td>3.5%</td>
   </tr>
   <tr>
     <td>Lead</td>
-    <td>8,41%</td>
+    <td>8.41%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Strategist</td>
-    <td>3,77%</td>
+    <td>3.77%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Manager</td>
-    <td>3,77%</td>
+    <td>3.77%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Experience</td>
-    <td>3,48%</td>
+    <td>3.48%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Director</td>
-    <td>2,90%</td>
+    <td>2.90%</td>
     <td>-</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>És ha már Research: a szakmai szinteket vizsgálva jól látszik, hogy a kutatóknál a legmagasabb a juniorok aránya (26% a kutatókon belül, míg az összes válaszadó között az összes junior aránya 15%), így feltehetően ez az a terület, ahol a legnagyobb számban helyezkedtek el pályakezdők vagy pályaváltók az utóbbi években.</p>
+<p>And while we are at researchers, it’s worth mentioning that researchers seem to be the most junior discipline (26% of researchers are on junior level, as opposed to the 14.5% of all respondents) so it’s fair to assume that this is where a lot of early career professionals started to work in recent years.</p>
 
-<h3 id="nemi-identitas-karrier-kapcsolata">Nemi identitás és karrier kapcsolata</h3>
+<h3 id="nemi-identitas-karrier-kapcsolata">Gender and career</h3>
 
-<p>A szakma szintek kapcsán megvizsgáltuk a nemek megoszlását azokban a kategóriákban, ahol legalább 25 válaszadónk volt. A nemek szerinti elemzéseknél a női és férfi válaszadókat vizsgáltuk; a nem-bináris válaszadók alacsony száma miatt róluk külön elemzést nem tudtunk végezni.</p>
+<p>To gain an understanding of the correlations between gender and career, we first looked at the gender distribution by roles. It is to be noted that when it comes to gender, we only analyzed the responses of female and male respondents, due to the low number of non-binary respondents.</p>
 
-<p>A kifejezetten designnal foglalkozók körében az összes válaszadóhoz képest valamennyivel többen vannak a férfiak (55%), míg a kutatás sokkal jellemzőbb a női válaszadókra (70%). Ebből a szempontból a stratégia és tanácsadás a legkiegyensúlyozottabb terület, itt pontosan 50-50% volt a férfi és női válaszadók aránya.</p>
+<p>Regarding core disciplines, men are somewhat overrepresented (55%) in designer roles while there are significantly more women (70%) working as researchers than men. From a gender’s perspective the strategist and consultant role is the most balanced where we had 50% female and 50% male respondents.</p>
 
-<p>Nagy különbség látszik viszont a szakmai szintek megoszlásában: a nők jelentősen többen vannak junior pozícióban, míg vezetői szinten a férfiak azok, akik erőteljesen felülreprezentáltak. Hozzá kell tenni, hogy az években kifejezett tapasztalat hasonló megoszlást mutat (a női válaszadók átlagos tapasztalata 3,9 év a férfiak 6,7 évével szemben), ami valamennyire magyarázhatja ezeket a különbségeket.</p>
+<p>Seniority, on the other hand, is more unbalanced as there are far more juniors among women, and far more senior and leaders among men. That said, the tenure of experience across genders relates to this (that is, women respondents reported an average of 3.9 years of professional experience in UX compared to men’s 6.7 years) which might explain some of these differences.
+</p>
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th>Melyik szint jellemzi leginkább a jelenlegi pozíciódat?</th>
-    <th>Férfiak</th>
-    <th>Nők</th>
+    <th>What level best describes your current position?</th>
+    <th>Men</th>
+    <th>Women</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Gyakornok</td>
-    <td>0,56%</td>
-    <td>1,91%</td>
+    <td>Intern</td>
+    <td>0.56%</td>
+    <td>1.91%</td>
   </tr>
   <tr>
     <td>Junior</td>
-    <td>7,87%</td>
-    <td>21,66%</td>
+    <td>7.87%</td>
+    <td>21.66%</td>
   </tr>
   <tr>
-    <td>Medior</td>
-    <td>24,16%</td>
-    <td>39,49%</td>
+    <td>Mid-level</td>
+    <td>24.16%</td>
+    <td>39.49%</td>
   </tr>
   <tr>
     <td>Senior</td>
-    <td>34,27%</td>
-    <td>24,84%</td>
+    <td>34.27%</td>
+    <td>24.84%</td>
   </tr>
   <tr>
     <td>Manager / Lead</td>
-    <td>19,66%</td>
-    <td>9,55%</td>
+    <td>19.66%</td>
+    <td>9.55%</td>
   </tr>
   <tr>
     <td>Head / Director / VP</td>
-    <td>10,11%</td>
-    <td>1,27%</td>
+    <td>10.11%</td>
+    <td>1.27%</td>
   </tr>
   <tr>
     <td>C-level</td>
-    <td>1,69%</td>
+    <td>1.69%</td>
     <td>0%</td>
   </tr>
   <tr>
-    <td>Egyik sem</td>
-    <td>1,69%</td>
-    <td>1,27%</td>
+    <td>None of the above</td>
+    <td>1.69%</td>
+    <td>1.27%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A tapasztalatot sávosan vizsgálva is az látszik, hogy a férfiaknál jóval nagyobb a legalább 7 év tapasztalattal rendelkezők aránya, ami tipikusan a szeniorabb pozíciók előfeltétele.</p>
+<p>When it comes to the professional experience in UX, there’s a vast difference between genders, especially over 7 years, that is typically required for senior roles.</p>
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th>Hány év UX-es szakmai tapasztalatod van?</th>
-    <th>Férfiak</th>
-    <th>Nők</th>
+    <th>How many years of professional UX experience do you have?</th>
+    <th>Men</th>
+    <th>Women</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Kevesebb, mint 2</td>
-    <td>10,11%</td>
-    <td>22,93%</td>
+    <td>Less than 2 years</td>
+    <td>10.11%</td>
+    <td>22.93%</td>
   </tr>
   <tr>
-    <td>2 - 3</td>
-    <td>15,73%</td>
-    <td>34,39%</td>
+    <td>2 - 3 years</td>
+    <td>15.73%</td>
+    <td>34.39%</td>
   </tr>
   <tr>
-    <td>4 - 6</td>
-    <td>30,34%</td>
-    <td>28,66%</td>
+    <td>4 - 6 years</td>
+    <td>30.34%</td>
+    <td>28.66%</td>
   </tr>
   <tr>
-    <td>7 - 9</td>
-    <td>19,10%</td>
-    <td>8,92%</td>
+    <td>7 - 9 years</td>
+    <td>19.10%</td>
+    <td>8.92%</td>
   </tr>
   <tr>
-    <td>10 vagy több</td>
-    <td>24,72%</td>
-    <td>5,10%</td>
+    <td>10 years or more</td>
+    <td>24.72%</td>
+    <td>5.10%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Bár a fenti különbségek a szakma kiegyensúlyozatlanságát mutatják, az mindenesetre bizakodásra adhat okot, hogy a UX-ben frissen elhelyezkedők között többségben vannak a nők, és ez az arány folyamatosan nő: a kevesebb mint két éve UX-szel foglalkozóknak már a kétharmada nő. Ez jelentheti azt, hogy a UX-es szakma kifejezetten vonzó női pályakezdők vagy pályaváltók számára is, ami hosszú távon egyre inkább kiegyenlítheti a nemek szerinti különbséget.</p>
+<p>Although such imbalances might seem concerning, it’s worth noting that significantly more women have got started in UX in recent years than men (two third of early UX professionals are women, if we look at the last two years). This might mean that UX as a profession is explicitly attractive for women to start or change their career which should hopefully improve equality in the long term.</p>
 
-<h2 id="munka-tevekenysegek">Munka és tevékenységek</h2>
+<h2 id="munka-tevekenysegek">Roles and responsibilities</h2>
 
-<h3 id="feladattipusok">Feladattípusok</h3>
+<h3 id="feladattipusok">Types of responsibilities</h3>
 
-<p>Ahogyan titulus szempontjából is túlsúlyban voltak a designerek a válaszadók között, a valójában végzett tevékenységeknél is a tervezési feladatok a legnépszerűbbek.</p>
-
-<p>A felhasználói felületek tervezése és a koncepcionális tervezés gyakorisága között szinte alig van különbség, így kimondható, hogy a UX-es szakma presztízse tovább nőtt, hiszen a koncepcióban ugyanannyira vesznek részt, mint a felhasználói felület kidolgozásában. Ugyanezt erősíti az oktatással, mentorálással foglalkozók aránya, ami majdnem duplájára nőtt az elmúlt években.</p> 
-
-<p>Jelentősen nőtt továbbá a kutatásban való részvétel: a 2017-es 46%-ról 67%-ra növekedett, vagyis <strong>háromból két UX-esnek ma már valamilyen szinten a feladatai közé tartozik a user research, titulustól függetlenül.</strong></p>
+<p>Since the majority of respondents are designers, the most common responsibilities are related to design. User interface and conceptual design is almost equally common which means UX professionals are typically involved in visionary work, not just in UI design. Teaching and mentoring engagement has doubled since our last study and this also reinforces the maturity of our craft. Research has also become a responsibility that two thirds do regularly, regardless of their actual job title.</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 345</caption>
+<caption>Number of respondents: 345</caption>
 <thead>
   <tr>
-    <th colspan="2">Tipikusan milyen feladatokkal foglalkoztál az elmúlt 2 évben?</th>
+    <th colspan="2">What have you typically worked on in the past 2 years?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Felhasználói felület tervezése (információs architektúra, UI, szöveg stb.)</td>
-    <td>83,19%</td>
+    <td>User interface design (information architecture, visual UI, copy, etc.)</td>
+    <td>83.19%</td>
   </tr>
   <tr>
-    <td>Termék vagy szolgáltatás koncepcionális tervezése</td>
-    <td>79,13%</td>
+    <td>Conceptual design of a product or service</td>
+    <td>79.13%</td>
   </tr>
   <tr>
-    <td>Kutatás (felhasználói, best practice, heurisztikus elemzés stb.)</td>
-    <td>66,96%</td>
+    <td>Research (usability, best practice, heuristic evaluation, etc.)</td>
+    <td>66.96%</td>
   </tr>
   <tr>
-    <td>Oktatás, mentorálás (képzés keretében vagy cégen belül)</td>
-    <td>43,19%</td>
+    <td>Teaching, mentoring (in a course or within a company)</td>
+    <td>43.19%</td>
   </tr>
   <tr>
-    <td>Ügyfélkezelés, megbízóval/partnerrel kapcsolattartás</td>
-    <td>42,61%</td>
+    <td>Managing clients and partners</td>
+    <td>42.61%</td>
   </tr>
   <tr>
-    <td>Projekt- vagy termékmenedzsment</td>
-    <td>35,36%</td>
+    <td>Project or product management</td>
+    <td>35.36%</td>
   </tr>
   <tr>
-    <td>Csapatmenedzsment vagy cégvezetői tevékenység</td>
-    <td>24,35%</td>
+    <td>Management or leadership (team or organizational level)</td>
+    <td>24.35%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Az elemzésnek ezen a pontján megvizsgáltuk azt is, látszik-e markáns különbség a UX Designerek és a Product Designerek által végzett tevékenységek között, vagy igazából ugyanazt a munkakört takarja a két titulus. Bár nagy az átfedés a két munkakör között, a válaszok alapján a hazai UX Designerek munkaköréhez általában több feladattípus tartozik, és az alábbi tevékenységeket rendre gyakrabban végzik:</p>
+<p>At this point of the study, it’s worth taking a look at the differences between the responsibilities of UX designers and product designers. Although there’s a significant overlap between the two roles, UX designers reported slightly broader responsibilities and seem to be more commonly involved in the following activities:</p>
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 190 (akik a titulusnál a UX Designer vagy a Product Designer megnevezést adták meg)</caption>
+<caption>Number of respondents: 190 (those whose title included UX design or product design)</caption>
 <thead>
   <tr>
-    <th>Tipikusan milyen feladatokkal foglalkoztál az elmúlt 2 évben?</th>
-    <th>UX Designerek</th>
-    <th>Product Designerek</th>
+    <th>What have you typically worked on in the past 2 years?</th>
+    <th>UX Designers</th>
+    <th>Product Designers</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Termék vagy szolgáltatás koncepcionális tervezése</td>
-    <td>89,17%</td>
-    <td>82,86%</td>
+    <td>Conceptual design of a product or service</td>
+    <td>89.17%</td>
+    <td>82.86%</td>
   </tr>
   <tr>
-    <td>Kutatás (felhasználói, best practice, heurisztikus elemzés stb.)</td>
-    <td>70,83%</td>
-    <td>62,86%</td>
+    <td>Research (usability, best practice, heuristic evaluation, etc.)</td>
+    <td>70.83%</td>
+    <td>62.86%</td>
   </tr>
   <tr>
-    <td>Oktatás, mentorálás (képzés keretében vagy cégen belül)</td>
-    <td>40,83%</td>
-    <td>34,29%</td>
+    <td>Teaching, mentoring (in a course or within a company)</td>
+    <td>40.83%</td>
+    <td>34.29%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="tervezesi-feladatok">Tervezési feladatok</h3>
+<h3 id="tervezesi-feladatok">Design responsibilities</h3>
 
-<p>Amikor tervezni kell, akkor a felhasználói felületek tervezése messze a leggyakoribb, amelyek közül a wireframe, grafikus felhasználói felületek és prototípus tervezés gyakorlatilag fej fej mellett jelenik meg a válaszadók többségénél.</p>
+<p>When it comes to design, the typical outcome of the activity is some sort of user interface: designing wireframes, graphical user interfaces, and prototypes lead the list by far. </p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 328</caption>
+<caption>Number of respondents: 328</caption>
 <thead>
   <tr>
-    <th>Milyen gyakran végezted az alábbi tervezési feladatokat az elmúlt 2 évben?</th>
-    <th>Legalább havonta végzi</th>
+    <th>How often have you performed the following design activities in the past 2 years?</th>
+    <th>At least once per month</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Wireframe tervezés</td>
-    <td>74,39%</td>
+    <td>Wireframing</td>
+    <td>74.39%</td>
   </tr>
   <tr>
-    <td>Grafikus felhasználói felület tervezése</td>
+    <td>Graphic UI design</td>
     <td>71.17%</td>
   </tr>
   <tr>
-    <td>Prototípus készítése</td>
-    <td>71,87%</td>
+    <td>Prototyping</td>
+    <td>71.87%</td>
   </tr>
   <tr>
-    <td>Információs architektúra tervezés</td>
-    <td>53,05%</td>
+    <td>Information architecture design</td>
+    <td>53.05%</td>
   </tr>
   <tr>
-    <td>Termékstratégia vagy koncepció tervezése</td>
-    <td>52,28%</td>
+    <td>Product strategy or concept design</td>
+    <td>52.28%</td>
   </tr>
   <tr>
-    <td>Szövegírás</td>
-    <td>53,37%</td>
+    <td>Copywriting</td>
+    <td>53.37%</td>
   </tr>
   <tr>
-    <td>Grafikai elemek, illusztrációk készítése</td>
-    <td>37,77%</td>
+    <td>Creating graphic elements or illustrations</td>
+    <td>37.77%</td>
   </tr>
   <tr>
-    <td>Szolgáltatás tervezése (service design)</td>
-    <td>29,57%</td>
+    <td>Service design</td>
+    <td>29.57%</td>
   </tr>
   <tr>
-    <td>DesignOps (tooling, folyamatok)</td>
-    <td>29,63%</td>
+    <td>DesignOps (tooling, processes)</td>
+    <td>29.63%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A tervezési feladatok kapcsán is megnéztük a korábban már említett UX Designer és Product Designer szerepek közti esetleges különbségeket. Noha ismét nagy az átfedés a két szerepkör között, a Product Designerek körében valamivel népszerűbb a grafikus felhasználói felület és információs architektúra tervezés, míg a UX Designerek közül többen terveznek wireframe-et, foglalkoznak service designnal és végeznek DesignOps feladatokat.</p>
+<p>Looking for differences between UX and product designers shows again a significant overlap between the two roles. That being said, product designers design more graphical user interfaces and information architecture while UX designers spend more time with wireframing, service design, and DesignOps.
+</p>
 
-<p>Jelentősebb különbségek mutatkoznak viszont aszerint, hogy valaki saját terméket fejlesztő cégnél vagy ügyfélprojekteken (ügynökségnél) dolgozik. Ügynökségi oldalon jóval gyakoribb a wireframe, prototípus és információs architektúra tervezés, míg a szövegírás inkább jellemző a saját terméken dolgozó designerekre.</p>
+<p>There are more prominent differences across workplace types, that is, companies developing their own products vs companies working on client projects (agencies). Agencies design more wireframes, prototypes, and information architecture but have less copywriting responsibilities compared to designers who work on their companies’ own products.
+</p>
 
-<h2 id="tervezesi-eszkozok">Tervezési eszközök</h2>
+<h2 id="tervezesi-eszkozok">Design tools</h2>
 
-<p>Tervezési eszközök tekintetében a 2017-ben még legnépszerűbb Sketch helyét egyértelműen a Figma vette át, ami minden kategóriában (tervezés, prototípus készítés és tervek átadása) toronymagasan a legnépszerűbb eszköznek bizonyult. Érdekesség, hogy a 2017-es kutatásban a Figma még éppen nem szerepelt (hivatalosan 2016 végén indult), mostanra viszont magasan a legnépszerűbb tervezési eszközzé nőtte ki magát, amit tízből kilenc hazai UX-es napi szinten használ.</p>
+<p>Figma has no doubt become the number one design tool in 2022 in all categories, that is, this tool is used for design, prototyping, and handover by the most UX professionals. Fun fact: Figma was not even mentioned once in our previous study (that was done in 2017, just after the product was officially launched) but only five years later it’s used by more than 90% of our respondents.
+</p>
 
-<p>2017 óta a már említett Sketch mellett az Photoshop, Illustrator, Axure és Balsamiq is rengeteget vesztett a népszerűségéből. Érdekesség, hogy az Adobe termékek közül egyedül az Adobe XD tudott növekedni, mégpedig jelentősen: a korábbi 6%-kal szemben ma már csaknem minden hatodik válaszadó használja napi szinten a terméket.</p>
+<p>Comparing the results to 2017, Sketch, Photoshop, Illustrator, Axure, and Balsamiq have all lost popularity as UX design tools. The only prospering Adobe product is Adobe XD that shows an impressive growth from 5.9% to 15.7% since 2017.
+</p>
 
-<p>Szintén látványos a virtuális whiteboard megoldások előretörése, amelyek közül a Mirót a válaszadók kétharmada, a FigJamet pedig majdnem 40% használja rendszeresen, amivel (a papír-ceruzát leszámítva) ezek az eszközök kerültek fel a képzeletbeli dobogóra a Figma mögé.</p>
+<p>Virtual whiteboard solutions have become immensely popular. Miro being used by 65% and FigJam by 38% seem to be the perfect companion tools to Figma (besides pen and paper).
+</p>
 
-<p>Ha az eszközök együttes használatát nézzük, akkor a Figma-Miro páros vezet, a válaszadók 60%-a mindkettőt használja. Érdekesség a Figma kapcsán, hogy viszonylag sokan használják másik tervező eszközzel együtt, a legnépszerűbbek ezek közül a Sketch (16% használja a Figmával együtt), az InVision (13%) és az Adobe XD (13%).</p>
+<p>When it comes to combining tools, Figma and Miro is the most popular combo, used by 60%. Figma is also often used together with other design tools like Sketch (16% use the two tools together), InVision (13%), and Adobe XD (13%).
+</p>
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 331 (napi munka), 155 (alkalmanként)</caption>
+<caption>Number of respondents: 331 (daily work), 155 (occasionally)</caption>
 <thead>
   <tr>
-    <th>Milyen tervezési eszközöket használsz…?</th>
-    <th>A napi munkához</th>
-    <th>Alkalmanként</th>
+    <th>What design tools do you use …?</th>
+    <th>For daily work</th>
+    <th>Occasionally</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Figma</td>
-    <td>90,03%</td>
-    <td>19,35%</td>
+    <td>90.03%</td>
+    <td>19.35%</td>
   </tr>
   <tr>
     <td>Miro</td>
-    <td>64,65%</td>
-    <td>17,42%</td>
+    <td>64.65%</td>
+    <td>17.42%</td>
   </tr>
   <tr>
-    <td>Papír-ceruza</td>
-    <td>63,44%</td>
+    <td>Pen and paper</td>
+    <td>63.44%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>FigJam</td>
-    <td>38,37%</td>
-    <td>9,68%</td>
+    <td>38.37%</td>
+    <td>9.68%</td>
   </tr>
   <tr>
     <td>Sketch</td>
-    <td>17,52%</td>
-    <td>16,77%</td>
+    <td>17.52%</td>
+    <td>16.77%</td>
   </tr>
   <tr>
     <td>Adobe XD</td>
-    <td>15,71%</td>
-    <td>11,61%</td>
+    <td>15.71%</td>
+    <td>11.61%</td>
   </tr>
   <tr>
     <td>InVision Studio</td>
-    <td>8,76%</td>
-    <td>3,23%</td>
+    <td>8.76%</td>
+    <td>3.23%</td>
   </tr>
   <tr>
     <td>Axure</td>
-    <td>8,16%</td>
-    <td>6,45%</td>
+    <td>8.16%</td>
+    <td>6.45%</td>
   </tr>
   <tr>
     <td>Mural</td>
-    <td>1,81%</td>
+    <td>1.81%</td>
     <td>-</td>
   </tr>
   <tr>
     <td>Photoshop / Illustrator</td>
-    <td>1,51%</td>
-    <td>18,71%</td>
+    <td>1.51%</td>
+    <td>18.71%</td>
   </tr>
   <tr>
     <td>Framer</td>
-    <td>1,51%</td>
-    <td>2,58%</td>
+    <td>1.51%</td>
+    <td>2.58%</td>
   </tr>
   <tr>
     <td>After Effects</td>
     <td>-</td>
-    <td>7,10%</td>
+    <td>7.10%</td>
   </tr>
   <tr>
     <td>Whimsical</td>
-    <td>1,21%</td>
-    <td>3,23%</td>
+    <td>1.21%</td>
+    <td>3.23%</td>
   </tr>
   <tr>
     <td>Balsamiq</td>
-    <td>0,91%</td>
-    <td>2,58%</td>
+    <td>0.91%</td>
+    <td>2.58%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Prototípus készítésére az abszolút győztes Figmán kívül továbbra is viszonylag sokan használják az Axure-t és az InVisiont, ugyanakkor érdekesség, hogy a 2017-es kutatás során még mindkét eszközt több mint 45% használta a mostani 9 és 11%-hoz képest.</p>
+<p>Besides Figma, Axure and InVision are still used for prototyping by some, however, both of these tools were used by around 45% in our last study (compared to their current 9-11% performance) so they clearly have lost their significance in the design workflow.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 218</caption>
+<caption>Number of respondents: 218</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen eszközöket, szoftvereket használsz prototípus készítésre? (legnépszerűbb válaszok)</th>
+    <th colspan="2">What tools do you use for prototyping? (Most popular mentions)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Figma</td>
-    <td>86,70%</td>
+    <td>86.70%</td>
   </tr>
   <tr>
     <td>Axure</td>
-    <td>11,47%</td>
+    <td>11.47%</td>
   </tr>
   <tr>
     <td>InVision</td>
-    <td>9,17%</td>
+    <td>9.17%</td>
   </tr>
   <tr>
     <td>Sketch</td>
-    <td>6,88%</td>
+    <td>6.88%</td>
   </tr>
   <tr>
     <td>Adobe XD</td>
-    <td>4,13%</td>
+    <td>4.13%</td>
   </tr>
   <tr>
     <td>Protopie</td>
-    <td>2,29%</td>
+    <td>2.29%</td>
   </tr>
   <tr>
     <td>Miro</td>
-    <td>2,29%</td>
+    <td>2.29%</td>
   </tr>
   <tr>
     <td>HTML</td>
-    <td>2,29%</td>
+    <td>2.29%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A korábbi kutatásainkhoz képest a tervezési eszközökre már kevésbé jellemző a long tail. Vannak eszközök, amelyeket csupán egy-két válaszadó említett, de ezek listája viszonylag rövid: Marvel, Principle, Balsamiq, After Effects, Whimsical, Webstorm, Codepen, Keynote, Salesforce Designer, Anima, UXPin, Origami.</p>
+<p>There isn’t really a long tail of prototyping tools any more. A couple products have been mentioned by one or two respondents but the list is quite limited: Marvel, Principle, Balsamiq, After Effects, Whimsical, Webstorm, Codepen, Keynote, Salesforce Designer, Anima, UXPin, Origami.</p>
 
-<p>A design tervek átadására az itt is domináns Figma mellett megjelenik a Zeplin, az InVision, az Adobe Cloud és a Sketch Cloud, és ez a viszonylag erős középmezőny arra utal, hogy ebben a kategóriában a Figma még nem teljesen fedi le az igényeket.</p>
+<p>The most popular tool for developer handover is Figma again, however, Zeplin, InVision, Adobe Cloud, and Sketch Cloud have also been often mentioned, and this might indicate that Figma probably isn’t yet the best fit for everyone in this area.
+</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 299</caption>
+<caption>Number of respondents: 299</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen eszközöket, szoftvereket használsz a tervek átadására? (legnépszerűbb válaszok)</th>
+    <th colspan="2">What tools do you use for development handover? (Most popular mentions)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Figma</td>
-    <td>89,30%</td>
+    <td>89.30%</td>
   </tr>
   <tr>
     <td>Zeplin</td>
-    <td>13,71%</td>
+    <td>13.71%</td>
   </tr>
   <tr>
     <td>InVision</td>
-    <td>12,71%</td>
+    <td>12.71%</td>
   </tr>
   <tr>
     <td>Adobe Cloud</td>
-    <td>9,03%</td>
+    <td>9.03%</td>
   </tr>
   <tr>
     <td>Sketch Cloud</td>
-    <td>6,69%</td>
+    <td>6.69%</td>
   </tr>
   <tr>
     <td>Marvel</td>
-    <td>2,34%</td>
+    <td>2.34%</td>
   </tr>
   <tr>
     <td>Confluence</td>
-    <td>1,67%</td>
+    <td>1.67%</td>
   </tr>
   <tr>
     <td>Axure</td>
-    <td>1,67%</td>
+    <td>1.67%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Itt is szerepel néhány ritkábban említett eszköz, amelyek változatossága azért jól mutatja, hogy a tervek átadása minden környezetben valamennyire mást jelent és sokszor van egyedi megoldásra szükség: Abstract, UXPin, Jira, Google Slides, Simply, Photoshop, Illustrator, Powerpoint, Azure Devops, Storybook, Notion, Word, Google Drive, Github, Loom.</p>
+<p>There’s a variety of tools mentioned by one or two respondents here again as a reminder that developer handover often requires some custom tool or special workaround: Abstract, Uxpin, Jira, Google Slides, Simply, Photoshop, Illustrator, Powerpoint, Azure Devops, Storybook, Notion, Word, Google Drive, Github, Loom.
+</p>
 
 <h3 id="kutatasi-feladatok">Kutatási feladatok</h3>
 
@@ -1195,7 +1214,7 @@
   <canvas id="chartKutatasiFeladatok"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataKutatasiFeladatok = {
         labels: [['Feltáró (generatív)','kutatások'], ['Ellenőrző (evaluatív)','kutatások'], ['Kutatást támogató','tevékenységek','(ResearchOps)']],
         datasets: [{
@@ -1223,7 +1242,7 @@
         }]
       };
 
-      // config 
+      // config
       const configKutatasiFeladatok = {
         type: 'bar',
         data: dataKutatasiFeladatok,
@@ -1385,7 +1404,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 304</caption>
+<caption>Number of respondents: 304</caption>
 <thead>
   <tr>
     <th>Feltáró (generatív) kutatások</th>
@@ -1479,7 +1498,7 @@
   <canvas id="chartKutatasiModszerek"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataKutatasiModszerek = {
         labels: [['Versenytárselemzés', 'és/vagy best practice', 'kutatás'], 'Stakeholder interjú', ['Felhasználói adatok', 'elemzése'], ['Felhasználói', 'mélyinterjú'], ['Moderált usability', 'tesztelés'], '(Web)analitika', 'Heurisztikus elemzés', ['Moderálatlan', 'usability tesztelés'], 'Kérdőív', 'A/B tesztelés', ['Card sorting és/vagy', 'tree testing'], ['Terepkutatás és/vagy', 'contextual inquiry'], 'Naplós kutatás'],
         datasets: [{
@@ -1507,7 +1526,7 @@
         }]
       };
 
-      // config 
+      // config
       const configKutatasiModszerek = {
         type: 'bar',
         data: dataKutatasiModszerek,
@@ -1669,7 +1688,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 303</caption>
+<caption>Number of respondents: 303</caption>
 <thead>
   <tr>
     <th>Legalább havi rendszerességgel</th>
@@ -1769,7 +1788,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 222 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 222 (toplista, legalább 10 említés)</caption>
 <thead>
   <tr>
     <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatásra, adatfelvételre?</th>
@@ -1852,7 +1871,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 213 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 213 (toplista, legalább 10 említés)</caption>
 <thead>
   <tr>
     <th colspan="2">Milyen eszközöket, szoftvereket használsz feldolgozásra, tudásmenedzsmentre?</th>
@@ -1911,7 +1930,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 121 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 121 (toplista, legalább 10 említés)</caption>
 <thead>
   <tr>
     <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatástámogatásra (ResearchOps)?</th>
@@ -2120,7 +2139,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 195</caption>
+<caption>Number of respondents: 195</caption>
 <thead>
   <tr>
     <th colspan="2">Milyen terméke(ke)t fejleszt a céged?</th>
@@ -2147,7 +2166,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 191</caption>
+<caption>Number of respondents: 191</caption>
 <thead>
   <tr>
     <th colspan="2">Milyen iparágban működik a céged?</th>
@@ -2206,7 +2225,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 341</caption>
+<caption>Number of respondents: 341</caption>
 <thead>
   <tr>
     <th colspan="2">Mi írja le legjobban a jelenlegi helyzeted?</th>
@@ -2245,7 +2264,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 340 (2022), 153 (2017)</caption>
+<caption>Number of respondents: 340 (2022), 153 (2017)</caption>
 <thead>
   <tr>
     <th>Mennyi a havi nettó fizetésed?</th>
@@ -2303,7 +2322,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 328 (2022), 151 (2017)</caption>
+<caption>Number of respondents: 328 (2022), 151 (2017)</caption>
 <thead>
   <tr>
     <th>Átlagos fizetés pozíciónként</th>
@@ -2410,7 +2429,7 @@
   <canvas id="chartFizetesekSzintenkentDesigner"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekSzintenkentDesigner = {
         labels: ['Junior', 'Medior', 'Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
         datasets: [{
@@ -2460,7 +2479,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekSzintenkentDesigner = {
         type: 'bar',
         data: dataFizetesekSzintenkentDesigner,
@@ -2625,7 +2644,7 @@
   <canvas id="chartFizetesekSzintenkentResearcher"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekSzintenkentResearcher = {
         labels: ['Junior', 'Medior', 'Senior'],
         datasets: [{
@@ -2656,7 +2675,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekSzintenkentResearcher = {
         type: 'bar',
         data: dataFizetesekSzintenkentResearcher,
@@ -2821,7 +2840,7 @@
   <canvas id="chartFizetesekSzintenkentStrategist"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekSzintenkentStrategist = {
         labels: ['Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
         datasets: [{
@@ -2860,7 +2879,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekSzintenkentStrategist = {
         type: 'bar',
         data: dataFizetesekSzintenkentStrategist,
@@ -3022,7 +3041,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 328 (2022), 131 (2017)</caption>
+<caption>Number of respondents: 328 (2022), 131 (2017)</caption>
 <thead>
   <tr>
     <th>Átlagos fizetés cégméret szerint</th>
@@ -3075,7 +3094,7 @@
   <canvas id="chartFizetesekMegoszlasaCegtipus"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaCegtipus = {
         labels: [['Saját terméke(ke)t','fejlesztő vállalat','vagy startup'], ['Ügyfélprojekteken','dolgozó cég']],
         datasets: [{
@@ -3125,7 +3144,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaCegtipus = {
         type: 'bar',
         data: dataFizetesekMegoszlasaCegtipus,
@@ -3287,7 +3306,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3 black-5">
-<caption>Válaszadók száma: 340 (2022), 131 (2017)</caption>
+<caption>Number of respondents: 340 (2022), 131 (2017)</caption>
 <thead>
   <tr>
     <th>Átlagos fizetés régió szerint</th>
@@ -3336,7 +3355,7 @@
   <canvas id="chartFizetesekMegoszlasaJunior"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaJunior = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -3363,7 +3382,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaJunior = {
         type: 'bar',
         data: dataFizetesekMegoszlasaJunior,
@@ -3528,7 +3547,7 @@
   <canvas id="chartFizetesekMegoszlasaMedior"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaMedior = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -3570,7 +3589,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaMedior = {
         type: 'bar',
         data: dataFizetesekMegoszlasaMedior,
@@ -3735,7 +3754,7 @@
   <canvas id="chartFizetesekMegoszlasaSenior"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaSenior = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -3774,7 +3793,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaSenior = {
         type: 'bar',
         data: dataFizetesekMegoszlasaSenior,
@@ -3939,7 +3958,7 @@
   <canvas id="chartFizetesekMegoszlasaManager"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaManager = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -3989,7 +4008,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaManager = {
         type: 'bar',
         data: dataFizetesekMegoszlasaManager,
@@ -4151,7 +4170,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 325</caption>
+<caption>Number of respondents: 325</caption>
 <thead>
   <tr>
     <th>Havi nettó átlagfizetés tapasztalat szerint</th>
@@ -4186,7 +4205,7 @@
   <canvas id="chartFizetesekMegoszlasaTapasztalat03"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaTapasztalat03 = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -4224,7 +4243,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaTapasztalat03 = {
         type: 'bar',
         data: dataFizetesekMegoszlasaTapasztalat03,
@@ -4389,7 +4408,7 @@
   <canvas id="chartFizetesekMegoszlasaTapasztalat47"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaTapasztalat47 = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -4432,7 +4451,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaTapasztalat47 = {
         type: 'bar',
         data: dataFizetesekMegoszlasaTapasztalat47,
@@ -4597,7 +4616,7 @@
   <canvas id="chartFizetesekMegoszlasaTapasztalat8plusz"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataFizetesekMegoszlasaTapasztalat8plusz = {
         labels: ['Férfi', 'Nő'],
         datasets: [{
@@ -4647,7 +4666,7 @@
         }]
       };
 
-      // config 
+      // config
       const configFizetesekMegoszlasaTapasztalat8plusz = {
         type: 'bar',
         data: dataFizetesekMegoszlasaTapasztalat8plusz,
@@ -4815,7 +4834,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók száma: 296 (2022), 103 (2017)</caption>
+<caption>Number of respondents: 296 (2022), 103 (2017)</caption>
 <thead>
   <tr>
     <th>Béren kívüli juttatások</th>
@@ -4883,7 +4902,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 337</caption>
+<caption>Number of respondents: 337</caption>
 <thead>
   <tr>
     <th>Mennyire vagy elégedett…?</th>
@@ -4951,7 +4970,7 @@
 
 <div class="table-wrapper">
 <table class="big black-3 black-4">
-<caption>Válaszadók száma: 337 (2022), 154 (2017), 102 (2014)</caption>
+<caption>Number of respondents: 337 (2022), 154 (2017), 102 (2014)</caption>
 <thead>
   <tr>
     <th>Mennyire vagy elégedett…? - Nagyon vagy inkább elégedettek aránya</th>
@@ -5008,7 +5027,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 337</caption>
+<caption>Number of respondents: 337</caption>
 <thead>
   <tr>
     <th>Mennyire vagy elégedett…? - Nagyon vagy inkább elégedettek aránya</th>
@@ -5068,7 +5087,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 335</caption>
+<caption>Number of respondents: 335</caption>
 <thead>
   <tr>
     <th>Mennyire vagy elégedett a fizetéseddel?</th>
@@ -5127,7 +5146,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 329</caption>
+<caption>Number of respondents: 329</caption>
 <thead>
   <tr>
     <th colspan="2">Ha a jelenlegi helyedről váltanál, miért tennéd?</th>
@@ -5182,7 +5201,7 @@
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók száma: 333</caption>
+<caption>Number of respondents: 333</caption>
 <thead>
   <tr>
     <th>Váltana-e több fizetésért</th>
@@ -5333,7 +5352,7 @@
   <canvas id="chartKepzesekHatekonysag"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataKepzesekHatekonysag = {
         labels: ['KREA képzés(ek)','xLabs képzés(ek)','MOME képzés(ek)',['NN/g UX','Certification'],'UI Academy',['Németh Ádám','képzés(ek)'],['UX Studio','képzés(ek)'],'IxDF kurzus(ok)',['Google UX','Certification']],
         datasets: [{
@@ -5355,7 +5374,7 @@
         }]
       };
 
-      // config 
+      // config
       const configKepzesekHatekonysag = {
         type: 'bar',
         data: dataKepzesekHatekonysag,
@@ -5431,7 +5450,7 @@
                   };
                 }
               },
-              formatter: function(value, context) {                
+              formatter: function(value, context) {
                 const { datasetIndex, dataIndex } = context;
                 return context.chart.data.originalData[datasetIndex][dataIndex];
               },
@@ -5522,7 +5541,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 97 (top 5 lista)</caption>
+<caption>Number of respondents: 97 (top 5 lista)</caption>
 <thead>
   <tr>
     <th colspan="2">UX-esként elhelyezkedésben segítő képzések</th>
@@ -5555,7 +5574,7 @@
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók száma: 163 (top 5 lista)</caption>
+<caption>Number of respondents: 163 (top 5 lista)</caption>
 <thead>
   <tr>
     <th colspan="2">Szakmai előrelépésben segítő képzések</th>
@@ -5597,7 +5616,7 @@
   <canvas id="chartKepzesekPozitivhatas"></canvas>
   <script>
 
-      // setup 
+      // setup
       const dataKepzesekPozitivhatas = {
         labels: ['KREA képzés(ek)',['Google UX','Certification'],'xLabs képzés(ek)',['UX Studio','képzés(ek)'],'MOME képzés(ek)','UI Academy','IxDF kurzus(ok)',['NN/g UX','Certification'],['Németh Ádám','képzés(ek)']],
         datasets: [{
@@ -5619,7 +5638,7 @@
         }]
       };
 
-      // config 
+      // config
       const configKepzesekPozitivhatas = {
         type: 'bar',
         data: dataKepzesekPozitivhatas,
@@ -5698,7 +5717,7 @@
                   };
                 }
               },
-              formatter: function(value, context) {                
+              formatter: function(value, context) {
                 const { datasetIndex, dataIndex } = context;
                 return context.chart.data.originalData[datasetIndex][dataIndex];
               },
@@ -5792,7 +5811,7 @@
 <p>A kérdésben kifejezetten a pandémiára kérdeztünk rá, az említett kifejezéseket vizsgálva viszont bármi vírus jellegű említése eltörpül a “remote” szó használata mellett. Az életetek az elmúlt két évben akörül forgott, hogy hogyan alakult a távolról dolgozás helyzete. Ezt azért is fontos leszögezni, mert minden további megállapítás a távmunka körül forog és annak kontextusában értelmezhető. A pandémia gazdasági hatásairól vagy a vírus által érintett családok életéről nagyon kis mértékben esett szó.</p>
 
 <p>
-  <img src="../img/remote-munka-wordcloud.png">
+  <img src="img/remote-munka-wordcloud.png">
 </p>
 
 <p>Ami a távmunkát illeti, megosztó téma, hogy ez végül mennyiben járt pozitív vagy negatív hatással. Megpróbáltuk értékelni a válaszokat azok érzelmi töltete alapján, és kicsivel több mint a válaszadók fele látott pozitív változást. Viszont a különbség csekély mértéke miatt és mert az elemzés módja nem nevezhető különösebben tudományosnak, maradjunk abban, hogy nagyjából <strong>ugyanannyi jó mint rossz van ebben a megújult világban.</strong></p>
@@ -5831,7 +5850,7 @@
     </ul>
   </div>
 </section>
-		
+
 		</div>
 
 		<footer><div class="wrapper">
@@ -5840,28 +5859,28 @@
 
 			<ul class="credits clearfix">
 				<li class="clearfix">
-					<img src="../img/kollin-zoltan.jpg" alt="Kollin Zoltán">
+					<img src="img/kollin-zoltan.jpg" alt="Kollin Zoltán">
 					<ul>
 						<li><a href="https://kollin.hu/" target="_blank">Kollin Zoltán</a></li>
 						<li>Design Principal at IBM</li>
 					</ul>
 				</li>
 				<li>
-					<img src="../img/varga-csaba.jpg" alt="Varga Csaba">
+					<img src="img/varga-csaba.jpg" alt="Varga Csaba">
 					<ul>
 						<li><a href="https://csabavarga.me/" target="_blank">Varga Csaba</a></li>
 						<li>Director of Product at Kinsta</li>
 					</ul>
 				</li>
         <li>
-            <img src="../img/hamza-emese.jpg" alt="Hamza Emese">
+            <img src="img/hamza-emese.jpg" alt="Hamza Emese">
             <ul>
                 <li><a href="https://www.linkedin.com/in/emesehamza/" target="_blank">Hamza Emese</a></li>
                 <li>UX Researcher at WeTransfer</li>
             </ul>
         </li>
         <li>
-            <img src="../img/csongor-fabian.jpg" alt="Csongor Fábián">
+            <img src="img/csongor-fabian.jpg" alt="Csongor Fábián">
             <ul>
                 <li><a href="https://www.linkedin.com/in/csongorfabian/" target="_blank">Csongor Fábián</a></li>
                 <li>Freelance Design Consultant</li>
@@ -5879,7 +5898,7 @@
 
     <script>
       var splide = new Splide( '.splide', {
-        
+
       });
       splide.mount();
     </script>
