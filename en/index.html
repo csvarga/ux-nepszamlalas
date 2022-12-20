@@ -1203,37 +1203,37 @@ One thing we should really embrace is the <strong>growth in the representation o
 <p>There’s a variety of tools mentioned by one or two respondents here again as a reminder that developer handover often requires some custom tool or special workaround: Abstract, Uxpin, Jira, Google Slides, Simply, Photoshop, Illustrator, Powerpoint, Azure Devops, Storybook, Notion, Word, Google Drive, Github, Loom.
 </p>
 
-<h3 id="kutatasi-feladatok">Kutatási feladatok</h3>
+<h3 id="kutatasi-feladatok">Research responsibilities</h3>
 
-<p>A válaszadók közel fele végez valamilyen kutatást legalább havonta, kutatást támogató tevékenységekkel azonban kevesebb mint harmaduk foglalkozik rendszeresen.</p>
+<p>Almost half of our respondents do research activities at least monthly, but less than a third of them deal with ResearchOps on a regular basis.</p>
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Milyen gyakran végezted az alábbi kutatási feladatokat az elmúlt 2 évben?</div>
+  <div class="chart-title">How often have you performed the following research activities in the past 2 years?</div>
 
   <canvas id="chartKutatasiFeladatok"></canvas>
   <script>
 
       // setup
       const dataKutatasiFeladatok = {
-        labels: [['Feltáró (generatív)','kutatások'], ['Ellenőrző (evaluatív)','kutatások'], ['Kutatást támogató','tevékenységek','(ResearchOps)']],
+        labels: [['Generative, discovery','research'], ['Evaluative','research'], ['ResearchOps']],
         datasets: [{
-          label: 'Hetente',
+          label: 'Weekly',
           data: [12, 9, 8.6],
           backgroundColor: '#003b72',
         },{
-          label: 'Havonta',
+          label: 'Montly',
           data: [35.4, 38.9, 21.7],
           backgroundColor: '#b030eb'
         },{
-          label: 'Ritkábban',
+          label: 'Less frequently',
           data: [45.1, 41.8, 38.5],
           backgroundColor: '#72eb9b',
           datalabels: {
             color: '#222'
           }
         },{
-          label: 'Soha',
+          label: 'Never',
           data: [7.5, 10.3, 31.3],
           backgroundColor: '#edddd4',
           datalabels: {
@@ -1400,124 +1400,124 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>Az eredmények kutatók és designerek szerinti további bontása rá is világít ennek az okára: míg tényleges kutatással továbbra is nagy arányban foglalkoznak designerek, addig a ResearchOps (ha nem kerül kiszervezésre) jellemzően kutatói feladat. Sőt, a három terület közül ez az, ami a legtöbb kutatónak heti rendszerességű feladatot jelent.</p>
+<p>A breakdown of results by researchers and designers sheds light on the reason for this: while designers often conduct actual research, ResearchOps (when not outsourced) is typically a researcher's task–in fact, out of the three areas, this is the most likely to be a weekly task for researchers.</p>
 
 <div class="table-wrapper">
 <table class="big">
 <caption>Number of respondents: 304</caption>
 <thead>
   <tr>
-    <th>Feltáró (generatív) kutatások</th>
+    <th>Generative research</th>
     <th>UX Researcher</th>
     <th>UX / UI / Product Designer</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Hetente</td>
-    <td>36,84%</td>
-    <td>7,51%</td>
+    <td>Weekly</td>
+    <td>36.84%</td>
+    <td>7.51%</td>
   </tr>
   <tr>
-    <td>Havonta</td>
-    <td>47,37%</td>
-    <td>34,74%</td>
+    <td>Monthly</td>
+    <td>47.37%</td>
+    <td>34.74%</td>
   </tr>
   <tr>
-    <td>Ritkábban</td>
-    <td>13,16%</td>
-    <td>48,36%</td>
+    <td>Less frequently</td>
+    <td>13.16%</td>
+    <td>48.36%</td>
   </tr>
   <tr>
-    <td>Soha</td>
-    <td>2,63%</td>
-    <td>9,39%</td>
+    <td>Never</td>
+    <td>2.63%</td>
+    <td>9.39%</td>
   </tr>
   <tr>
-    <th>Ellenőrző (evaluatív) kutatások</th>
+    <th>Evaluative research</th>
     <th>UX Researcher</th>
     <th>UX / UI / Product Designer</th>
   </tr>
   <tr>
-    <td>Hetente</td>
-    <td>36,84%</td>
-    <td>5,12%</td>
+    <td>Weekly</td>
+    <td>36.84%</td>
+    <td>5.12%</td>
   </tr>
   <tr>
-    <td>Havonta</td>
-    <td>42,11%</td>
-    <td>37,21%</td>
+    <td>Monthly</td>
+    <td>42.11%</td>
+    <td>37.21%</td>
   </tr>
   <tr>
-    <td>Ritkábban</td>
-    <td>15,79%</td>
-    <td>46,05%</td>
+    <td>Less frequently</td>
+    <td>15.79%</td>
+    <td>46.05%</td>
   </tr>
   <tr>
-    <td>Soha</td>
-    <td>5,26%</td>
-    <td>11,63%</td>
+    <td>Never</td>
+    <td>5.26%</td>
+    <td>11.63%</td>
   </tr>
   <tr>
-    <th>Kutatást támogató tevékenységek</th>
+    <th>ReseearchOps</th>
     <th>UX Researcher</th>
     <th>UX / UI / Product Designer</th>
   </tr>
   <tr>
-    <td>Hetente</td>
-    <td>40,54%</td>
-    <td>2,87%</td>
+    <td>Weekly</td>
+    <td>40.54%</td>
+    <td>2.87%</td>
   </tr>
   <tr>
-    <td>Havonta</td>
-    <td>35,14%</td>
-    <td>18,18%</td>
+    <td>Monthly</td>
+    <td>35.14%</td>
+    <td>18.18%</td>
   </tr>
   <tr>
-    <td>Ritkábban</td>
-    <td>21,62%</td>
-    <td>39,71%</td>
+    <td>Less frequently</td>
+    <td>21.62%</td>
+    <td>39.71%</td>
   </tr>
   <tr>
     <td>Soha</td>
-    <td>2,70%</td>
-    <td>39,23%</td>
+    <td>2.70%</td>
+    <td>39.23%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A kutatási módszereket legalább havi rendszerességű alkalmazás szerint sorba rendezve az látszik, hogy a top három módszer a versenytárselemzés vagy best practice kutatás, a stakeholder interjúk, valamint a felhasználói adatok elemzése. (Ez mondjuk a designer válaszadók túlsúlya miatt talán nem meglepő.)</p>
+<p>Sorting research methods by (at least) monthly application, it can be seen (perhaps unsurprisingly, due to the predominance of designers among respondents) that the top three methods are competitor or best practice research, stakeholder interviews, and user data analysis.</p>
 
-<p>A felhasználókkal való interakciót megkövetelő módszerek közül a mélyinterjúhoz és a moderált teszteléshez fordulnak leggyakrabban a hazai UX-esek: közel felük gyűjt így visszajelzést felhasználóktól legalább havonta. Legritkábbnak a naplós kutatás számít (a kitöltők majdnem háromnegyede soha nem fordul ehhez a módszerhez), és azoknak az aránya is kiemelkedő, akik nem végeznek terepkutatást (amire két év pandémia adhat jó okot).</p>
+<p>Focusing on research methods that require active interaction with users, in-depth interviews and moderated testing are the most frequently used by Hungarian UX professionals: nearly half of them collect feedback from users at least monthly this way. Diary studies are the most exotic (almost three-quarters of respondents never use this method), and after two years of a pandemic, the proportion of those who do not conduct field research is also high.</p>
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Milyen gyakran alkalmaztad az alábbi kutatási módszereket az elmúlt 2 évben?</div>
+  <div class="chart-title">How often have you used the following research methods in the past 2 years?</div>
 
   <canvas id="chartKutatasiModszerek"></canvas>
   <script>
 
       // setup
       const dataKutatasiModszerek = {
-        labels: [['Versenytárselemzés', 'és/vagy best practice', 'kutatás'], 'Stakeholder interjú', ['Felhasználói adatok', 'elemzése'], ['Felhasználói', 'mélyinterjú'], ['Moderált usability', 'tesztelés'], '(Web)analitika', 'Heurisztikus elemzés', ['Moderálatlan', 'usability tesztelés'], 'Kérdőív', 'A/B tesztelés', ['Card sorting és/vagy', 'tree testing'], ['Terepkutatás és/vagy', 'contextual inquiry'], 'Naplós kutatás'],
+        labels: [['Competitor', 'and/or best practice', 'research'], ['Stakeholder', 'interview'], ['Analyzing user', 'data'], ['In-depth','user interviews'], ['Moderated usability', 'testing'], '(Web)analytics', 'Heuristic evaluation', ['Unmoderated', 'usability testing'], 'Survey', 'A/B testing', ['Card sorting and/or', 'tree testing'], ['Field research and/or', 'contextual inquiry'], 'Diary study'],
         datasets: [{
-          label: 'Hetente',
+          label: 'Weekly',
           data: [21.5, 10.6, 18.1, 9.4, 9.1, 11.5, 5.5, 4.6, 2.6, 3.3, 0.3, 1.6, 1.3],
           backgroundColor: '#003b72',
         },{
-          label: 'Havonta',
+          label: 'Montly',
           data: [44.6, 45, 36.6, 39.3, 37.8, 29, 25.4, 15.5, 16.4, 10.6, 11.1, 9.5, 1],
           backgroundColor: '#b030eb'
         },{
-          label: 'Ritkábban',
+          label: 'Less frequently',
           data: [26.6, 31.5, 34.3, 41.9, 40.7, 38.5, 42.4, 38.8, 53.1, 45.5, 57.8, 40, 25.6],
           backgroundColor: '#72eb9b',
           datalabels: {
             color: '#222'
           }
         },{
-          label: 'Soha',
+          label: 'Never',
           data: [7.4, 12.9, 11, 9.4, 12.4, 21.1, 26.7, 41.1, 28, 40.6, 30.7, 48.9, 72.1],
           backgroundColor: '#edddd4',
           datalabels: {
@@ -1684,629 +1684,629 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>A legalább havi rendszerességű alkalmazásra szűkítve a fókuszt az látszik, hogy míg a designerek is viszonylag nagy hányadban moderálnak mélyinterjúkat és felhasználói teszteket, addig a kutatók jelentős többsége teszi ezt. Érdekesség, hogy moderálatlan felhasználói teszteket hasonló arányban végez a két csoport (kiegyensúlyozottan képviselve mindkét tábort a “saját designt lehet-e elfogulatlanul tesztelni” vitában), és a versenytárselemzés, illetve best practice kutatás az, ahol a leginkább a designerek oldalára billen a mérleg.</p>
+<p>Looking at researchers and designers separately again–and narrowing the focus to at least monthly application–, shows that while almost a half of designers moderate in-depth interviews and user tests on a regular basis, the same is true to a significant majority of researchers. The two groups carry out unmoderated user tests in a similar proportion, while competitor or best practice research is where the balance is tipped to the designers' side.
+</p>
 
 <div class="table-wrapper">
 <table class="big">
 <caption>Number of respondents: 303</caption>
 <thead>
   <tr>
-    <th>Legalább havi rendszerességgel</th>
-    <th>UX Researcher</th>
-    <th>UX / UI / Product Designer</th>
-    <th>Különbség a kutatók javára</th>
+    <th>Done at least monthly</th>
+    <th>UX Researchers</th>
+    <th>UX / UI / Product Designers</th>
+    <th>Difference</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Felhasználói mélyinterjú</td>
-    <td>86,84%</td>
-    <td>40,38%</td>
-    <td class="change more">+46,47%</td>
+    <td>In-depth interview</td>
+    <td>86.84%</td>
+    <td>40.38%</td>
+    <td class="change more">+46.47%</td>
   </tr>
   <tr>
-    <td>Moderált usability tesztelés</td>
-    <td>73,68%</td>
-    <td>42,06%</td>
-    <td class="change more">+31,63%</td>
+    <td>Moderated usability testing</td>
+    <td>73.68%</td>
+    <td>42.06%</td>
+    <td class="change more">+31.63%</td>
   </tr>
   <tr>
-    <td>Kérdőív</td>
-    <td>42,11%</td>
-    <td>15,81%</td>
-    <td class="change more">+26,29%</td>
+    <td>Survey</td>
+    <td>42.11%</td>
+    <td>15.81%</td>
+    <td class="change more">+26.29%</td>
   </tr>
   <tr>
-    <td>Felhasználói adatok elemzése</td>
-    <td>67,57%</td>
-    <td>51,16%</td>
-    <td class="change more">+16,40%</td>
+    <td>Analyzing user data</td>
+    <td>67.57%</td>
+    <td>51.16%</td>
+    <td class="change more">+16.40%</td>
   </tr>
   <tr>
-    <td>Stakeholder interjú</td>
-    <td>67,57%</td>
-    <td>54,63%</td>
-    <td class="change more">+12,94%</td>
+    <td>Stakeholder interview</td>
+    <td>67.57%</td>
+    <td>54.63%</td>
+    <td class="change more">+12.94%</td>
   </tr>
   <tr>
-    <td>Naplós kutatás</td>
-    <td>5,26%</td>
-    <td>1,89%</td>
-    <td class="change more">+3,38%</td>
+    <td>Diary study</td>
+    <td>5.26%</td>
+    <td>1.89%</td>
+    <td class="change more">+3.38%</td>
   </tr>
   <tr>
-    <td>Moderálatlan usability tesztelés</td>
-    <td>21,05%</td>
-    <td>18,96%</td>
-    <td class="change more">+2,10%</td>
+    <td>Unmoderated usability testing</td>
+    <td>21.05%</td>
+    <td>18.96%</td>
+    <td class="change more">+2.10%</td>
   </tr>
   <tr>
-    <td>Terepkutatás és/vagy contextual inquiry</td>
-    <td>10,53%</td>
-    <td>8,96%</td>
-    <td class="change more">+1,56%</td>
+    <td>Field research and/or contextual inquiry</td>
+    <td>10.53%</td>
+    <td>8.96%</td>
+    <td class="change more">+1.56%</td>
   </tr>
   <tr>
-    <td>(Web)analitika</td>
-    <td>35,14%</td>
-    <td>38,57%</td>
-    <td class="change less">-3,44%</td>
+    <td>(Web)analytics</td>
+    <td>35.14%</td>
+    <td>38.57%</td>
+    <td class="change less">-3.44%</td>
   </tr>
   <tr>
-    <td>A/B tesztelés</td>
-    <td>10,53%</td>
-    <td>15,17%</td>
-    <td class="change less">-4,64%</td>
+    <td>A/B testing</td>
+    <td>10.53%</td>
+    <td>15.17%</td>
+    <td class="change less">-4.64%</td>
   </tr>
   <tr>
-    <td>Card sorting és/vagy tree testing</td>
-    <td>5,26%</td>
-    <td>11,27%</td>
-    <td class="change less">-6,00%</td>
+    <td>Card sorting and/or tree testing</td>
+    <td>5.26%</td>
+    <td>11.27%</td>
+    <td class="change less">-6.00%</td>
   </tr>
   <tr>
-    <td>Heurisztikus elemzés</td>
-    <td>25,00%</td>
-    <td>34,26%</td>
-    <td class="change less">-9,26%</td>
+    <td>Heuristic evaluation</td>
+    <td>25.00%</td>
+    <td>34.26%</td>
+    <td class="change less">-9.26%</td>
   </tr>
   <tr>
-    <td>Versenytárselemzés és/vagy best practice kutatás</td>
-    <td>54,05%</td>
-    <td>66,82%</td>
-    <td class="change less">-12,77%</td>
+    <td>Competitor and/or best practice research</td>
+    <td>54.05%</td>
+    <td>66.82%</td>
+    <td class="change less">-12.77%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="kutatasi-eszkozok">Kutatási eszközök</h3>
+<h3 id="kutatasi-eszkozok">Research tools</h3>
 
-<p>Az eszközpaletta a 2017-es felmérés óta átrendeződött, és ha lehet, még színesebbé vált. Ismét a Google Analytics a legnépszerűbb kutatási eszköz, de a felhasználói bázisa a résztvevők között 47%-ról 28%-ra csökkent. A 2022-es toplistáról leszorult az InVision (2017-ben 14%-kal a harmadik volt), megjelent viszont a Figma és a FigJam, és a remote munka elterjedésével három videókonferenciás eszköz is (Zoom, Google Meet és Microsoft Teams).</p>
+<p>The tool palette has been rearranged since 2017 and, if possible, has become even more colorful. Google Analytics is still the most popular research tool, but its user base among respondents decreased from 46.67% to 28.38%. InVision fell from the top list (it was third with 14.14% in 2017), but Figma and FigJam appeared, and with the spread of remote work, three video conferencing tools (Zoom, Google Meet and Microsoft Teams) also made the list.</p>
 
-<p>A hazai UX-esek átlagosan három eszközt használnak adatfelvételre (medián: 2, maximum: 12), és 81%-uk említett olyan eszközt, ami nem került fel a toplistára, vagyis tíznél kevesebb kitöltő használja.</p>
+<p>Hungarian UX professionals use an average of 3 tools for data collection (median: 2, maximum: 12), and 81.08% of them mentioned a tool that did not make the top list (i.e. was used by less than ten respondents).</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Number of respondents: 222 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 222 (top list, with 10+ mentions)</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatásra, adatfelvételre?</th>
+    <th colspan="2">What tools do you use for research?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Google Analytics</td>
-    <td>28,38%</td>
+    <td>28.38%</td>
   </tr>
   <tr>
     <td>Google Forms</td>
-    <td>21,62%</td>
+    <td>21.62%</td>
   </tr>
   <tr>
     <td>Hotjar</td>
-    <td>18,47%</td>
+    <td>18.47%</td>
   </tr>
   <tr>
     <td>Zoom</td>
-    <td>17,12%</td>
+    <td>17.12%</td>
   </tr>
   <tr>
     <td>Figma / FigJam</td>
-    <td>15,32%</td>
+    <td>15.32%</td>
   </tr>
   <tr>
-    <td>Google Workspace (egyéb)</td>
-    <td>13,96%</td>
+    <td>Google Workspace (other)</td>
+    <td>13.96%</td>
   </tr>
   <tr>
     <td>Google Meet</td>
-    <td>12,61%</td>
+    <td>12.61%</td>
   </tr>
   <tr>
     <td>Miro</td>
-    <td>12,61%</td>
+    <td>12.61%</td>
   </tr>
   <tr>
     <td>Optimal Workshop</td>
-    <td>10,36%</td>
+    <td>10.36%</td>
   </tr>
   <tr>
     <td>UserTesting</td>
-    <td>9,91%</td>
+    <td>9.91%</td>
   </tr>
   <tr>
     <td>Microsoft Teams</td>
-    <td>7,21%</td>
+    <td>7.21%</td>
   </tr>
   <tr>
     <td>Typeform</td>
-    <td>7,21%</td>
+    <td>7.21%</td>
   </tr>
   <tr>
     <td>Microsoft Office / 365</td>
-    <td>6,76%</td>
+    <td>6.76%</td>
   </tr>
   <tr>
     <td>PingPong</td>
-    <td>6,31%</td>
+    <td>6.31%</td>
   </tr>
   <tr>
     <td>Maze</td>
-    <td>5,86%</td>
+    <td>5.86%</td>
   </tr>
   <tr>
     <td>UsabilityHub</td>
-    <td>5,41%</td>
+    <td>5.41%</td>
   </tr>
   <tr>
     <td>SurveyMonkey</td>
-    <td>4,50%</td>
+    <td>4.50%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Idén kíváncsiak voltunk arra is, milyen eszközök támogatják a tudásmenedzsmentet. Itt is színes a kép: átlagosan 2,45 eszköz került említésre (medián: 2, maximum: 8), és 41,78% használ olyan eszközt, ami nem került fel a toplistára.</p>
+<p>This year, we were curious about the tools that support knowledge management. Here, too, the picture is colorful: an average of 2.45 tools were mentioned (median: 2, maximum: 8), and 41.78% of respondents use something that did not make the top list.</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Number of respondents: 213 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 213 (top list, with 10+ mentions)</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen eszközöket, szoftvereket használsz feldolgozásra, tudásmenedzsmentre?</th>
+    <th colspan="2">What tools do you use for insight management?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Miro</td>
-    <td>45,07%</td>
+    <td>45.07%</td>
   </tr>
   <tr>
-    <td>Google Workspace (egyéb)</td>
-    <td>39,44%</td>
+    <td>Google Workspace (other)</td>
+    <td>39.44%</td>
   </tr>
   <tr>
     <td>Figma / FigJam</td>
-    <td>25,82%</td>
+    <td>25.82%</td>
   </tr>
   <tr>
     <td>Confluence</td>
-    <td>21,13%</td>
+    <td>21.13%</td>
   </tr>
   <tr>
     <td>Microsoft Office / 365</td>
-    <td>20,66%</td>
+    <td>20.66%</td>
   </tr>
   <tr>
     <td>Dovetail</td>
-    <td>9,39%</td>
+    <td>9.39%</td>
   </tr>
   <tr>
     <td>Airtable</td>
-    <td>8,92%</td>
+    <td>8.92%</td>
   </tr>
   <tr>
     <td>Notion</td>
-    <td>8,45%</td>
+    <td>8.45%</td>
   </tr>
   <tr>
     <td>Jira</td>
-    <td>6,57%</td>
+    <td>6.57%</td>
   </tr>
   <tr>
     <td>Apple Notes</td>
-    <td>5,16%</td>
+    <td>5.16%</td>
   </tr>
   <tr>
     <td>Sharepoint</td>
-    <td>4,69%</td>
+    <td>4.69%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Kutatástámogató eszközt jóval kevesebb UX-es használ, de a paletta itt is széles: 84% említett olyan eszközt, amihez tíznél kevesebb kitöltő fordul.</p>
+<p>ResearchOps tools are used by far fewer UX professionals, but the range is wide: 84.30% mentioned a tool that less than ten others turn to.</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Number of respondents: 121 (toplista, legalább 10 említés)</caption>
+<caption>Number of respondents: 121 (top list, with 10+ mentions)</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen eszközöket, szoftvereket használsz kutatástámogatásra (ResearchOps)?</th>
+    <th colspan="2">What tools do you use for ResearchOps?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Google Workspace (egyéb)</td>
-    <td>26,45%</td>
+    <td>Google Workspace (other)</td>
+    <td>26.45%</td>
   </tr>
   <tr>
     <td>Calendly</td>
-    <td>13,22%</td>
+    <td>13.22%</td>
   </tr>
   <tr>
     <td>PingPong</td>
-    <td>13,22%</td>
+    <td>13.22%</td>
   </tr>
   <tr>
     <td>Microsoft Office / 365</td>
-    <td>9,92%</td>
+    <td>9.92%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Az összes említésre került kutatási eszközt (insiprációként) már 2017-ben sem volt egyszerű felsorolni, de álljon most itt a 2022-es riport leghosszabb bekezdése:</p>
+<p>It already took long to list all research tools mentioned in 2017, and this inspirational paragraph only grew longer in 2022:
+</p>
 
 <p>AB Testy, Adobe Analytics, Adobe XD, Airite, Airtable, Alchemer, Amazon Cognito, Amplitude, Anaconda, Apple Notes, AppTweak, Asana, AskNicely, Atlassian, Awesome Screenshot, Axure, Axure DevOps, Azure, Azure DevOps, Bear Notes, Box Notes, Calendly, Camtasia, Chartio, Citrix Sharefile, Clarabridge, ClickUp, Concept Board, Condens, Confluence, Contentsquare, Craft, Datadog, DaVinci Resolve, Decibel, Dendron, Descript, Discord, Doodle, Dovetail, Dropbox / Paper, Dynamics 365 Customer Voice, EnjoyHQ, Evernote, Exponea, Facebook / Ads, Feedbackly, Figma / FigJam, Firebase, Flourish, FRequest, FullStory, Gean.ly, Gemius, GetFeedback, Gitbook, Github, Gong, Google Analytics, Google Data Studio, Google Forms, Google Meet, Google Optimize, Google Recorder, Google Scholar, Google Search Console, Google Workspace, Heap, HelloSign, Hotjar, Hubspot, Illustrator, InDesign, Indicative, Infinity, Intercom, InVision, Involve.me, Jira, Keynote, Kibana, LinkedIn, LiveSession, Localytics, LogRocket, Lookback, Looker, Loom, Loop11, Lucky Orange, Marvel, Matomo, Maze, Meta, Business, Metabase, Microsoft Forms, Microsoft Office / 365, Microsoft Teams, Miro, Mixpanel, Monday.org, Mural, Nimbus, Notepad, Notion, OBS, Optimal Workshop, Optimonk, Otter.ai, Paste, Pendo, PingPong, PlaybookUX, Pollfish, Power BI, Prezi Video, ProductBoard, Proven By Users, Qualtrics, Quicktime, Ramp, RawGraph, Reddit, Redmine, Respondent.io, Salesforce, Segmanta, Sharepoint, Shortcut, Sketch, Skype, Slack, Slite, Spendesk, SPSS, SurveyMonkey, SurveySparrow, Tableau, Taskade, Testbirds, Things, Trello, Tremendous, Typeform, UsabilityHub, Useberry, User Interviews, User Testing, Userlytics, UserZoom, UX Metrics, UXtweak, Validately, Vimeo, WebEx, Whimsical, XMind, Yammer, YouTube, Zapier, Zenhub, Zeroheight, Zoom, Zurvey.io</p>
 
-<h2 id="munkahely-munkakorulmenyek">Munkahely, munkakörülmények</h2>
+<h2 id="munkahely-munkakorulmenyek">Workplace and work environment</h2>
 
-<h3 id="munkahely-tipusa">Munkahely típusa</h3>
+<h3 id="munkahely-tipusa">Workplace types</h3>
 
-<p>A UX-esek továbbra is többen dolgoznak saját terméket fejlesztő cégeknél, mint ügynökségeknél. Itt nincs érdemi változás, szinte ugyanazt az arányt látjuk mint 2017-ben.</p>
+<p>The majority of our respondents work in in-house teams (that is, working at a company that develops and designs their own product), and their proportion hasn’t changed since 2017.</p>
 
 <div class="table-wrapper">
 <table>
-<caption>Válaszadók: 328</caption>
+<caption>Number of respondents: 328</caption>
 <thead>
   <tr>
-    <th colspan="2">Az alábbiak közül melyik jellemzi legjobban a munkahelyedet?</th>
+    <th colspan="2">What best describes your workplace?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Saját terméke(ke)t fejlesztő vállalat vagy startup</td>
-    <td>60,37% </td>
+    <td>My company develops its own product(s)</td>
+    <td>60.37% </td>
   </tr>
   <tr>
-    <td>Ügyfélprojekteken dolgozó cég (digitális ügynökség, fejlesztőcég stb.)</td>
-    <td>38,72% </td>
+    <td>My company works on client projects (e.g. digital agency)</td>
+    <td>38.72% </td>
   </tr>
   <tr>
-    <td>Állami vállalat</td>
-    <td>0,91%</td>
+    <td>Government entity</td>
+    <td>0.91%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A cégméretek terén már átrendeződések figyelhetők meg: míg 2017-ben az emberek több, mint 70%-a dolgozott 1-200 főt foglalkoztató, kis-közepes vállalkozásnál, addig ez a szám <strong>2022-re 55% alá esett.</strong></p>
+<p>There have been some changes regarding company sizes though. The proportion of small and medium businesses have significantly decreased while the representation of large enterprises has grown. While 70% of our respondents in 2017 claimed to work at companies with less than 200 people, this number has dropped to 55%.</p>
 
 <div class="table-wrapper">
 <table class="big black-3 fix-1">
-<caption>Válaszadók: 331 (2022), 131 (2017)</caption>
+<caption>Number of respondents: 331 (2022), 131 (2017)</caption>
 <thead>
   <tr>
-    <th>Hány főt foglalkoztat a munkahelyed?</th>
+    <th>How many people are employed by your company?</th>
     <th>2022</th>
     <th>2017</th>
-    <th>Különbség</th>
+    <th>Difference</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>1-10 főt</td>
-    <td>9,06%</td>
-    <td>12,98%</td>
-    <td class="change less">-3,92%</td>
+    <td>1-10 people</td>
+    <td>9.06%</td>
+    <td>12.98%</td>
+    <td class="change less">-3.92%</td>
   </tr>
   <tr>
-    <td>11-50 főt</td>
-    <td>23,26%</td>
-    <td>28,24%</td>
-    <td class="change less">-4,98%</td>
+    <td>11-50 people</td>
+    <td>23.26%</td>
+    <td>28.24%</td>
+    <td class="change less">-4.98%</td>
   </tr>
   <tr>
-    <td>51-200 főt</td>
-    <td>22,66%</td>
-    <td>30,53%</td>
-    <td class="change less">-7,87%</td>
+    <td>51-200 people</td>
+    <td>22.66%</td>
+    <td>30.53%</td>
+    <td class="change less">-7.87%</td>
   </tr>
   <tr>
-    <td>201-500 főt</td>
-    <td>15,41%</td>
-    <td>7,63%</td>
-    <td class="change more">+8,87%</td>
+    <td>201-500 people</td>
+    <td>15.41%</td>
+    <td>7.63%</td>
+    <td class="change more">+8.87%</td>
   </tr>
   <tr>
-    <td>Több mint 500 főt</td>
-    <td>29,61%</td>
-    <td>20,61%</td>
-    <td class="change more">+9,00%</td>
+    <td>More than 500 people</td>
+    <td>29.61%</td>
+    <td>20.61%</td>
+    <td class="change more">+9.00%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>A UX-es csapatok létszáma is jelentős változást mutat: az öt évvel ezelőtthöz képest a tíz főnél nagyobb UX-csapatok aránya csaknem megháromszorozódott. Az is szinte biztos, hogy egyre kevésbé létezik az egyfős UX csapat jelenség.</p>
+<p>The sizes of UX teams have also significantly grown: compared to 2017, the proportion of UX teams with 10 people or more have almost tripled while 1-person UX teams are now rare.</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
-<caption>Válaszadók: 313 (2022), 127 (2017)</caption>
+<caption>Number of respondents: 313 (2022), 127 (2017)</caption>
 <thead>
   <tr>
-    <th>Hány fő foglalkozik UX-szel a munkahelyeden?</th>
+    <th>How many people work in UX at your company?</th>
     <th>2022</th>
     <th>2017</th>
-    <th>Különbség</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>1 fő</td>
-    <td>9,27%</td>
-    <td rowspan="3">85,1%</td>
-    <td rowspan="3" class="change less">-27,9%</td>
+    <td>1 people</td>
+    <td>9.27%</td>
+    <td rowspan="3">85.1%</td>
   </tr>
   <tr>
-    <td>2-5 fő</td>
-    <td>32,91%</td>
+    <td>2-5 people</td>
+    <td>32.91%</td>
   </tr>
   <tr>
-    <td>6-10 fő</td>
-    <td>15,02%</td>
+    <td>6-10 people</td>
+    <td>15.02%</td>
   </tr>
   <tr>
-    <td>11-20 fő</td>
-    <td>24,60%</td>
-    <td rowspan="3">14,9%</td>
-    <td rowspan="3" class="change more">+27,9%</td>
+    <td>11-20 people</td>
+    <td>24.60%</td>
+    <td rowspan="3">14.9%</td>
   </tr>
   <tr>
-    <td>21-50 fő</td>
-    <td>15,02%</td>
+    <td>21-50 people</td>
+    <td>15.02%</td>
   </tr>
   <tr>
-    <td>51+ fő</td>
-    <td>3,19%</td>
+    <td>51+ people</td>
+    <td>3.19%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Ha a UX-esek számát aszerint bontjuk, hogy hányan dolgoznak termékes vagy ügynökségi oldalon, olyan különbség látszik, hogy a 11-20 fős csapatok vannak láthatóan többen termék oldalon, míg a 21-50 fős méretben erősebb az ügynökségi oldal. Azt mondjuk ettől még nem állíthatjuk, hogy aki családias légkörre vágyik az ezt csak termék cégnél kaphatja meg, az viszont valószínűnek tűnik, hogy aki kifejezetten nagy UX csapatot keres, az érdekes módon ezt inkább ügynökségnél találhatja meg.</p>
+<p>Comparing UX team sizes across workplace types show a significant difference in the 11-20 people category (which is more common for in-house teams) and the 21-50 people category (which is more common in agencies). This isn’t to say that in-house teams provide more family-like work environments, but agencies are more typical homes for larger UX teams.</p>
 
 <div class="table-wrapper">
 <table class="big">
-<caption>Válaszadók: 298</caption>
+<caption>Number of respondents: 298</caption>
 <thead>
   <tr>
-    <th>Hány fő foglalkozik UX-szel a munkahelyeden?</th>
-    <th>Saját termék</th>
-    <th>Ügyfélprojekt</th>
+    <th>How many people work in UX at your company?</th>
+    <th>In-house</th>
+    <th>Agency</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>1 fő</td>
-    <td>11,05%</td>
-    <td>5,13%</td>
+    <td>1 person</td>
+    <td>11.05%</td>
+    <td>5.13%</td>
   </tr>
   <tr>
-    <td>2-5 fő</td>
-    <td>29,83%</td>
-    <td>35,04%</td>
+    <td>2-5 people</td>
+    <td>29.83%</td>
+    <td>35.04%</td>
   </tr>
   <tr>
-    <td>6-10 fő</td>
-    <td>12,71%</td>
-    <td>18,80%</td>
+    <td>6-10 people</td>
+    <td>12.71%</td>
+    <td>18.80%</td>
   </tr>
   <tr>
-    <td>11-20 fő</td>
-    <td>31,49%</td>
-    <td>17,09%</td>
+    <td>11-20 people</td>
+    <td>31.49%</td>
+    <td>17.09%</td>
   </tr>
   <tr>
-    <td>21-50 fő</td>
-    <td>10,50%</td>
-    <td>23,08%</td>
+    <td>21-50 people</td>
+    <td>10.50%</td>
+    <td>23.08%</td>
   </tr>
   <tr>
-    <td>51+ fő</td>
-    <td>4,42%</td>
-    <td>0,85%</td>
+    <td>51+ people</td>
+    <td>4.42%</td>
+    <td>0.85%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="termek-iparag">Termék és iparág</h3>
+<h3 id="termek-iparag">Products and industries</h3>
 
-<p>A B2B-B2C megoszlást nézve az egyik érdekesség, hogy a kitöltők több mint fele dolgozik olyan cégnél, ahol mindkét csoportnak szóló terméket fejlesztenek. Ami ennél is jobb tanulság, hogy mennyire kevés az a cég, aki egyéni végfelhasználóknak szóló terméket készít. Vagyis aki UX-esként helyezkedik el, az esetek túlnyomó többségében készülhet arra, hogy valamilyen vállalati megoldást fog tervezni.</p>
+<p>More than half of our respondents work on both B2B and B2C products and very few are engaged with B2C products only. This implies that UX professionals should be open to work on enterprise solutions.</p>
 
 <div class="table-wrapper">
 <table>
 <caption>Number of respondents: 195</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen terméke(ke)t fejleszt a céged?</th>
+    <th colspan="2">What kind of product(s) does your company develop?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>B2B</td>
-    <td>35,38%</td>
+    <td>35.38%</td>
   </tr>
   <tr>
     <td>B2C</td>
-    <td>12,82%</td>
+    <td>12.82%</td>
   </tr>
   <tr>
-    <td>Mindkettő</td>
-    <td>51,79%</td>
+    <td>Both</td>
+    <td>51.79%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Az iparágakat illetően egyértelmű első helyen a technológiai (pl. SaaS) cégek végeztek. Az első három helyre jutott még ezen kívül a pénzügyi és telco szektor, amik együtt több mint 70%-át viszik el a UX-eseknek.</p>
+<p>Looking at the specific industries, technology (e.g. SaaS) proved to be the most common one, followed by finance and telecommunications. These three industries actually represent more than 70% of our respondents.</p>
 
 <div class="table-wrapper">
 <table>
 <caption>Number of respondents: 191</caption>
 <thead>
   <tr>
-    <th colspan="2">Milyen iparágban működik a céged?</th>
+    <th colspan="2">What industry does your company operate in?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Technológia (pl. SaaS)</td>
-    <td>42,93%</td>
+    <td>Technology (e.g. SaaS)</td>
+    <td>42.93%</td>
   </tr>
   <tr>
-    <td>Banki és pénzügyi szolgáltatások</td>
-    <td>16,75%</td>
+    <td>Banking or finance</td>
+    <td>16.75%</td>
   </tr>
   <tr>
-    <td>Telekommunikáció</td>
-    <td>10,99%</td>
+    <td>Telecommunications</td>
+    <td>10.99%</td>
   </tr>
   <tr>
-    <td>Egészségügy és gyógyszeripar</td>
-    <td>6,28%</td>
+    <td>Healthcare or pharmaceuticals</td>
+    <td>6.28%</td>
   </tr>
   <tr>
-    <td>E-kereskedelem</td>
-    <td>4,19%</td>
+    <td>E-commerce</td>
+    <td>4.19%</td>
   </tr>
   <tr>
-    <td>Média és szórakoztatóipar</td>
-    <td>4,19%</td>
+    <td>Media or entertainment</td>
+    <td>4.19%</td>
   </tr>
   <tr>
-    <td>Turizmus és vendéglátás</td>
-    <td>3,14%</td>
+    <td>Tourism and hospitality</td>
+    <td>3.14%</td>
   </tr>
   <tr>
-    <td>Légiközlekedés</td>
-    <td>1,57%</td>
+    <td>Aviation</td>
+    <td>1.57%</td>
   </tr>
   <tr>
     <td>Marketing</td>
-    <td>1,57%</td>
+    <td>1.57%</td>
   </tr>
   <tr>
-    <td>Oktatás</td>
-    <td>1,57%</td>
+    <td>Education</td>
+    <td>1.57%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Az első tíz iparágon kívül az érdekességek kategóriában jelentjük, hogy dolgoznak UX-esek olyan területeken is, mint a gyártás és ipari automatizálás, a kémiai informatika, az államigazgatás, az autóipar, a gaming és fogadás, a kiberbiztonság, az adó- és könyvelés, és a fordítás és lokalizáció.</p>
+<p>Behind the top 10 industries there were a couple more categories mentioned such as manufacturing and automation, chemical informatics, public administration, automotive industry, gaming and gambling, cybersecurity, taxation and accounting, and translation and localization.</p>
 
-<h3 id="remote-vs-iroda">Remote vs. iroda</h3>
+<h3 id="remote-vs-iroda">Working remotely vs in the office</h3>
 
-<p>2017-ben erről ugyan nem gyűjtöttünk adatot remote munkavégzés kapcsán, de feltételezhetően akkor nem ez volt a helyzet. Mára elterjedt az otthonról dolgozás, és szinte lenullázódott azon UX-esek száma, akik minden munkanapot az irodában kezdenek. Arról, hogy ehhez hogyan viszonyulnak a UX-esek, és hogy milyen hatással van az elégedettségükre, még később lesz szó.</p>
+<p>Although we did not include this topic in 2017, it’s fair to assume that this area has changed fundamentally since. Working remotely has become very common, only a handful of UX professionals work from an office every day.
+</p>
 
 <div class="table-wrapper">
 <table>
 <caption>Number of respondents: 341</caption>
 <thead>
   <tr>
-    <th colspan="2">Mi írja le legjobban a jelenlegi helyzeted?</th>
+    <th colspan="2">What best describes your situation?</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Teljesen remote dolgozom</td>
-    <td>26,98%</td>
+    <td>I work fully remotely</td>
+    <td>26.98%</td>
   </tr>
   <tr>
-    <td>Többnyire remote dolgozom</td>
-    <td>30,50%</td>
+    <td>I mostly work remotely</td>
+    <td>30.50%</td>
   </tr>
   <tr>
-    <td>Részben remote, részben irodából dolgozom</td>
-    <td>30,79%</td>
+    <td>I partially work remotely, partially from an office</td>
+    <td>30.79%</td>
   </tr>
   <tr>
-    <td>Többnyire irodából dolgozom</td>
-    <td>10,26%</td>
+    <td>I mostly work from an office</td>
+    <td>10.26%</td>
   </tr>
   <tr>
-    <td>Teljesen irodából dolgozom</td>
-    <td>1,47%</td>
+    <td>I fully work from an office</td>
+    <td>1.47%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h2 id="fizetes-juttatasok">Fizetés és juttatások</h2>
+<h2 id="fizetes-juttatasok">Salary and benefits</h2>
 
-<h3 id="havi-netto-fizetes">Havi nettó fizetés</h3>
+<h3 id="havi-netto-fizetes">Monthly net salary</h3>
 
-<p>Míg 2017-ben (és az azt megelőző 2014-es felmérésben is) a válaszadók több mint fele nettó 241-480 ezer forintot vitt haza havonta, 2022-ben a <strong>legnagyobb hányaduk (32%) már 481-720 ezer forint között keres.</strong> A havi átlagfizetés nettó 678 ezer forint körülire becsülhető (és ez a tág sávok miatt tényleg csak egy illusztratív becslés), ami a 2017-es eredményhez (398 ezer Ft) képest 70%-os növekedést jelent. Ezt az elmúlt évek gazdasági folyamatai mellett magyarázhatja a senior és vezetői réteg megnövekedett aránya is a válaszadók között.</p>
+<p>While in 2017 more than half of our respondents took home a monthly net of HUF 241-480,000, the largest proportion (32%) now earn between HUF 481-720,000. The average monthly net salary can be estimated (and this is just an illustrative estimate due to the wide salary bands used in the survey) at around HUF 678,000, which represents a 70% increase compared to 2017 (HUF 398,000). In addition to the economic changes of recent years, this increase can also be explained by the larger proportion of senior-level professionals and managers among respondents.</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
 <caption>Number of respondents: 340 (2022), 153 (2017)</caption>
 <thead>
   <tr>
-    <th>Mennyi a havi nettó fizetésed?</th>
+    <th>How much is your monthly net salary?</th>
     <th>2022</th>
     <th>2017</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>240 000 Ft alatt</td>
-    <td>3,24%</td>
-    <td>12,42%</td>
+    <td>240 000 HUF or less</td>
+    <td>3.24%</td>
+    <td>12.42%</td>
   </tr>
   <tr>
-    <td>241 - 480 000 Ft</td>
-    <td>27,94%</td>
-    <td>54,90%</td>
+    <td>241 - 480 000 HUF</td>
+    <td>27.94%</td>
+    <td>54.90%</td>
   </tr>
   <tr>
-    <td>481 - 720 000 Ft</td>
-    <td>32,06%</td>
-    <td>13,73%</td>
+    <td>481 - 720 000 HUF</td>
+    <td>32.06%</td>
+    <td>13.73%</td>
   </tr>
   <tr>
-    <td>721 - 960 000 Ft</td>
-    <td>16,76%</td>
-    <td rowspan="4">9,80%</td>
+    <td>721 - 960 000 HUF</td>
+    <td>16.76%</td>
+    <td rowspan="4">9.80%</td>
   </tr>
   <tr>
-    <td>961 - 1 200 000 Ft</td>
-    <td>9,71%</td>
+    <td>961 - 1 200 000 HUF</td>
+    <td>9.71%</td>
   </tr>
   <tr>
-    <td>1 201 - 1 440 000 Ft</td>
-    <td>4,71%</td>
+    <td>1 201 - 1 440 000 HUF</td>
+    <td>4.71%</td>
   </tr>
   <tr>
-    <td>1 440 000 Ft felett</td>
+    <td>More than 1 440 000 HUF</td>
     <td>3,53%</td>
   </tr>
   <tr class="top-border">
-    <td>Nem szeretném megmondani</td>
+    <td>I prefer not to say</td>
     <td>2,06%</td>
     <td>9,15%</td>
   </tr>
@@ -2314,59 +2314,61 @@ One thing we should really embrace is the <strong>growth in the representation o
 </table>
 </div>
 
-<p>A válaszadók többsége (245 fő) főállásban, alkalmazottként foglalkozik UX-szel, ők átlagosan havi nettó 686 ezer forintot visznek haza, míg a nem csak UX-szel foglalkozó alkalmazottak (62 fő) átlagfizetése 590 ezer forint. Szabadúszó UX-esek közül ez alkalommal 23-an válaszolták meg a fizetésre vonatkozó kérdést, ők az alkalmazottaknál jobban, átlagosan havi nettó 819 ezer forintot keresnek; igaz, nem meglepő módon, köztük nincsenek juniorok, illetve valamivel magasabb a seniorok aránya is.</p>
+<p>The majority of respondents (245 people) work in UX full-time, as employees; they take home an average of HUF 686,000 net per month. The average monthly net salary of employees who have some UX-related responsibilities but do not identify as full-time UXers (62 people) is HUF 590,000. This year, 23 freelancers answered the salary question: they earn more than employees (on average HUF 819,000 net per month), although, not surprisingly, there are no juniors among them, and their proportion of seniors is slightly higher, as well.
+</p>
 
-<p>A fizetés pedig a tapasztalattal, valamint a szenioritással párhuzamosan nő. Ahogy korábban láttuk, medior szinttől felfelé meglehetősen nagy az évek számában mért tapasztalat szórása, ami magyarázhatja a 8+ éve a szakmában dolgozó UX-esek fizetésének változatosságát.</p>
+<p>Salaries increase in parallel with experience and seniority. As we saw earlier, the standard deviation of experience (expressed in number of years) is quite large from mid-level up, which may explain the greater variation seen in the salaries of UXers working in the profession for 8+ years.
+</p>
 
-<p>A 2017-es felméréshez képest legkisebb arányban a juniorok, legnagyobb arányban a céges szintű vezetők becsült átlagfizetése növekedett.</p>
+<p>Compared to the 2017 survey, the estimated average salary of juniors increased the least, while the average salary of company-level managers increased the most.</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
 <caption>Number of respondents: 328 (2022), 151 (2017)</caption>
 <thead>
   <tr>
-    <th>Átlagos fizetés pozíciónként</th>
+    <th>Average salary by seniority level</th>
     <th>2022</th>
     <th>2017</th>
-    <th>Változás</th>
+    <th>Change</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Junior</td>
-    <td>355 ezer Ft</td>
-    <td>292 ezer Ft</td>
+    <td>HUF 355,000</td>
+    <td>HUF 292,000</td>
     <td class="change more">+21,58%</td>
   </tr>
   <tr>
-    <td>Medior</td>
-    <td>538 ezer Ft</td>
-    <td>360 ezer Ft</td>
+    <td>Mid-level</td>
+    <td>HUF 538,000</td>
+    <td>HUF 360,000</td>
     <td class="change more">+49,44%</td>
   </tr>
   <tr>
     <td>Senior</td>
-    <td>758 ezer Ft</td>
-    <td>455 ezer Ft</td>
+    <td>HUF 758,000</td>
+    <td>HUF 455,000</td>
     <td class="change more">+66,59%</td>
   </tr>
   <tr>
     <td>Manager / Lead</td>
-    <td>902 ezer Ft</td>
-    <td>577 ezer Ft</td>
+    <td>HUF 902,000</td>
+    <td>HUF 577,000</td>
     <td class="change more">+56,33%</td>
   </tr>
   <tr>
     <td>Head / Director / VP / C-level</td>
-    <td>1 millió<br> 104 ezer Ft</td>
-    <td>504 ezer Ft</td>
+    <td>HUF 1,104,000</td>
+    <td>HUF 504,000</td>
     <td class="change more">+119.05%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Az alábbi táblázat a becsült havi átlagfizetéseket mutatja szakmánként és szintenként. Ahol egy kategóriába 7 válaszadónál kevesebben estek, nem tüntettünk fel átlagot, így az alacsony részvétel miatt maradtak ki a Product Managerek/Ownerek, Service Designerek és UX Writerek is.</p>
+<p>The table below shows estimated average monthly net salaries by profession and level. Where there were less than 7 respondents in a category, we did not display an average (due to their low participation, Product Managers / Owners, Service Designers and UX Writers were also left out):</p>
 
 <div class="table-wrapper">
 <table class="big black-3 black-5 black-7 black-9 black-11">
@@ -2374,7 +2376,7 @@ One thing we should really embrace is the <strong>growth in the representation o
   <tr>
     <th></th>
     <th colspan="2">Junior</th>
-    <th colspan="2">Medior</th>
+    <th colspan="2">Mid-level</th>
     <th colspan="2">Senior</th>
     <th colspan="2">Manager / Lead</th>
     <th colspan="2">Head / Director / VP / C-level</th>
@@ -2383,25 +2385,25 @@ One thing we should really embrace is the <strong>growth in the representation o
 <tbody>
   <tr>
     <td>UX / UI / Product Designer</td>
-    <td>346 ezer Ft</td>
-    <td>35 fő</td>
-    <td>531 ezer Ft</td>
-    <td>73 fő</td>
-    <td>782 ezer Ft</td>
-    <td>78 fő</td>
-    <td>1 millió<br> 22 ezer Ft</td>
-    <td>35 fő</td>
-    <td>1 millió<br> 10 ezer Ft</td>
-    <td>12 fő</td>
+    <td>HUF 346,000</td>
+    <td>35 people</td>
+    <td>HUF 531,000</td>
+    <td>73 people</td>
+    <td>HUF 782,000</td>
+    <td>78 people</td>
+    <td>HUF 1,022,000</td>
+    <td>35 people</td>
+    <td>HUF 1,010,000</td>
+    <td>12 people</td>
   </tr>
   <tr>
     <td>UX Researcher</td>
-    <td>387 ezer Ft</td>
-    <td>9 fő</td>
-    <td>585 ezer Ft</td>
-    <td>16 fő</td>
-    <td>750 ezer Ft</td>
-    <td>8 fő</td>
+    <td>HUF 387,000</td>
+    <td>9 people</td>
+    <td>HUF 585,000</td>
+    <td>16 people</td>
+    <td>HUF 750,000</td>
+    <td>8 people</td>
     <td colspan="2"></td>
     <td colspan="2"></td>
   </tr>
@@ -2409,71 +2411,71 @@ One thing we should really embrace is the <strong>growth in the representation o
     <td>UX Strategist / Consultant</td>
     <td colspan="2"></td>
     <td colspan="2"></td>
-    <td>737 ezer Ft</td>
-    <td>7 fő</td>
-    <td>867 ezer Ft</td>
-    <td>9 fő</td>
-    <td>1 millió<br> 260 ezer Ft</td>
-    <td>8 fő</td>
+    <td>HUF 737,000</td>
+    <td>7 people</td>
+    <td>HUF 867,000</td>
+    <td>9 people</td>
+    <td>HUF 1,260,000</td>
+    <td>8 people</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Bár a kutatással foglalkozó válaszadók viszonylag alacsony elemszáma megnehezíti a pontosabb összehasonlítást, a fizetések megoszlását szakma és szint szerint tovább vizsgálva úgy tűnik, a hazai piacon összességében nincs igazán jelentős különbség a desiger és kutatói fizetések között. A designerek fizetése ugyanakkor szélesebb skálán mozog: kutató társaikkal ellentétben akadtak köztük, akik 240 ezer Ft-nál kevesebbet kerestek, senior szinten pedig 9%-uk fizetése meghaladta a (kutatók által ezen a szinten nem elért) 1 millió 200 ezer Ft-ot.</p>
+<p>Although the relatively small number of researchers among our respondents makes a more precise comparison difficult, looking further into the distribution of salaries by profession and level seems to reveal that there is no great difference between the salaries of designers and researchers as a whole. At the same time, the salaries of designers vary on a wider scale: some earned less than HUF 240,000, and at the senior level, 8.97% of them had a salary exceeding HUF 1,200,000 (a number not reached by researchers at this level).</p>
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések szintenként - UX / UI / Porduct Designer</div>
+  <div class="chart-title">Salaries by seniority level - UX / UI / Product Designers</div>
 
   <canvas id="chartFizetesekSzintenkentDesigner"></canvas>
   <script>
 
       // setup
       const dataFizetesekSzintenkentDesigner = {
-        labels: ['Junior', 'Medior', 'Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
+        labels: ['Junior', 'Mid-level', 'Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [17.14, 1.37, 0, 0, 0],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [71.43, 42.47, 11.54, 0, 0],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [11.43, 43.84, 39.74, 20, 33.33],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [0, 9.59, 23.08, 37.14, 8.33],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [0, 1.37, 16.67, 17.14, 33.33],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [0, 1.37, 5.13, 11.43, 16.67],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680',
           data: [0, 0, 3.85, 5.71, 0],
           backgroundColor: '#5836AF'
         },{
-          label: '1 680 e Ft felett',
+          label: 'More than HUF 1,680k',
           data: [0, 0, 0, 8.57, 8.33],
           backgroundColor: '#003B72'
         }]
@@ -2639,37 +2641,37 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések szintenként - UX Researcher</div>
+  <div class="chart-title">Salaries by seniority level - UX Researchers</div>
 
   <canvas id="chartFizetesekSzintenkentResearcher"></canvas>
   <script>
 
       // setup
       const dataFizetesekSzintenkentResearcher = {
-        labels: ['Junior', 'Medior', 'Senior'],
+        labels: ['Junior', 'Mid-level', 'Senior'],
         datasets: [{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [88.89, 31.25, 12.5],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [11.11, 43.75, 37.5],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [0, 25, 25],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1 200k',
           data: [0, 0, 25],
           backgroundColor: '#918EC3'
         }]
@@ -2835,7 +2837,7 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések szintenként - UX Strategist/Consultant</div>
+  <div class="chart-title">Salaries by seniority level - UX Strategists/Consultants</div>
 
   <canvas id="chartFizetesekSzintenkentStrategist"></canvas>
   <script>
@@ -2844,36 +2846,36 @@ One thing we should really embrace is the <strong>growth in the representation o
       const dataFizetesekSzintenkentStrategist = {
         labels: ['Senior', 'Manager / Lead', ['Head / Director','/ VP / C-level']],
         datasets: [{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [14.29, 11.11, 0],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [28.57, 22.22, 0],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [42.86, 33.33, 12.5],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [14.29, 11.11, 37.5],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [0, 22.22, 12.5],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680k',
           data: [0, 0, 37.5],
           backgroundColor: '#5836AF'
         }]
@@ -3037,108 +3039,108 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>Általánosságban elmondható, hogy a nagyobb cégeknél nagyobb a becsült átlagos fizetés is, de a 2017-es eredményekhez hasonlóan az 1-10 főt foglalkoztató cégek most is megtörik a mintát (ismét a cégvezető beosztásban lévő válaszadók nagyobb aránya torzíthat felfelé), a több mint 500 főt foglalkoztató cégeknél pedig az átlagfizetés növekedése elmaradt az átlagtól.</p>
+<p>In general, the estimated average monthly net salary is higher for larger companies, but similar to 2017, companies employing 1-10 people break the pattern (again, the higher proportion of respondents in management positions may skew their average upwards). For companies employing more than 500 people, the increase in the average salary fell short.</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
 <caption>Number of respondents: 328 (2022), 131 (2017)</caption>
 <thead>
   <tr>
-    <th>Átlagos fizetés cégméret szerint</th>
+    <th>Average salary by company size</th>
     <th>2022</th>
     <th>2017</th>
-    <th>Változás</th>
+    <th>Change</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>1-10 főt foglakoztató cég</td>
-    <td>568 ezer Ft</td>
-    <td>396 ezer Ft</td>
-    <td class="change more">+43,43%</td>
+    <td>1-10 employees</td>
+    <td>HUF 568,000</td>
+    <td>HUF 396,000</td>
+    <td class="change more">+43.43%</td>
   </tr>
   <tr>
-    <td>11-50 főt foglakoztató cég</td>
-    <td>530 ezer Ft</td>
-    <td>349 ezer Ft</td>
-    <td class="change more">+51,86%</td>
+    <td>11-50 employees</td>
+    <td>HUF 530,000</td>
+    <td>HUF 349,000</td>
+    <td class="change more">+51.86%</td>
   </tr>
   <tr>
-    <td>51-200 főt foglakoztató cég</td>
-    <td>725 ezer Ft</td>
-    <td>384 ezer Ft</td>
-    <td class="change more">+88,80%</td>
+    <td>51-200 employees</td>
+    <td>HUF 725,000</td>
+    <td>HUF 384,000</td>
+    <td class="change more">+88.80%</td>
   </tr>
   <tr>
-    <td>201-500 főt foglakoztató cég</td>
-    <td>754 ezer Ft</td>
-    <td>386 ezer Ft</td>
-    <td class="change more">+95,34%</td>
+    <td>201-500 employees</td>
+    <td>HUF 754,000</td>
+    <td>HUF 386,000</td>
+    <td class="change more">+95.34%</td>
   </tr>
   <tr>
-    <td>Több mint 500 főt foglalkoztató cég</td>
-    <td>685 ezer Ft</td>
-    <td>491 ezer Ft</td>
-    <td class="change more">+39,51%</td>
+    <td>More than 500 employees</td>
+    <td>HUF 685,000</td>
+    <td>HUF 491,000</td>
+    <td class="change more">+39.51%</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<p>Sokat hallunk arról, hogy a saját terméket fejlesztő cégek előnyben vannak, ha a fizetésekről van szó. Ezt az adatok is alátámasztani látszanak: az ilyen cégeknél dolgozó válaszadók csupán 58%-a keres 720 ezer Ft-nál kevesebbet, míg az ügyfélprojekten dolgozó cégek munkavállalóinak 74%-a tartozik ebbe a kategóriába. (Az látható, hogy a saját terméket fejlesztő vállalatoknál valamivel nagyobb a senior, illetve a csapatvezető kitöltők aránya, míg juniorok és mediorok kevesebben vannak, de a különbség nem elég jelentős ahhoz, hogy a fizetésbeli eltéréseket kizárólagosan magyarázza).</p>
+<p>We hear a lot about how companies that develop their own products have an advantage when it comes to salaries. The data seem to support this: only 57.89% of respondents working for such companies earn less than HUF 720,000, while 73.98% of employees at companies working on client projects belong to this category. (At companies that develop their own products, the proportion of seniors and team leaders is slightly higher, while there are fewer juniors and mid-level ones, but the difference is not significant enough to solely explain the differences in salaries).</p>
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása - Cégtípus</div>
+  <div class="chart-title">Salaries by company type</div>
 
   <canvas id="chartFizetesekMegoszlasaCegtipus"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaCegtipus = {
-        labels: [['Saját terméke(ke)t','fejlesztő vállalat','vagy startup'], ['Ügyfélprojekteken','dolgozó cég']],
+        labels: [['Companies who','develop their','own product(s)'], ['Companies who','work on','client projects']],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [2.63, 4.88],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [21.05, 38.21],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [34.21, 30.89],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [17.37, 15.45],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [11.05, 5.69],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [6.84, 0.81],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680',
           data: [2.63, 1.63],
           backgroundColor: '#5836AF'
         },{
-          label: '1 680 e Ft felett',
+          label: 'More than HUF 1,680',
           data: [2.11, 0],
           backgroundColor: '#003B72'
         }]
@@ -3302,78 +3304,79 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>A főváros és a vidék közötti fizetési különbségek mérséklődtek a 2017-es felméréshez képest; ennek egy lehetséges oka az időközben elterjedt remote munka (a vidéken élő válaszadók 66%-a dolgozik többnyire vagy teljesen remote a Budapesten élők 52%-ához képest), ami lehetővé tette a Budapesten élő UX-esek vidékre költözését és a vidéki szakemberek fővárosi munkavállalását. Nem jelent meglepetést, hogy a külföldi cégeknek vagy ügyfeleknek dolgozó, de Magyarországon élő UX-esek fizetése jóval meghaladja a hazai átlagot.</p>
+<p>Salary differences between the capital and the countryside decreased compared to 2017. A likely reason for this is that remote work has become widespread in the meantime (66% of respondents living in the countryside work mostly or completely remotely compared to 51.98% of those living in Budapest). This made it possible for Budapest-based UX professionals to move to the countryside, and vice versa, for those living outside of the capital can now be employed by Budapest-based companies. It is no surprise that the salaries of UX professionals working for foreign companies or clients are much higher than the domestic average.
+</p>
 
 <div class="table-wrapper">
 <table class="big black-3 black-5">
 <caption>Number of respondents: 340 (2022), 131 (2017)</caption>
 <thead>
   <tr>
-    <th>Átlagos fizetés régió szerint</th>
+    <th>Average salary by region</th>
     <th colspan="2">2022</th>
     <th colspan="2">2017</th>
-    <th>Változás</th>
+    <th>Change</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Budapesten élők</td>
-    <td>632 ezer Ft</td>
-    <td>252 fő</td>
-    <td>397 ezer Ft</td>
-    <td>115 fő</td>
+    <td>Lives in Budapest, works in Hungary</td>
+    <td>HUF 632,000</td>
+    <td>252 people</td>
+    <td>HUF 397,000</td>
+    <td>115 people</td>
     <td class="change more">+59.19%</td>
   </tr>
   <tr>
-    <td>Vidéken élők</td>
-    <td>522 ezer Ft</td>
-    <td>49 fő</td>
-    <td>255 ezer Ft</td>
-    <td>8 fő</td>
+    <td>Lives in the countryside, works in Hungary</td>
+    <td>HUF 522,000</td>
+    <td>49 people</td>
+    <td>HUF 255,000</td>
+    <td>8 people</td>
     <td class="change more">+104.71%</td>
   </tr>
   <tr>
-    <td>Külföldre dolgozók</td>
-    <td>1 millió<br> 46 ezer Ft</td>
-    <td>39 fő</td>
+    <td>Lives in Hungary, works for a company or clients from abroad</td>
+    <td>HUF 1,046,000</td>
+    <td>39 people</td>
     <td colspan="3">-</td>
   </tr>
 </tbody>
 </table>
 </div>
 
-<h3 id="nemi-identitas-es-fizetes-kapcsolata">Nemi identitás és fizetés kapcsolata</h3>
+<h3 id="nemi-identitas-es-fizetes-kapcsolata">Gender and salary</h3>
 
-<p>A fizetéseket nemi identitás szerint vizsgálva az látszik, hogy amíg junior szinten viszonylag kiegyenlített a megoszlás, medior szinttől a nők fizetése nem növekszik olyan ütemben, mint a férfi válaszadóké; ez a különbség senior, illetve csapatvezetői szinten még markánsabb.</p>
+<p>Looking at salaries according to gender identity, it can be seen that while the distribution is relatively equal at the junior level, women's salaries do not increase at the same rate as male respondents’ from mid-level up, and this difference is even more pronounced at the senior and team leader levels.</p>
 
-<p>A senior szinten látható nagy eltérés egyik oka az lehet, hogy amíg az ezen a szinten lévő férfiak 74%-a 6+ év tapasztalattal rendelkezik, addig ez a női válaszadók csupán 46%-ára igaz – vagyis előbbieknek több ideje volt “felfelé lépegetni” a fizetési létrán. Csapatvezetői szinten jóval mérsékeltebben, de hasonló tendencia mutatkozik, medior szinten azonban nem látható olyan különbség az évek számában mért tapasztalatban, ami indokolná a fizetések eltérését.</p>
+<p>One of the reasons for the large difference visible at the senior level may be that while 73.77% of men at this level have 6+ years of experience, this is true for only 46.15% of female respondents–that is, the former had more time to "move up" the salary ladder. (At the team leader level, there is a much more subtle but similar trend, but at the mid-career level, there is no visible difference in experience that would justify the difference in salaries.)</p>
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Junior szint</div>
+  <div class="chart-title">Salaries by gender - Junior level</div>
 
   <canvas id="chartFizetesekMegoszlasaJunior"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaJunior = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [14.29, 9.09],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [71.43, 81.82],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [14.29, 9.09],
           backgroundColor: '#79C8C4',
           datalabels: {
@@ -3542,48 +3545,48 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Medior szint</div>
+  <div class="chart-title">Salaries by gender - Mid-career level</div>
 
   <canvas id="chartFizetesekMegoszlasaMedior"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaMedior = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [2.33, 0],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [34.88, 42.62],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [46.51, 45.9],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [13.95, 9.84],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [0, 1.64],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [2.33, 0],
           backgroundColor: '#B030EB'
         }]
@@ -3749,45 +3752,45 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Senior szint</div>
+  <div class="chart-title">Salaries by gender - Senior level</div>
 
   <canvas id="chartFizetesekMegoszlasaSenior"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaSenior = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [10, 16.67],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [26.67, 50],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [30, 19.44],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [20, 13.89],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [8.33, 0],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680k',
           data: [5, 0],
           backgroundColor: '#5836AF'
         }]
@@ -3953,56 +3956,56 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Manager / Lead szint</div>
+  <div class="chart-title">Salaries by gender - Manager / Lead level</div>
 
   <canvas id="chartFizetesekMegoszlasaManager"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaManager = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [0, 6.67],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [2.94, 6.67],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [17.65, 46.67],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [35.29, 26.67],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [20.59, 0],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [14.71, 6.67],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680k',
           data: [5.88, 0],
           backgroundColor: '#5836AF'
         },{
-          label: '1 680 e Ft felett',
+          label: 'More than 1,680k',
           data: [2.94, 6.67],
           backgroundColor: '#003B72'
         }]
@@ -4166,33 +4169,33 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>Ha tapasztalat szerint vizsgáljuk a fizetések megoszlását, szintén azt látjuk, hogy az azonos tapasztalattal rendelkező férfiak valamivel jobban keresnek, és ez a különbség az évek számának emelkedésével nő.</p>
+<p>If we look at the distribution of salaries by experience, we also see that men with the same years of experience earn slightly more, and this difference increases with increasing years.</p>
 
 <div class="table-wrapper">
 <table class="big">
 <caption>Number of respondents: 325</caption>
 <thead>
   <tr>
-    <th>Havi nettó átlagfizetés tapasztalat szerint</th>
-    <th>Férfiak</th>
-    <th>Nők</th>
+    <th>Average monthly net salary by experience</th>
+    <th>Men</th>
+    <th>Women</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>0-3 év</td>
-    <td>499 ezer Ft</td>
-    <td>443 ezer Ft</td>
+    <td>0-3 years</td>
+    <td>HUF 499,000</td>
+    <td>HUF 443,000</td>
   </tr>
   <tr>
-    <td>4-7 év</td>
-    <td>746 ezer Ft</td>
-    <td>648 ezer Ft</td>
+    <td>4-7 years</td>
+    <td>HUF 746,000</td>
+    <td>HUF 648,000</td>
   </tr>
   <tr>
-    <td>8+ év</td>
-    <td>1 millió<br> 032 ezer Ft</td>
-    <td>776 ezer Ft</td>
+    <td>8+ years</td>
+    <td>HUF 1,032,000</td>
+    <td>HUF 776,000</td>
   </tr>
 </tbody>
 </table>
@@ -4200,44 +4203,44 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Kevesebb mint 3 év tapasztalat</div>
+  <div class="chart-title">Salaries by gender - 3 years of experience or less</div>
 
   <canvas id="chartFizetesekMegoszlasaTapasztalat03"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaTapasztalat03 = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [4.44, 8.33],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [51.11, 54.76],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [31.11, 30.95],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [11.11, 5.95],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [2.22, 0],
           backgroundColor: '#B030EB'
         }]
@@ -4403,49 +4406,49 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - 4-7 év tapasztalat</div>
+  <div class="chart-title">Salaries by gender - 4-7 years of experience</div>
 
   <canvas id="chartFizetesekMegoszlasaTapasztalat47"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaTapasztalat47 = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [14.06, 25],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [40.63, 46.15],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [25, 19.23],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [14.06, 7.69],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [3.13, 0],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680k',
           data: [3.13, 0],
           backgroundColor: '#5836AF'
         },{
-          label: '1 680 e Ft felett',
+          label: 'More than HUF 1,680k',
           data: [0, 1.92],
           backgroundColor: '#003B72'
         }]
@@ -4611,56 +4614,56 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 <div class="chart-wrapper">
 
-  <div class="chart-title">Fizetések megoszlása nem szerint - Több mint 8 év tapasztalat</div>
+  <div class="chart-title">Salaries by gender - 8 years of experience or more</div>
 
   <canvas id="chartFizetesekMegoszlasaTapasztalat8plusz"></canvas>
   <script>
 
       // setup
       const dataFizetesekMegoszlasaTapasztalat8plusz = {
-        labels: ['Férfi', 'Nő'],
+        labels: ['Men', 'Women'],
         datasets: [{
-          label: '240 e Ft alatt',
+          label: 'HUF 240k or less',
           data: [1.54, 0],
           backgroundColor: '#B7C1E1',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '241-480 e Ft',
+          label: 'HUF 241-480k',
           data: [1.54, 13.33],
           backgroundColor: '#80A4ED',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '481-720 e Ft',
+          label: 'HUF 481-720k',
           data: [15.38, 40],
           backgroundColor: '#79C8C4',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '721-960 e Ft',
+          label: 'HUF 721-960k',
           data: [24.62, 20],
           backgroundColor: '#72EB9B',
           datalabels: {
             color: '#222'
           }
         },{
-          label: '961-1 200 e Ft',
+          label: 'HUF 961-1,200k',
           data: [27.69, 13.33],
           backgroundColor: '#918EC3'
         },{
-          label: '1 201-1 440 e Ft',
+          label: 'HUF 1,201-1,440k',
           data: [16.92, 13.33],
           backgroundColor: '#B030EB'
         },{
-          label: '1 441-1 680 e Ft',
+          label: 'HUF 1,441-1,680k',
           data: [9.23, 0],
           backgroundColor: '#5836AF'
         },{
-          label: '1 680 e Ft felett',
+          label: 'More than HUF 1,680',
           data: [3.08, 0],
           backgroundColor: '#003B72'
         }]
@@ -4824,62 +4827,62 @@ One thing we should really embrace is the <strong>growth in the representation o
 
 </div>
 
-<p>Úgy tűnik tehát, hogy a nemek közti bérszakadék a hazai UX közösséget is érinti. Ez annak fényében nem meglepő, hogy az <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en" target="_blank">Eurostat</a> 2020-as adatai szerint ez a szakadék Magyarországon az EU-s átlagnál (13%) szélesebb, 17%-os. Az okokra ez a felmérés nem világított rá, de (mivel a különbség a karrierben való előrehaladással nőni látszik), felvet kérdéseket a női UX-esek eltérő karrierútjairól (például gyermekvállalás miatt), vagy a gyakran idézett jelenségről, miszerint a férfiak hajlamosabbak magasabb fizetési igényt megfogalmazni.</p>
 
-<h3 id="beren-kivuli-juttatasok">Béren kívüli juttatások</h3>
+<p>So it seems that the gender pay gap also affects the domestic UX community. This is not surprising in light of the fact that, according to <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_05_20/default/table?lang=en" target="_blank">Eurostat's 2020 data</a>, this gap in Hungary (17%) is wider than the EU average (13%). Our survey did not shed light on the reasons, but (since the difference seems to increase with career progression), it raises questions about the different career paths of female UXers (for example, due to having children), or the often cited phenomenon that men are more willing to ask for higher salaries.</p>
 
-<p>A kutatásban kitértünk arra is, hogy milyen fizetésen kívüli juttatásokat kapnak a UX-esek. Pozitívum, hogy a korábbi évekhez képest a válaszadók nagyobb része kap egy vagy több béren kívüli juttatást. A cafeteria mint kategória megszűnt, de megjelentek a részvényopciók és az otthoni munka támogatása, illetve minden korábban is vizsgált juttatásban a UX-esek nagyobb hányada részesül.</p>
+<h3 id="beren-kivuli-juttatasok">Fringe benefits</h3>
 
-<p>Érdekesség, hogy bár a válaszadók 88%-a legalább a munkaideje felében remote dolgozik, csupán 48% kap az otthoni munkához valamilyen támogatást a munkáltatójától.</p>
+<p>We looked at what non-salary benefits UX professionals receive (unlike in 2017, however, we did not examine the importance attributed to these benefits). It is positive that, compared to previous years, a larger number of respondents receive at least one fringe benefit. Cafeteria as a benefit has ceased to exist, but stock options and work-from-home support have appeared, plus a larger proportion of employees benefit from all previously examined benefits. It is interesting that although 88% of respondents work remotely for at least half of the time, only 48% receive some kind of work-from-home support from their employer.
+</p>
 
 <div class="table-wrapper">
 <table class="big black-3">
 <caption>Number of respondents: 296 (2022), 103 (2017)</caption>
 <thead>
   <tr>
-    <th>Béren kívüli juttatások</th>
+    <th>Fringe benefits</th>
     <th>2022</th>
     <th>2017</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Képzés támogatás (nyelvtanulás, tanfolyam, könyvtámogatás stb.)</td>
+    <td>Learning support (language, courses, book support, etc.)</td>
     <td>61%</td>
     <td>18%</td>
   </tr>
   <tr>
-    <td>Egészségügyi szolgáltatás (biztosítás, masszázs stb.)</td>
+    <td>Health services (insurance, massage, etc.)</td>
     <td>54%</td>
     <td>19%</td>
   </tr>
   <tr>
-    <td>SZÉP kártya</td>
+    <td>SZÉP-card</td>
     <td>48%</td>
     <td>17%</td>
   </tr>
   <tr>
-    <td>Otthoni munka támogatása (eszközkeret, internettámogatás stb.)</td>
+    <td>Remote work support (device or internet budget, etc.)</td>
     <td>48%</td>
     <td>-</td>
   </tr>
   <tr>
-    <td>Bónusz</td>
+    <td>Bonus</td>
     <td>47%</td>
     <td>21%</td>
   </tr>
   <tr>
-    <td>Konferenciakeret</td>
+    <td>Conference budget</td>
     <td>38%</td>
     <td>16%</td>
   </tr>
   <tr>
-    <td>Utazási költségtérítés (repülőjegy-kedvezmény, bérlet, gépkocsihasználat stb.)</td>
+    <td>Travel expenses (commuting support, company car, etc.)</td>
     <td>21%</td>
     <td>15%</td>
   </tr>
   <tr>
-    <td>Részvényopciók</td>
+    <td>Employee stock options</td>
     <td>20%</td>
     <td>-</td>
   </tr>
